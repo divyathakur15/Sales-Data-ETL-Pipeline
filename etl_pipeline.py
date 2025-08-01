@@ -1,10 +1,8 @@
-# SUPER SIMPLE ETL PIPELINE
-# Just save this as etl_simple.py and run it
 
 import pandas as pd
 import mysql.connector
 
-# Step 1: Create sample data (no need to download anything)
+# Step 1: Create sample data
 def create_sample_data():
     """Create sample CSV file automatically"""
     sample_data = {
@@ -46,7 +44,7 @@ def simple_etl():
     connection = mysql.connector.connect(
         host='localhost',
         user='root',
-        password='divya',  # CHANGE THIS TO YOUR MYSQL PASSWORD
+        password='*****',  # CHANGE THIS TO  MYSQL PASSWORD
         database='sales_etl'
     )
     
@@ -97,7 +95,7 @@ def create_database():
     connection = mysql.connector.connect(
         host='localhost',
         user='root',
-        password='divya'  # CHANGE THIS TO YOUR MYSQL PASSWORD
+        password='*****'  # CHANGE THIS TO MYSQL PASSWORD
     )
     
     cursor = connection.cursor()
