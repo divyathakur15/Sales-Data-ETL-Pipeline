@@ -1,0 +1,22 @@
+product_id,product_name,category,subcategory,unit_price,unit_cost,profit_margin
+PROD001,Laptop,Electronics,Computers,55000,45000,18.2
+PROD002,Desktop PC,Electronics,Computers,45000,35000,22.2
+PROD003,Phone,Electronics,Mobile,30000,22000,26.7
+PROD004,Tablet,Electronics,Mobile,35000,27000,22.9
+PROD005,Smart Watch,Electronics,Wearables,15000,10000,33.3
+PROD006,Monitor,Electronics,Displays,25000,18000,28.0
+PROD007,TV,Electronics,Displays,40000,30000,25.0
+PROD008,Mouse,Accessories,Input Devices,1500,800,46.7
+PROD009,Keyboard,Accessories,Input Devices,3000,1800,40.0
+PROD010,Headphones,Accessories,Audio,5000,3000,40.0
+PROD011,Earbuds,Accessories,Audio,3500,2000,42.9
+PROD012,Webcam,Accessories,Video,4000,2500,37.5
+PROD013,Mouse Pad,Accessories,Input Devices,800,300,62.5
+PROD014,Laptop Stand,Accessories,Ergonomics,2500,1500,40.0
+PROD015,External HDD 1TB,Storage,Hard Drives,5000,3500,30.0
+PROD016,External SSD 500GB,Storage,Solid State,6000,4000,33.3
+PROD017,Pen Drive 64GB,Storage,Flash Storage,800,400,50.0
+PROD018,Memory Card 128GB,Storage,Flash Storage,1200,700,41.7
+PROD019,WiFi Router,Networking,Routers,3500,2200,37.1
+PROD020,USB Hub,Networking,Connectivity,1500,800,46.7
+PROD021,Ethernet Cable,Networking,Cables,500,200,60.0

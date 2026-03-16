@@ -1,0 +1,20 @@
+# Files to ignore in Git (don't upload to GitHub)
+
+# Environment file (contains passwords!)
+.env
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+logs/
+*.log
+
+# IDE settings
+.vscode/
+.idea/
+
+# Processed data (can be regenerated)
+data/processed/

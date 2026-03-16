@@ -1,6 +1,1001 @@
-order_id,customer_name,product,price,quantity,date
-ORD001,John,Laptop,50000,1,2024-01-15
-ORD002,Jane,Mouse,1500,2,2024-01-16
-ORD003,Bob,Keyboard,3000,1,2024-01-17
-ORD004,Alice,Monitor,25000,1,2024-01-18
-ORD005,Mike,Phone,30000,1,2024-01-19
+order_id,order_date,order_status,customer_id,customer_name,customer_segment,region,city,product,category,subcategory,quantity,unit_price,unit_cost,gross_amount,discount,tax_amount,net_amount,profit,payment_method
+ORD00367,2023-01-01,Delivered,CUST4522,Olivia Das,Premium,South,Kochi,Laptop Stand,Accessories,Ergonomics,1,2500,1500,2500,162.95,420.67,2757.72,837.05,Credit Card
+ORD00248,2023-01-03,Delivered,CUST5668,William Joshi,Regular,South,Kochi,Tablet,Electronics,Mobile,1,35000,27000,35000,1153.09,6092.44,39939.35,6846.91,Cash on Delivery
+ORD00802,2023-01-03,Delivered,CUST1860,Reyansh Pillai,Regular,South,Chennai,Keyboard,Accessories,Input Devices,2,3000,1800,6000,264.93,1032.31,6767.38,2135.07,Cash on Delivery
+ORD00573,2023-01-06,Delivered,CUST2647,Priya Nair,Regular,North,Delhi,WiFi Router,Networking,Routers,4,3500,2200,14000,639.63,2404.87,15765.24,4560.37,Cash on Delivery
+ORD00824,2023-01-07,Delivered,CUST1842,Vikram Wilson,Regular,North,Jaipur,TV,Electronics,Displays,1,40000,30000,40000,1652.17,6902.61,45250.44,8347.83,Credit Card
+ORD00556,2023-01-08,Delivered,CUST8251,Olivia Johnson,Regular,North,Chandigarh,Laptop,Electronics,Computers,3,55000,45000,165000,665.96,29580.13,193914.17,29334.04,UPI
+ORD00911,2023-01-08,Delivered,CUST4950,Reyansh Brown,Premium,South,Bangalore,Tablet,Electronics,Mobile,1,35000,27000,35000,2215.64,5901.18,38685.54,5784.36,Credit Card
+ORD00973,2023-01-08,Delivered,CUST2412,Arjun Nair,Regular,West,Surat,Tablet,Electronics,Mobile,1,35000,27000,35000,1078.5,6105.87,40027.37,6921.5,UPI
+ORD00375,2023-01-09,Delivered,CUST7325,Diya Bose,VIP,North,Lucknow,Keyboard,Accessories,Input Devices,1,3000,1800,3000,431.52,462.33,3030.81,768.48,Debit Card
+ORD00083,2023-01-10,Delivered,CUST8170,Aditya Pillai,Regular,West,Surat,USB Hub,Networking,Connectivity,1,1500,800,1500,26.93,265.15,1738.22,673.07,Debit Card
+ORD00104,2023-01-10,Delivered,CUST8144,Aarav Smith,VIP,South,Chennai,WiFi Router,Networking,Routers,1,3500,2200,3500,587.99,524.16,3436.17,712.01,Credit Card
+ORD00338,2023-01-10,Delivered,CUST6061,William Verma,Regular,West,Mumbai,Laptop Stand,Accessories,Ergonomics,4,2500,1500,10000,258.25,1753.51,11495.26,3741.75,Credit Card
+ORD00068,2023-01-11,Delivered,CUST5742,Neha Singh,Regular,West,Pune,Earbuds,Accessories,Audio,4,3500,2000,14000,301.32,2465.76,16164.44,5698.68,UPI
+ORD00962,2023-01-11,Cancelled,CUST2143,Amit Pillai,Regular,West,Ahmedabad,Smart Watch,Electronics,Wearables,3,15000,10000,45000,507.97,8008.57,52500.6,14492.03,Credit Card
+ORD00001,2023-01-12,Delivered,CUST8560,Ayaan Miller,Premium,South,Hyderabad,Earbuds,Accessories,Audio,1,3500,2000,3500,301.5,575.73,3774.23,1198.5,Credit Card
+ORD00457,2023-01-13,Shipped,CUST8144,Aarav Smith,VIP,South,Chennai,TV,Electronics,Displays,1,40000,30000,40000,7061.58,5928.92,38867.34,2938.42,Debit Card
+ORD00723,2023-01-14,Delivered,CUST6482,Arjun Menon,Regular,West,Ahmedabad,Memory Card 128GB,Storage,Flash Storage,1,1200,700,1200,23.7,211.73,1388.03,476.3,UPI
+ORD00423,2023-01-15,Delivered,CUST4804,Aditya Patel,Regular,West,Mumbai,Smart Watch,Electronics,Wearables,3,15000,10000,45000,1845.3,7767.85,50922.55,13154.7,Debit Card
+ORD00874,2023-01-15,Delivered,CUST8438,Arjun Davis,Regular,South,Chennai,TV,Electronics,Displays,1,40000,30000,40000,843.37,7048.19,46204.82,9156.63,UPI
+ORD00027,2023-01-16,Delivered,CUST4941,James Patel,Premium,North,Lucknow,TV,Electronics,Displays,3,40000,30000,120000,7997.79,20160.4,132162.61,22002.21,UPI
+ORD00382,2023-01-16,Delivered,CUST4777,Ayaan Taylor,Regular,North,Jaipur,Tablet,Electronics,Mobile,1,35000,27000,35000,759.78,6163.24,40403.46,7240.22,Credit Card
+ORD00016,2023-01-17,Delivered,CUST2489,Vihaan Singh,Regular,North,Chandigarh,Laptop Stand,Accessories,Ergonomics,2,2500,1500,5000,234.06,857.87,5623.81,1765.94,UPI
+ORD00792,2023-01-17,Delivered,CUST7523,Amit Shah,VIP,East,Guwahati,TV,Electronics,Displays,1,40000,30000,40000,6398.05,6048.35,39650.3,3601.95,Cash on Delivery
+ORD00114,2023-01-18,Delivered,CUST7371,Pooja Davis,Premium,South,Chennai,External SSD 500GB,Storage,Solid State,4,6000,4000,24000,2124.44,3937.6,25813.16,5875.56,Credit Card
+ORD00613,2023-01-18,Delivered,CUST8489,Arjun Singh,Premium,South,Bangalore,Tablet,Electronics,Mobile,1,35000,27000,35000,3032.68,5754.12,37721.44,4967.32,Credit Card
+ORD00737,2023-01-19,Delivered,CUST6170,Rohit Smith,Regular,West,Surat,Headphones,Accessories,Audio,1,5000,3000,5000,139.21,874.94,5735.73,1860.79,UPI
+ORD00147,2023-01-20,Delivered,CUST3973,Olivia Miller,Premium,East,Guwahati,Ethernet Cable,Networking,Cables,5,500,200,2500,192.96,415.27,2722.31,1307.04,Debit Card
+ORD00296,2023-01-20,Delivered,CUST2989,Vivaan Miller,Premium,North,Jaipur,Ethernet Cable,Networking,Cables,1,500,200,500,26.88,85.16,558.28,273.12,Net Banking
+ORD00549,2023-01-20,Processing,CUST1828,Aarav Gupta,VIP,West,Pune,Desktop PC,Electronics,Computers,2,45000,35000,90000,13400.05,13787.99,90387.94,6599.95,Credit Card
+ORD00731,2023-01-20,Delivered,CUST4972,Vihaan Davis,VIP,North,Jaipur,External SSD 500GB,Storage,Solid State,1,6000,4000,6000,636.42,965.44,6329.02,1363.58,Credit Card
+ORD00893,2023-01-21,Delivered,CUST6962,Divya Nair,Regular,West,Mumbai,Smart Watch,Electronics,Wearables,3,15000,10000,45000,1785.51,7778.61,50993.1,13214.49,Credit Card
+ORD00987,2023-01-22,Delivered,CUST2391,Vihaan Kumar,Regular,West,Mumbai,Smart Watch,Electronics,Wearables,1,15000,10000,15000,80.91,2685.44,17604.53,4919.09,Credit Card
+ORD00773,2023-01-26,Delivered,CUST8460,Neha Shah,VIP,North,Chandigarh,Ethernet Cable,Networking,Cables,1,500,200,500,58.28,79.51,521.23,241.72,UPI
+ORD00805,2023-01-26,Delivered,CUST5458,William Davis,Regular,West,Surat,TV,Electronics,Displays,1,40000,30000,40000,1760.2,6883.16,45122.96,8239.8,UPI
+ORD00780,2023-01-28,Delivered,CUST7232,Michael Sharma,VIP,South,Kochi,Desktop PC,Electronics,Computers,2,45000,35000,90000,11927.62,14053.03,92125.41,8072.38,Credit Card
+ORD00848,2023-01-31,Delivered,CUST4871,Reyansh Kumar,Regular,North,Jaipur,TV,Electronics,Displays,1,40000,30000,40000,1705.89,6892.94,45187.05,8294.11,Credit Card
+ORD00394,2023-02-02,Delivered,CUST2489,Vihaan Singh,Regular,North,Chandigarh,TV,Electronics,Displays,1,40000,30000,40000,383.23,7131.02,46747.79,9616.77,Net Banking
+ORD00850,2023-02-02,Processing,CUST3114,Olivia Smith,VIP,North,Delhi,Headphones,Accessories,Audio,1,5000,3000,5000,511.62,807.91,5296.29,1488.38,Credit Card
+ORD00045,2023-02-03,Delivered,CUST3697,John Sharma,VIP,South,Kochi,Keyboard,Accessories,Input Devices,3,3000,1800,9000,1407.16,1366.71,8959.55,2192.84,Net Banking
+ORD00765,2023-02-03,Delivered,CUST6922,Myra Singh,VIP,West,Pune,Tablet,Electronics,Mobile,2,35000,27000,70000,10188.03,10766.15,70578.12,5811.97,Cash on Delivery
+ORD00405,2023-02-05,Returned,CUST5668,William Joshi,Regular,South,Kochi,External HDD 1TB,Storage,Hard Drives,4,5000,3500,20000,0.2,3599.96,23599.76,5999.8,UPI
+ORD00871,2023-02-05,Shipped,CUST2143,Amit Pillai,Regular,West,Ahmedabad,Smart Watch,Electronics,Wearables,1,15000,10000,15000,133.46,2675.98,17542.52,4866.54,Debit Card
+ORD00951,2023-02-05,Delivered,CUST4919,Amit Das,Regular,South,Hyderabad,Phone,Electronics,Mobile,2,30000,22000,60000,2554.35,10340.22,67785.87,13445.65,Credit Card
+ORD00645,2023-02-06,Delivered,CUST8170,Aditya Pillai,Regular,West,Surat,Earbuds,Accessories,Audio,3,3500,2000,10500,232.34,1848.18,12115.84,4267.66,UPI
+ORD00297,2023-02-07,Delivered,CUST1742,Aditya Kumar,Premium,West,Surat,Mouse Pad,Accessories,Input Devices,3,800,300,2400,145.53,405.8,2660.27,1354.47,Debit Card
+ORD00836,2023-02-07,Delivered,CUST3116,John Johnson,Premium,South,Hyderabad,Ethernet Cable,Networking,Cables,4,500,200,2000,158.4,331.49,2173.09,1041.6,Net Banking
+ORD00479,2023-02-08,Delivered,CUST8292,Sai Davis,VIP,East,Patna,Headphones,Accessories,Audio,1,5000,3000,5000,687.11,776.32,5089.21,1312.89,Cash on Delivery
+ORD00447,2023-02-09,Delivered,CUST2215,William Das,Premium,South,Chennai,Pen Drive 64GB,Storage,Flash Storage,2,800,400,1600,136.33,263.46,1727.13,663.67,Debit Card
+ORD00387,2023-02-10,Delivered,CUST3535,Michael Joshi,Premium,South,Hyderabad,Webcam,Accessories,Video,2,4000,2500,8000,500.28,1349.95,8849.67,2499.72,Debit Card
+ORD00448,2023-02-10,Delivered,CUST9317,Priya Kumar,Regular,North,Delhi,Mouse,Accessories,Input Devices,2,1500,800,3000,59.34,529.32,3469.98,1340.66,Debit Card
+ORD00950,2023-02-10,Delivered,CUST4811,Vivaan Johnson,Regular,West,Surat,Memory Card 128GB,Storage,Flash Storage,1,1200,700,1200,18.86,212.61,1393.75,481.14,Credit Card
+ORD00087,2023-02-12,Delivered,CUST9337,Amit Pillai,Premium,East,Bhubaneswar,Memory Card 128GB,Storage,Flash Storage,3,1200,700,3600,246.04,603.71,3957.67,1253.96,Debit Card
+ORD00786,2023-02-12,Delivered,CUST3114,Olivia Smith,VIP,North,Delhi,Laptop Stand,Accessories,Ergonomics,4,2500,1500,10000,1555.15,1520.07,9964.92,2444.85,Debit Card
+ORD00342,2023-02-13,Delivered,CUST6170,Rohit Smith,Regular,West,Surat,USB Hub,Networking,Connectivity,1,1500,800,1500,64.28,258.43,1694.15,635.72,Debit Card
+ORD00547,2023-02-13,Delivered,CUST8170,Aditya Pillai,Regular,West,Surat,Laptop,Electronics,Computers,1,55000,45000,55000,154.15,9872.25,64718.1,9845.85,Credit Card
+ORD00822,2023-02-13,Delivered,CUST9153,Diya Joshi,Regular,South,Hyderabad,Laptop Stand,Accessories,Ergonomics,1,2500,1500,2500,13.11,447.64,2934.53,986.89,Cash on Delivery
+ORD00863,2023-02-14,Delivered,CUST6733,Myra Miller,Regular,East,Kolkata,WiFi Router,Networking,Routers,1,3500,2200,3500,122.26,607.99,3985.73,1177.74,Net Banking
+ORD00123,2023-02-15,Shipped,CUST6939,Vikram Gupta,Regular,South,Hyderabad,Tablet,Electronics,Mobile,1,35000,27000,35000,890.44,6139.72,40249.28,7109.56,Credit Card
+ORD00249,2023-02-16,Shipped,CUST4727,Sai Pillai,VIP,West,Mumbai,Memory Card 128GB,Storage,Flash Storage,2,1200,700,2400,408.5,358.47,2349.97,591.5,Debit Card
+ORD00772,2023-02-16,Cancelled,CUST7163,James Das,Regular,South,Hyderabad,Mouse,Accessories,Input Devices,4,1500,800,6000,101.7,1061.69,6959.99,2698.3,Net Banking
+ORD00099,2023-02-17,Delivered,CUST4950,Reyansh Brown,Premium,South,Bangalore,Earbuds,Accessories,Audio,3,3500,2000,10500,925.18,1723.47,11298.29,3574.82,UPI
+ORD00483,2023-02-17,Delivered,CUST6310,Ava Sharma,Regular,South,Hyderabad,USB Hub,Networking,Connectivity,3,1500,800,4500,74.99,796.5,5221.51,2025.01,UPI
+ORD00021,2023-02-18,Cancelled,CUST8657,Ananya Wilson,Regular,East,Kolkata,Ethernet Cable,Networking,Cables,2,500,200,1000,27.79,175.0,1147.21,572.21,Cash on Delivery
+ORD00592,2023-02-18,Delivered,CUST2869,Arjun Rao,Regular,West,Mumbai,External SSD 500GB,Storage,Solid State,1,6000,4000,6000,86.44,1064.44,6978.0,1913.56,Credit Card
+ORD00222,2023-02-19,Delivered,CUST1842,Vikram Wilson,Regular,North,Jaipur,Ethernet Cable,Networking,Cables,1,500,200,500,13.37,87.59,574.22,286.63,Credit Card
+ORD00395,2023-02-20,Delivered,CUST8840,Pihu Kumar,Regular,West,Surat,Pen Drive 64GB,Storage,Flash Storage,2,800,400,1600,47.22,279.5,1832.28,752.78,UPI
+ORD00488,2023-02-21,Delivered,CUST3705,Rahul Smith,Premium,South,Chennai,Smart Watch,Electronics,Wearables,1,15000,10000,15000,1427.47,2443.06,16015.59,3572.53,Credit Card
+ORD00740,2023-02-21,Processing,CUST9099,Emma Joshi,Regular,West,Mumbai,Pen Drive 64GB,Storage,Flash Storage,2,800,400,1600,8.33,286.5,1878.17,791.67,Debit Card
+ORD00126,2023-02-23,Delivered,CUST5673,Olivia Anderson,VIP,East,Guwahati,WiFi Router,Networking,Routers,1,3500,2200,3500,525.71,535.37,3509.66,774.29,Net Banking
+ORD00048,2023-02-24,Delivered,CUST5930,Emma Johnson,Premium,South,Chennai,Phone,Electronics,Mobile,2,30000,22000,60000,5922.97,9733.87,63810.9,10077.03,Credit Card
+ORD00361,2023-02-25,Delivered,CUST5002,Divya Nair,Regular,West,Ahmedabad,Phone,Electronics,Mobile,4,30000,22000,120000,2839.11,21088.96,138249.85,29160.89,Debit Card
+ORD00413,2023-02-25,Delivered,CUST5735,Sara Anderson,Premium,South,Hyderabad,Laptop,Electronics,Computers,2,55000,45000,110000,8977.06,18184.13,119207.07,11022.94,Credit Card
+ORD00937,2023-02-25,Delivered,CUST9666,Aarav Davis,Premium,South,Bangalore,Smart Watch,Electronics,Wearables,1,15000,10000,15000,1343.46,2458.18,16114.72,3656.54,UPI
+ORD00008,2023-02-26,Delivered,CUST5902,Pooja Smith,Premium,South,Hyderabad,External SSD 500GB,Storage,Solid State,1,6000,4000,6000,453.11,998.44,6545.33,1546.89,Debit Card
+ORD00580,2023-02-26,Delivered,CUST6138,Vihaan Verma,Regular,South,Chennai,USB Hub,Networking,Connectivity,3,1500,800,4500,165.55,780.2,5114.65,1934.45,Cash on Delivery
+ORD00018,2023-02-27,Delivered,CUST8381,Reyansh Menon,VIP,North,Jaipur,Memory Card 128GB,Storage,Flash Storage,1,1200,700,1200,223.65,175.74,1152.09,276.35,Cash on Delivery
+ORD00474,2023-02-27,Delivered,CUST2622,Ava Wilson,Regular,East,Kolkata,External HDD 1TB,Storage,Hard Drives,3,5000,3500,15000,310.46,2644.12,17333.66,4189.54,Credit Card
+ORD00149,2023-03-01,Delivered,CUST4138,Sara Taylor,Regular,West,Ahmedabad,Laptop,Electronics,Computers,3,55000,45000,165000,6422.94,28543.87,187120.93,23577.06,Debit Card
+ORD00091,2023-03-02,Delivered,CUST1084,Aadhya Pillai,Premium,East,Guwahati,Smart Watch,Electronics,Wearables,3,15000,10000,45000,4080.44,7365.52,48285.08,10919.56,Debit Card
+ORD00093,2023-03-02,Returned,CUST5002,Divya Nair,Regular,West,Ahmedabad,Smart Watch,Electronics,Wearables,4,15000,10000,60000,2357.07,10375.73,68018.66,17642.93,Net Banking
+ORD00908,2023-03-02,Delivered,CUST8170,Aditya Pillai,Regular,West,Surat,WiFi Router,Networking,Routers,3,3500,2200,10500,97.46,1872.46,12275.0,3802.54,Net Banking
+ORD00756,2023-03-03,Delivered,CUST6661,Rohit Miller,VIP,West,Surat,Laptop Stand,Accessories,Ergonomics,5,2500,1500,12500,1388.05,2000.15,13112.1,3611.95,Credit Card
+ORD00787,2023-03-03,Cancelled,CUST4804,Aditya Patel,Regular,West,Mumbai,Headphones,Accessories,Audio,2,5000,3000,10000,83.69,1784.94,11701.25,3916.31,Debit Card
+ORD00262,2023-03-05,Delivered,CUST4919,Amit Das,Regular,South,Hyderabad,Headphones,Accessories,Audio,2,5000,3000,10000,73.21,1786.82,11713.61,3926.79,Credit Card
+ORD00535,2023-03-05,Delivered,CUST8451,Divya Davis,Premium,South,Kochi,Keyboard,Accessories,Input Devices,1,3000,1800,3000,161.1,511.0,3349.9,1038.9,Debit Card
+ORD00097,2023-03-06,Delivered,CUST2200,Sara Smith,Regular,East,Kolkata,External HDD 1TB,Storage,Hard Drives,2,5000,3500,10000,348.64,1737.24,11388.6,2651.36,Debit Card
+ORD00282,2023-03-06,Delivered,CUST5065,Amit Patel,Premium,North,Delhi,Memory Card 128GB,Storage,Flash Storage,1,1200,700,1200,103.22,197.42,1294.2,396.78,UPI
+ORD00806,2023-03-06,Delivered,CUST3697,John Sharma,VIP,South,Kochi,Mouse,Accessories,Input Devices,1,1500,800,1500,199.38,234.11,1534.73,500.62,Credit Card
+ORD00663,2023-03-07,Delivered,CUST9153,Diya Joshi,Regular,South,Hyderabad,Laptop Stand,Accessories,Ergonomics,1,2500,1500,2500,107.52,430.65,2823.13,892.48,Net Banking
+ORD00800,2023-03-08,Delivered,CUST5735,Sara Anderson,Premium,South,Hyderabad,WiFi Router,Networking,Routers,1,3500,2200,3500,277.93,579.97,3802.04,1022.07,Cash on Delivery
+ORD00811,2023-03-09,Delivered,CUST7937,Divya Sharma,Regular,North,Jaipur,Desktop PC,Electronics,Computers,1,45000,35000,45000,1408.92,7846.39,51437.47,8591.08,Credit Card
+ORD00657,2023-03-10,Delivered,CUST2200,Sara Smith,Regular,East,Kolkata,WiFi Router,Networking,Routers,1,3500,2200,3500,58.95,619.39,4060.44,1241.05,Debit Card
+ORD00864,2023-03-10,Delivered,CUST1042,Vikram Taylor,Regular,West,Surat,Ethernet Cable,Networking,Cables,2,500,200,1000,33.33,174.0,1140.67,566.67,UPI
+ORD00856,2023-03-12,Delivered,CUST8041,Ananya Verma,Regular,East,Kolkata,Smart Watch,Electronics,Wearables,2,15000,10000,30000,717.38,5270.87,34553.49,9282.62,Cash on Delivery
+ORD00291,2023-03-13,Processing,CUST1626,Reyansh Wilson,Regular,West,Ahmedabad,Ethernet Cable,Networking,Cables,1,500,200,500,7.13,88.72,581.59,292.87,Debit Card
+ORD00541,2023-03-13,Delivered,CUST1605,Vikram Shah,Regular,North,Delhi,External SSD 500GB,Storage,Solid State,1,6000,4000,6000,253.21,1034.42,6781.21,1746.79,Credit Card
+ORD00748,2023-03-13,Delivered,CUST2530,Isha Davis,Regular,West,Pune,Laptop,Electronics,Computers,2,55000,45000,110000,2845.42,19287.82,126442.4,17154.58,Debit Card
+ORD00789,2023-03-13,Delivered,CUST7325,Diya Bose,VIP,North,Lucknow,Desktop PC,Electronics,Computers,1,45000,35000,45000,6903.4,6857.39,44953.99,3096.6,Debit Card
+ORD00398,2023-03-14,Delivered,CUST2104,Aditya Menon,Regular,North,Chandigarh,USB Hub,Networking,Connectivity,1,1500,800,1500,3.05,269.45,1766.4,696.95,Credit Card
+ORD00357,2023-03-15,Delivered,CUST6295,Neha Kumar,Regular,South,Hyderabad,Ethernet Cable,Networking,Cables,2,500,200,1000,20.24,176.36,1156.12,579.76,Debit Card
+ORD00168,2023-03-18,Delivered,CUST2501,Sara Miller,Premium,East,Kolkata,Monitor,Electronics,Displays,3,25000,18000,75000,4353.39,12716.39,83363.0,16646.61,Net Banking
+ORD00229,2023-03-18,Delivered,CUST6170,Rohit Smith,Regular,West,Surat,Smart Watch,Electronics,Wearables,4,15000,10000,60000,2338.58,10379.06,68040.48,17661.42,Credit Card
+ORD00615,2023-03-20,Delivered,CUST8405,Myra Wilson,Regular,West,Ahmedabad,Desktop PC,Electronics,Computers,1,45000,35000,45000,1191.63,7885.51,51693.88,8808.37,UPI
+ORD00642,2023-03-20,Delivered,CUST7965,Ayaan Johnson,Regular,North,Lucknow,Headphones,Accessories,Audio,2,5000,3000,10000,48.17,1791.33,11743.16,3951.83,Debit Card
+ORD00870,2023-03-21,Delivered,CUST8269,Aadhya Anderson,Regular,North,Lucknow,Tablet,Electronics,Mobile,2,35000,27000,70000,1367.97,12353.77,80985.8,14632.03,Credit Card
+ORD00179,2023-03-22,Delivered,CUST8489,Arjun Singh,Premium,South,Bangalore,WiFi Router,Networking,Routers,3,3500,2200,10500,775.04,1750.49,11475.45,3124.96,Net Banking
+ORD00411,2023-03-22,Delivered,CUST9153,Diya Joshi,Regular,South,Hyderabad,Desktop PC,Electronics,Computers,2,45000,35000,90000,2593.28,15733.21,103139.93,17406.72,Cash on Delivery
+ORD00213,2023-03-24,Delivered,CUST3267,Rahul Verma,Premium,East,Kolkata,Smart Watch,Electronics,Wearables,1,15000,10000,15000,1286.75,2468.38,16181.63,3713.25,UPI
+ORD00543,2023-03-24,Delivered,CUST2188,Aarav Das,Premium,West,Mumbai,Webcam,Accessories,Video,2,4000,2500,8000,784.37,1298.81,8514.44,2215.63,UPI
+ORD00586,2023-03-24,Delivered,CUST1993,Emma Taylor,Regular,East,Bhubaneswar,TV,Electronics,Displays,3,40000,30000,120000,2747.24,21105.5,138358.26,27252.76,Credit Card
+ORD00761,2023-03-25,Delivered,CUST3200,Rahul Singh,Premium,West,Pune,Smart Watch,Electronics,Wearables,2,15000,10000,30000,2742.66,4906.32,32163.66,7257.34,Debit Card
+ORD00422,2023-03-29,Delivered,CUST8381,Reyansh Menon,VIP,North,Jaipur,TV,Electronics,Displays,2,40000,30000,80000,9247.93,12735.37,83487.44,10752.07,Credit Card
+ORD00847,2023-03-29,Delivered,CUST8430,Arjun Anderson,Regular,South,Kochi,External HDD 1TB,Storage,Hard Drives,2,5000,3500,10000,230.7,1758.47,11527.77,2769.3,Credit Card
+ORD00108,2023-03-30,Shipped,CUST9584,Sai Rao,Premium,West,Pune,USB Hub,Networking,Connectivity,2,1500,800,3000,278.99,489.78,3210.79,1121.01,Credit Card
+ORD00926,2023-03-31,Delivered,CUST5128,Diya Menon,Regular,West,Ahmedabad,Mouse,Accessories,Input Devices,1,1500,800,1500,8.68,268.44,1759.76,691.32,Debit Card
+ORD00429,2023-04-01,Delivered,CUST3200,Rahul Singh,Premium,West,Pune,Earbuds,Accessories,Audio,1,3500,2000,3500,279.49,579.69,3800.2,1220.51,Debit Card
+ORD00054,2023-04-02,Delivered,CUST6228,Isha Das,Regular,South,Chennai,Memory Card 128GB,Storage,Flash Storage,2,1200,700,2400,12.4,429.77,2817.37,987.6,Credit Card
+ORD00105,2023-04-02,Delivered,CUST5500,Vihaan Iyer,Regular,South,Kochi,Smart Watch,Electronics,Wearables,1,15000,10000,15000,171.71,2669.09,17497.38,4828.29,Credit Card
+ORD00228,2023-04-02,Processing,CUST2108,Vivaan Rao,Premium,North,Chandigarh,Earbuds,Accessories,Audio,1,3500,2000,3500,177.23,598.1,3920.87,1322.77,Net Banking
+ORD00686,2023-04-02,Cancelled,CUST6228,Isha Das,Regular,South,Chennai,Ethernet Cable,Networking,Cables,2,500,200,1000,11.44,177.94,1166.5,588.56,Credit Card
+ORD00779,2023-04-02,Delivered,CUST6669,Vikram Gupta,Regular,West,Ahmedabad,Monitor,Electronics,Displays,1,25000,18000,25000,228.34,4458.9,29230.56,6771.66,Cash on Delivery
+ORD00904,2023-04-02,Delivered,CUST2412,Arjun Nair,Regular,West,Surat,Mouse Pad,Accessories,Input Devices,2,800,300,1600,58.71,277.43,1818.72,941.29,UPI
+ORD00961,2023-04-02,Delivered,CUST8041,Ananya Verma,Regular,East,Kolkata,Memory Card 128GB,Storage,Flash Storage,1,1200,700,1200,19.76,212.44,1392.68,480.24,Debit Card
+ORD00154,2023-04-03,Delivered,CUST6170,Rohit Smith,Regular,West,Surat,Memory Card 128GB,Storage,Flash Storage,1,1200,700,1200,29.43,210.7,1381.27,470.57,UPI
+ORD00415,2023-04-03,Delivered,CUST5475,Sara Smith,Regular,South,Hyderabad,External HDD 1TB,Storage,Hard Drives,3,5000,3500,15000,431.44,2622.34,17190.9,4068.56,Credit Card
+ORD00326,2023-04-04,Delivered,CUST9835,Priya Anderson,Regular,East,Patna,Monitor,Electronics,Displays,1,25000,18000,25000,794.85,4356.93,28562.08,6205.15,Debit Card
+ORD00860,2023-04-04,Delivered,CUST1605,Vikram Shah,Regular,North,Delhi,External HDD 1TB,Storage,Hard Drives,1,5000,3500,5000,9.77,898.24,5888.47,1490.23,Net Banking
+ORD00272,2023-04-05,Delivered,CUST6021,William Wilson,Premium,North,Chandigarh,Monitor,Electronics,Displays,1,25000,18000,25000,1921.29,4154.17,27232.88,5078.71,Net Banking
+ORD00531,2023-04-05,Delivered,CUST2644,William Singh,Regular,South,Chennai,Keyboard,Accessories,Input Devices,1,3000,1800,3000,3.56,539.36,3535.8,1196.44,UPI
+ORD00754,2023-04-06,Delivered,CUST1452,Ayaan Reddy,Regular,East,Patna,Pen Drive 64GB,Storage,Flash Storage,5,800,400,4000,56.79,709.78,4652.99,1943.21,Debit Card
+ORD00379,2023-04-07,Delivered,CUST5415,Aditya Patel,Regular,West,Ahmedabad,Desktop PC,Electronics,Computers,1,45000,35000,45000,1654.48,7802.19,51147.71,8345.52,Cash on Delivery
+ORD00945,2023-04-07,Delivered,CUST6939,Vikram Gupta,Regular,South,Hyderabad,WiFi Router,Networking,Routers,1,3500,2200,3500,121.4,608.15,3986.75,1178.6,Credit Card
+ORD00043,2023-04-08,Shipped,CUST6482,Arjun Menon,Regular,West,Ahmedabad,Ethernet Cable,Networking,Cables,3,500,200,1500,42.44,262.36,1719.92,857.56,Cash on Delivery
+ORD00103,2023-04-08,Delivered,CUST5949,Michael Joshi,Premium,West,Ahmedabad,Mouse,Accessories,Input Devices,1,1500,800,1500,81.84,255.27,1673.43,618.16,Debit Card
+ORD00239,2023-04-08,Delivered,CUST2627,Divya Johnson,VIP,West,Mumbai,Pen Drive 64GB,Storage,Flash Storage,2,800,400,1600,272.09,239.02,1566.93,527.91,UPI
+ORD00617,2023-04-09,Delivered,CUST1153,Sophia Nair,Premium,North,Chandigarh,Keyboard,Accessories,Input Devices,2,3000,1800,6000,506.5,988.83,6482.33,1893.5,Debit Card
+ORD00481,2023-04-11,Delivered,CUST8292,Sai Davis,VIP,East,Patna,Headphones,Accessories,Audio,3,5000,3000,15000,1714.94,2391.31,15676.37,4285.06,Cash on Delivery
+ORD00628,2023-04-12,Delivered,CUST7018,Amit Gupta,Premium,North,Jaipur,USB Hub,Networking,Connectivity,1,1500,800,1500,117.77,248.8,1631.03,582.23,UPI
+ORD00743,2023-04-12,Delivered,CUST4727,Sai Pillai,VIP,West,Mumbai,External HDD 1TB,Storage,Hard Drives,3,5000,3500,15000,2247.59,2295.43,15047.84,2252.41,Debit Card
+ORD00954,2023-04-12,Delivered,CUST1258,Pihu Reddy,Regular,West,Mumbai,USB Hub,Networking,Connectivity,2,1500,800,3000,31.48,534.33,3502.85,1368.52,Credit Card
+ORD00150,2023-04-13,Delivered,CUST8504,Vivaan Verma,VIP,West,Surat,WiFi Router,Networking,Routers,5,3500,2200,17500,3454.46,2528.2,16573.74,3045.54,Credit Card
+ORD00349,2023-04-13,Delivered,CUST7606,Divya Verma,Regular,West,Pune,Smart Watch,Electronics,Wearables,5,15000,10000,75000,2572.54,13036.94,85464.4,22427.46,Net Banking
+ORD00879,2023-04-15,Delivered,CUST4777,Ayaan Taylor,Regular,North,Jaipur,Laptop Stand,Accessories,Ergonomics,1,2500,1500,2500,74.86,436.53,2861.67,925.14,UPI
+ORD00991,2023-04-16,Delivered,CUST8368,Priya Menon,Premium,South,Bangalore,TV,Electronics,Displays,1,40000,30000,40000,3565.43,6558.22,42992.79,6434.57,Debit Card
+ORD00530,2023-04-17,Delivered,CUST7924,Pooja Reddy,Regular,East,Patna,Phone,Electronics,Mobile,1,30000,22000,30000,146.55,5373.62,35227.07,7853.45,Debit Card
+ORD00853,2023-04-17,Delivered,CUST5668,William Joshi,Regular,South,Kochi,Ethernet Cable,Networking,Cables,3,500,200,1500,6.99,268.74,1761.75,893.01,Credit Card
+ORD00070,2023-04-18,Delivered,CUST7018,Amit Gupta,Premium,North,Jaipur,Smart Watch,Electronics,Wearables,1,15000,10000,15000,768.42,2561.68,16793.26,4231.58,Cash on Delivery
+ORD00185,2023-04-19,Delivered,CUST1841,Michael Patel,Regular,West,Surat,WiFi Router,Networking,Routers,3,3500,2200,10500,493.32,1801.2,11807.88,3406.68,Credit Card
+ORD00706,2023-04-19,Delivered,CUST4728,Myra Sharma,Premium,South,Hyderabad,Mouse Pad,Accessories,Input Devices,1,800,300,800,77.17,130.11,852.94,422.83,Credit Card
+ORD01000,2023-04-19,Delivered,CUST3434,William Johnson,Regular,South,Kochi,TV,Electronics,Displays,2,40000,30000,80000,348.92,14337.19,93988.27,19651.08,UPI
+ORD00341,2023-04-20,Delivered,CUST9817,Michael Das,Regular,West,Ahmedabad,Mouse,Accessories,Input Devices,3,1500,800,4500,80.11,795.58,5215.47,2019.89,Credit Card
+ORD00718,2023-04-21,Delivered,CUST8962,Arjun Johnson,Premium,North,Chandigarh,Memory Card 128GB,Storage,Flash Storage,1,1200,700,1200,62.71,204.71,1342.0,437.29,Debit Card
+ORD00461,2023-04-22,Delivered,CUST5735,Sara Anderson,Premium,South,Hyderabad,Headphones,Accessories,Audio,1,5000,3000,5000,271.93,851.05,5579.12,1728.07,Credit Card
+ORD00465,2023-04-22,Delivered,CUST8292,Sai Davis,VIP,East,Patna,TV,Electronics,Displays,2,40000,30000,80000,12896.43,12078.64,79182.21,7103.57,Cash on Delivery
+ORD00537,2023-04-22,Delivered,CUST3506,Olivia Patel,Premium,East,Patna,USB Hub,Networking,Connectivity,1,1500,800,1500,123.41,247.79,1624.38,576.59,UPI
+ORD00995,2023-04-23,Delivered,CUST4981,Michael Pillai,Regular,North,Chandigarh,Pen Drive 64GB,Storage,Flash Storage,1,800,400,800,2.07,143.63,941.56,397.93,Credit Card
+ORD00520,2023-04-25,Delivered,CUST1084,Aadhya Pillai,Premium,East,Guwahati,Keyboard,Accessories,Input Devices,1,3000,1800,3000,188.54,506.06,3317.52,1011.46,Cash on Delivery
+ORD00184,2023-04-26,Delivered,CUST1711,Sophia Johnson,Regular,East,Kolkata,USB Hub,Networking,Connectivity,2,1500,800,3000,117.25,518.89,3401.64,1282.75,Credit Card
+ORD00494,2023-04-26,Delivered,CUST7086,Reyansh Davis,Regular,North,Lucknow,External HDD 1TB,Storage,Hard Drives,1,5000,3500,5000,16.34,897.06,5880.72,1483.66,Debit Card
+ORD00233,2023-04-27,Delivered,CUST9337,Amit Pillai,Premium,East,Bhubaneswar,Phone,Electronics,Mobile,1,30000,22000,30000,2014.08,5037.47,33023.39,5985.92,Cash on Delivery
+ORD00620,2023-04-27,Delivered,CUST2063,Vikram Nair,Premium,West,Pune,Memory Card 128GB,Storage,Flash Storage,2,1200,700,2400,204.27,395.23,2590.96,795.73,Cash on Delivery
+ORD00782,2023-04-28,Delivered,CUST3573,Isha Patel,Regular,North,Chandigarh,External SSD 500GB,Storage,Solid State,2,6000,4000,12000,302.65,2105.52,13802.87,3697.35,Debit Card
+ORD00118,2023-04-29,Delivered,CUST8438,Arjun Davis,Regular,South,Chennai,Desktop PC,Electronics,Computers,1,45000,35000,45000,2080.41,7725.53,50645.12,7919.59,UPI
+ORD00223,2023-04-29,Delivered,CUST2232,Diya Johnson,Regular,South,Chennai,Ethernet Cable,Networking,Cables,3,500,200,1500,3.62,269.35,1765.73,896.38,Debit Card
+ORD00259,2023-04-29,Delivered,CUST9937,Vikram Menon,Regular,South,Hyderabad,Memory Card 128GB,Storage,Flash Storage,2,1200,700,2400,38.69,425.04,2786.35,961.31,UPI
+ORD00524,2023-04-29,Delivered,CUST6990,Diya Shah,Premium,South,Bangalore,Webcam,Accessories,Video,1,4000,2500,4000,252.88,674.48,4421.6,1247.12,Debit Card
+ORD00080,2023-05-01,Delivered,CUST1860,Reyansh Pillai,Regular,South,Chennai,WiFi Router,Networking,Routers,1,3500,2200,3500,23.44,625.78,4102.34,1276.56,Debit Card
+ORD00210,2023-05-01,Shipped,CUST2902,Reyansh Joshi,Premium,North,Chandigarh,Webcam,Accessories,Video,1,4000,2500,4000,258.81,673.41,4414.6,1241.19,UPI
+ORD00469,2023-05-01,Delivered,CUST2824,Vivaan Taylor,Regular,North,Delhi,Tablet,Electronics,Mobile,1,35000,27000,35000,1094.56,6102.98,40008.42,6905.44,UPI
+ORD00485,2023-05-01,Delivered,CUST3434,William Johnson,Regular,South,Kochi,Memory Card 128GB,Storage,Flash Storage,1,1200,700,1200,26.47,211.24,1384.77,473.53,Credit Card
+ORD00742,2023-05-01,Processing,CUST5067,Aadhya Menon,VIP,West,Pune,Desktop PC,Electronics,Computers,2,45000,35000,90000,10503.42,14309.38,93805.96,9496.58,Credit Card
+ORD00137,2023-05-03,Delivered,CUST4475,Sneha Reddy,Regular,East,Patna,External HDD 1TB,Storage,Hard Drives,1,5000,3500,5000,66.25,888.07,5821.82,1433.75,Debit Card
+ORD00211,2023-05-03,Delivered,CUST4804,Aditya Patel,Regular,West,Mumbai,Phone,Electronics,Mobile,1,30000,22000,30000,291.82,5347.47,35055.65,7708.18,Credit Card
+ORD00268,2023-05-03,Delivered,CUST3697,John Sharma,VIP,South,Kochi,Monitor,Electronics,Displays,4,25000,18000,100000,17350.79,14876.86,97526.07,10649.21,UPI
+ORD00532,2023-05-03,Delivered,CUST4777,Ayaan Taylor,Regular,North,Jaipur,USB Hub,Networking,Connectivity,2,1500,800,3000,106.21,520.88,3414.67,1293.79,Debit Card
+ORD00250,2023-05-04,Delivered,CUST6928,Sai Pillai,Premium,North,Chandigarh,Tablet,Electronics,Mobile,1,35000,27000,35000,2092.86,5923.29,38830.43,5907.14,Debit Card
+ORD00412,2023-05-04,Delivered,CUST2622,Ava Wilson,Regular,East,Kolkata,Webcam,Accessories,Video,3,4000,2500,12000,260.58,2113.1,13852.52,4239.42,UPI
+ORD00766,2023-05-04,Delivered,CUST7132,Diya Davis,VIP,North,Delhi,Tablet,Electronics,Mobile,2,35000,27000,70000,9860.34,10825.14,70964.8,6139.66,Debit Card
+ORD00781,2023-05-04,Delivered,CUST8043,Neha Das,Regular,West,Surat,Laptop Stand,Accessories,Ergonomics,3,2500,1500,7500,96.73,1332.59,8735.86,2903.27,UPI
+ORD00464,2023-05-05,Delivered,CUST9307,John Das,Regular,East,Kolkata,Memory Card 128GB,Storage,Flash Storage,1,1200,700,1200,28.25,210.91,1382.66,471.75,Debit Card
+ORD00865,2023-05-05,Delivered,CUST4777,Ayaan Taylor,Regular,North,Jaipur,External SSD 500GB,Storage,Solid State,1,6000,4000,6000,228.56,1038.86,6810.3,1771.44,Credit Card
+ORD00286,2023-05-07,Delivered,CUST1982,Pooja Davis,Regular,South,Kochi,Laptop,Electronics,Computers,2,55000,45000,110000,3052.88,19250.48,126197.6,16947.12,Debit Card
+ORD00453,2023-05-07,Delivered,CUST8451,Divya Davis,Premium,South,Kochi,Ethernet Cable,Networking,Cables,4,500,200,2000,179.65,327.66,2148.01,1020.35,UPI
+ORD00757,2023-05-08,Delivered,CUST6759,William Verma,Premium,East,Guwahati,Webcam,Accessories,Video,1,4000,2500,4000,351.31,656.76,4305.45,1148.69,Credit Card
+ORD00883,2023-05-08,Delivered,CUST1711,Sophia Johnson,Regular,East,Kolkata,Mouse,Accessories,Input Devices,1,1500,800,1500,56.92,259.75,1702.83,643.08,UPI
+ORD00784,2023-05-09,Delivered,CUST6040,Vivaan Wilson,Regular,East,Bhubaneswar,Tablet,Electronics,Mobile,1,35000,27000,35000,970.74,6125.27,40154.53,7029.26,Credit Card
+ORD00946,2023-05-09,Delivered,CUST7116,Rahul Taylor,Regular,West,Ahmedabad,Ethernet Cable,Networking,Cables,2,500,200,1000,14.92,177.31,1162.39,585.08,Cash on Delivery
+ORD00495,2023-05-11,Delivered,CUST7865,Myra Bose,Regular,South,Bangalore,Headphones,Accessories,Audio,3,5000,3000,15000,453.33,2618.4,17165.07,5546.67,UPI
+ORD00817,2023-05-11,Delivered,CUST3068,Ava Singh,Premium,West,Surat,Mouse,Accessories,Input Devices,1,1500,800,1500,78.31,255.9,1677.59,621.69,Cash on Delivery
+ORD00344,2023-05-12,Delivered,CUST1510,Diya Wilson,Premium,South,Chennai,Keyboard,Accessories,Input Devices,1,3000,1800,3000,262.53,492.74,3230.21,937.47,Debit Card
+ORD00215,2023-05-13,Delivered,CUST8373,Rahul Joshi,Premium,South,Kochi,External SSD 500GB,Storage,Solid State,3,6000,4000,18000,1601.78,2951.68,19349.9,4398.22,Debit Card
+ORD00467,2023-05-13,Delivered,CUST2063,Vikram Nair,Premium,West,Pune,WiFi Router,Networking,Routers,5,3500,2200,17500,1184.62,2936.77,19252.15,5315.38,UPI
+ORD00258,2023-05-16,Delivered,CUST1613,Aarav Nair,Regular,North,Lucknow,Headphones,Accessories,Audio,2,5000,3000,10000,460.6,1717.09,11256.49,3539.4,Cash on Delivery
+ORD00591,2023-05-16,Delivered,CUST9094,Vivaan Iyer,Regular,South,Chennai,Memory Card 128GB,Storage,Flash Storage,1,1200,700,1200,18.24,212.72,1394.48,481.76,UPI
+ORD00106,2023-05-17,Delivered,CUST5106,Ananya Miller,Regular,West,Mumbai,Webcam,Accessories,Video,3,4000,2500,12000,82.28,2145.19,14062.91,4417.72,Credit Card
+ORD00555,2023-05-17,Delivered,CUST3503,Sara Gupta,Regular,South,Kochi,External HDD 1TB,Storage,Hard Drives,1,5000,3500,5000,145.5,873.81,5728.31,1354.5,UPI
+ORD00692,2023-05-17,Cancelled,CUST5902,Pooja Smith,Premium,South,Hyderabad,Ethernet Cable,Networking,Cables,1,500,200,500,25.26,85.45,560.19,274.74,Debit Card
+ORD00975,2023-05-17,Cancelled,CUST8292,Sai Davis,VIP,East,Patna,Mouse,Accessories,Input Devices,1,1500,800,1500,205.06,233.09,1528.03,494.94,Debit Card
+ORD00252,2023-05-18,Delivered,CUST8170,Aditya Pillai,Regular,West,Surat,External HDD 1TB,Storage,Hard Drives,2,5000,3500,10000,478.1,1713.94,11235.84,2521.9,UPI
+ORD00907,2023-05-18,Delivered,CUST1641,Isha Anderson,Regular,South,Chennai,Monitor,Electronics,Displays,1,25000,18000,25000,233.0,4458.06,29225.06,6767.0,Cash on Delivery
+ORD00011,2023-05-19,Cancelled,CUST8579,Isha Gupta,Regular,East,Kolkata,External SSD 500GB,Storage,Solid State,1,6000,4000,6000,122.66,1057.92,6935.26,1877.34,UPI
+ORD00509,2023-05-20,Delivered,CUST3780,Sai Nair,Regular,West,Ahmedabad,External SSD 500GB,Storage,Solid State,2,6000,4000,12000,584.99,2054.7,13469.71,3415.01,Debit Card
+ORD00632,2023-05-20,Delivered,CUST6862,Sara Davis,Regular,North,Chandigarh,Earbuds,Accessories,Audio,1,3500,2000,3500,19.31,626.52,4107.21,1480.69,Credit Card
+ORD00895,2023-05-20,Delivered,CUST1842,Vikram Wilson,Regular,North,Jaipur,Memory Card 128GB,Storage,Flash Storage,2,1200,700,2400,8.63,430.45,2821.82,991.37,Cash on Delivery
+ORD00972,2023-05-20,Delivered,CUST2674,Sai Rao,Regular,West,Ahmedabad,Laptop Stand,Accessories,Ergonomics,2,2500,1500,5000,233.11,858.04,5624.93,1766.89,Cash on Delivery
+ORD00225,2023-05-21,Shipped,CUST5462,Vikram Wilson,Regular,South,Hyderabad,Pen Drive 64GB,Storage,Flash Storage,1,800,400,800,24.23,139.64,915.41,375.77,Debit Card
+ORD00436,2023-05-22,Delivered,CUST3440,Ananya Menon,VIP,South,Kochi,Memory Card 128GB,Storage,Flash Storage,2,1200,700,2400,288.55,380.06,2491.51,711.45,Debit Card
+ORD00582,2023-05-22,Delivered,CUST2586,Vihaan Nair,VIP,East,Guwahati,Phone,Electronics,Mobile,2,30000,22000,60000,10641.45,8884.54,58243.09,5358.55,Credit Card
+ORD00501,2023-05-23,Processing,CUST5150,Aditya Miller,Regular,South,Bangalore,Ethernet Cable,Networking,Cables,2,500,200,1000,4.53,179.18,1174.65,595.47,UPI
+ORD00140,2023-05-24,Delivered,CUST4453,James Wilson,Premium,South,Hyderabad,Mouse,Accessories,Input Devices,1,1500,800,1500,82.64,255.12,1672.48,617.36,UPI
+ORD00300,2023-05-24,Delivered,CUST8438,Arjun Davis,Regular,South,Chennai,USB Hub,Networking,Connectivity,2,1500,800,3000,113.58,519.56,3405.98,1286.42,Cash on Delivery
+ORD00669,2023-05-24,Delivered,CUST2188,Aarav Das,Premium,West,Mumbai,Mouse Pad,Accessories,Input Devices,4,800,300,3200,275.88,526.34,3450.46,1724.12,Debit Card
+ORD00425,2023-05-25,Delivered,CUST4073,Divya Wilson,Premium,West,Mumbai,Memory Card 128GB,Storage,Flash Storage,1,1200,700,1200,103.8,197.32,1293.52,396.2,Debit Card
+ORD00889,2023-05-25,Delivered,CUST1605,Vikram Shah,Regular,North,Delhi,Phone,Electronics,Mobile,4,30000,22000,120000,312.64,21543.72,141231.08,31687.36,Credit Card
+ORD00450,2023-05-26,Delivered,CUST8269,Aadhya Anderson,Regular,North,Lucknow,USB Hub,Networking,Connectivity,4,1500,800,6000,206.99,1042.74,6835.75,2593.01,Credit Card
+ORD00187,2023-05-28,Delivered,CUST6674,William Miller,Regular,South,Chennai,External SSD 500GB,Storage,Solid State,1,6000,4000,6000,82.62,1065.13,6982.51,1917.38,Debit Card
+ORD00261,2023-05-29,Delivered,CUST5500,Vihaan Iyer,Regular,South,Kochi,Laptop,Electronics,Computers,2,55000,45000,110000,139.0,19774.98,129635.98,19861.0,Credit Card
+ORD00356,2023-05-29,Delivered,CUST3536,Priya Nair,Regular,North,Delhi,Mouse Pad,Accessories,Input Devices,2,800,300,1600,37.1,281.32,1844.22,962.9,Cash on Delivery
+ORD00437,2023-05-29,Delivered,CUST3041,Rohit Smith,Regular,South,Kochi,Laptop Stand,Accessories,Ergonomics,5,2500,1500,12500,609.86,2140.23,14030.37,4390.14,Credit Card
+ORD00819,2023-05-29,Delivered,CUST7532,James Taylor,Regular,South,Hyderabad,Laptop,Electronics,Computers,2,55000,45000,110000,3617.22,19148.9,125531.68,16382.78,Net Banking
+ORD00818,2023-05-30,Delivered,CUST8504,Vivaan Verma,VIP,West,Surat,Headphones,Accessories,Audio,2,5000,3000,10000,1541.14,1522.59,9981.45,2458.86,Debit Card
+ORD00901,2023-05-31,Delivered,CUST1400,Aditya Joshi,VIP,West,Mumbai,Keyboard,Accessories,Input Devices,2,3000,1800,6000,1166.56,870.02,5703.46,1233.44,Cash on Delivery
+ORD00138,2023-06-01,Delivered,CUST5735,Sara Anderson,Premium,South,Hyderabad,Desktop PC,Electronics,Computers,1,45000,35000,45000,4177.29,7348.09,48170.8,5822.71,Debit Card
+ORD00587,2023-06-01,Shipped,CUST5673,Olivia Anderson,VIP,East,Guwahati,Tablet,Electronics,Mobile,1,35000,27000,35000,3892.09,5599.42,36707.33,4107.91,Debit Card
+ORD00727,2023-06-01,Delivered,CUST3114,Olivia Smith,VIP,North,Delhi,TV,Electronics,Displays,1,40000,30000,40000,7078.88,5925.8,38846.92,2921.12,Credit Card
+ORD00022,2023-06-02,Delivered,CUST5381,Vivaan Patel,Regular,West,Ahmedabad,Pen Drive 64GB,Storage,Flash Storage,1,800,400,800,16.65,141.0,924.35,383.35,Debit Card
+ORD00039,2023-06-02,Delivered,CUST1641,Isha Anderson,Regular,South,Chennai,Monitor,Electronics,Displays,1,25000,18000,25000,120.39,4478.33,29357.94,6879.61,Credit Card
+ORD00240,2023-06-02,Delivered,CUST2108,Vivaan Rao,Premium,North,Chandigarh,Webcam,Accessories,Video,2,4000,2500,8000,656.56,1321.82,8665.26,2343.44,Cash on Delivery
+ORD00561,2023-06-02,Cancelled,CUST5662,Sophia Miller,Regular,South,Chennai,TV,Electronics,Displays,1,40000,30000,40000,387.44,7130.26,46742.82,9612.56,Debit Card
+ORD00832,2023-06-02,Delivered,CUST6040,Vivaan Wilson,Regular,East,Bhubaneswar,TV,Electronics,Displays,3,40000,30000,120000,1765.1,21282.28,139517.18,28234.9,UPI
+ORD00350,2023-06-03,Delivered,CUST6658,Emma Kumar,Premium,South,Bangalore,Laptop Stand,Accessories,Ergonomics,3,2500,1500,7500,448.52,1269.27,8320.75,2551.48,Debit Card
+ORD00402,2023-06-11,Delivered,CUST5558,James Reddy,Premium,South,Bangalore,Memory Card 128GB,Storage,Flash Storage,1,1200,700,1200,80.25,201.55,1321.3,419.75,Cash on Delivery
+ORD00235,2023-06-13,Processing,CUST6862,Sara Davis,Regular,North,Chandigarh,Smart Watch,Electronics,Wearables,2,15000,10000,30000,87.97,5384.17,35296.2,9912.03,Debit Card
+ORD00227,2023-06-14,Delivered,CUST9047,Priya Singh,Regular,North,Jaipur,TV,Electronics,Displays,1,40000,30000,40000,819.51,7052.49,46232.98,9180.49,Credit Card
+ORD00922,2023-06-14,Delivered,CUST5351,Emma Kumar,Premium,South,Hyderabad,Tablet,Electronics,Mobile,1,35000,27000,35000,3002.59,5759.53,37756.94,4997.41,Debit Card
+ORD00869,2023-06-15,Delivered,CUST6082,Emma Kumar,Regular,East,Patna,Smart Watch,Electronics,Wearables,1,15000,10000,15000,209.36,2662.32,17452.96,4790.64,Credit Card
+ORD00614,2023-06-17,Delivered,CUST9697,Amit Patel,Regular,West,Surat,External HDD 1TB,Storage,Hard Drives,3,5000,3500,15000,101.62,2681.71,17580.09,4398.38,UPI
+ORD00699,2023-06-18,Returned,CUST4972,Vihaan Davis,VIP,North,Jaipur,Keyboard,Accessories,Input Devices,2,3000,1800,6000,861.47,924.94,6063.47,1538.53,UPI
+ORD00903,2023-06-19,Delivered,CUST6138,Vihaan Verma,Regular,South,Chennai,Pen Drive 64GB,Storage,Flash Storage,4,800,400,3200,140.16,550.77,3610.61,1459.84,Debit Card
+ORD00082,2023-06-20,Delivered,CUST3114,Olivia Smith,VIP,North,Delhi,Ethernet Cable,Networking,Cables,4,500,200,2000,234.65,317.76,2083.11,965.35,Debit Card
+ORD00122,2023-06-20,Delivered,CUST1510,Diya Wilson,Premium,South,Chennai,Webcam,Accessories,Video,1,4000,2500,4000,371.87,653.06,4281.19,1128.13,Credit Card
+ORD00875,2023-06-21,Delivered,CUST4138,Sara Taylor,Regular,West,Ahmedabad,Tablet,Electronics,Mobile,3,35000,27000,105000,4359.87,18115.22,118755.35,19640.13,Debit Card
+ORD00143,2023-06-22,Delivered,CUST2902,Reyansh Joshi,Premium,North,Chandigarh,Tablet,Electronics,Mobile,1,35000,27000,35000,2556.74,5839.79,38283.05,5443.26,UPI
+ORD00940,2023-06-22,Delivered,CUST1400,Aditya Joshi,VIP,West,Mumbai,Mouse Pad,Accessories,Input Devices,4,800,300,3200,456.68,493.8,3237.12,1543.32,Cash on Delivery
+ORD00221,2023-06-23,Delivered,CUST8144,Aarav Smith,VIP,South,Chennai,TV,Electronics,Displays,2,40000,30000,80000,12717.54,12110.84,79393.3,7282.46,UPI
+ORD00330,2023-06-23,Delivered,CUST9734,Pooja Johnson,Regular,West,Ahmedabad,Pen Drive 64GB,Storage,Flash Storage,2,800,400,1600,18.53,284.66,1866.13,781.47,UPI
+ORD00518,2023-06-23,Delivered,CUST3610,Ava Smith,Regular,East,Guwahati,Keyboard,Accessories,Input Devices,1,3000,1800,3000,70.97,527.23,3456.26,1129.03,Credit Card
+ORD00232,2023-06-24,Shipped,CUST4923,Vihaan Joshi,Premium,East,Kolkata,Laptop,Electronics,Computers,3,55000,45000,165000,13722.68,27229.92,178507.24,16277.32,Cash on Delivery
+ORD00363,2023-06-24,Delivered,CUST2644,William Singh,Regular,South,Chennai,External HDD 1TB,Storage,Hard Drives,2,5000,3500,10000,65.64,1788.18,11722.54,2934.36,Net Banking
+ORD00569,2023-06-25,Delivered,CUST3041,Rohit Smith,Regular,South,Kochi,Tablet,Electronics,Mobile,3,35000,27000,105000,2407.54,18466.64,121059.1,21592.46,Credit Card
+ORD00629,2023-06-25,Delivered,CUST6922,Myra Singh,VIP,West,Pune,TV,Electronics,Displays,2,40000,30000,80000,15714.11,11571.46,75857.35,4285.89,Cash on Delivery
+ORD00855,2023-06-25,Processing,CUST8579,Isha Gupta,Regular,East,Kolkata,External HDD 1TB,Storage,Hard Drives,1,5000,3500,5000,129.63,876.67,5747.04,1370.37,Debit Card
+ORD00079,2023-06-26,Delivered,CUST3532,Isha Patel,VIP,West,Surat,Webcam,Accessories,Video,1,4000,2500,4000,583.14,615.03,4031.89,916.86,Credit Card
+ORD00507,2023-06-27,Delivered,CUST6129,Olivia Brown,Regular,West,Ahmedabad,Mouse Pad,Accessories,Input Devices,1,800,300,800,8.45,142.48,934.03,491.55,Debit Card
+ORD00793,2023-06-27,Shipped,CUST6674,William Miller,Regular,South,Chennai,External SSD 500GB,Storage,Solid State,1,6000,4000,6000,2.87,1079.48,7076.61,1997.13,UPI
+ORD00139,2023-06-28,Delivered,CUST2101,Isha Miller,Regular,South,Bangalore,Desktop PC,Electronics,Computers,2,45000,35000,90000,1170.75,15989.26,104818.51,18829.25,Debit Card
+ORD00472,2023-06-29,Delivered,CUST8972,Rohit Verma,Regular,East,Kolkata,WiFi Router,Networking,Routers,2,3500,2200,7000,10.19,1258.17,8247.98,2589.81,Cash on Delivery
+ORD00894,2023-06-29,Delivered,CUST9153,Diya Joshi,Regular,South,Hyderabad,USB Hub,Networking,Connectivity,2,1500,800,3000,82.93,525.07,3442.14,1317.07,Debit Card
+ORD00013,2023-07-02,Returned,CUST9488,Diya Nair,Regular,South,Chennai,Smart Watch,Electronics,Wearables,2,15000,10000,30000,521.65,5306.1,34784.45,9478.35,Debit Card
+ORD00710,2023-07-02,Delivered,CUST1674,Vivaan Gupta,Regular,West,Ahmedabad,USB Hub,Networking,Connectivity,1,1500,800,1500,29.91,264.62,1734.71,670.09,UPI
+ORD00124,2023-07-03,Cancelled,CUST4923,Vihaan Joshi,Premium,East,Kolkata,External SSD 500GB,Storage,Solid State,1,6000,4000,6000,576.07,976.31,6400.24,1423.93,Net Banking
+ORD00641,2023-07-03,Delivered,CUST8177,William Singh,Regular,North,Delhi,Phone,Electronics,Mobile,1,30000,22000,30000,40.12,5392.78,35352.66,7959.88,UPI
+ORD00310,2023-07-04,Delivered,CUST9201,Pihu Smith,VIP,East,Patna,WiFi Router,Networking,Routers,1,3500,2200,3500,408.22,556.52,3648.3,891.78,Debit Card
+ORD00949,2023-07-05,Shipped,CUST2137,Amit Iyer,Premium,South,Hyderabad,TV,Electronics,Displays,4,40000,30000,160000,15180.82,26067.45,170886.63,24819.18,UPI
+ORD00982,2023-07-06,Delivered,CUST3273,Michael Das,Premium,East,Kolkata,Mouse Pad,Accessories,Input Devices,1,800,300,800,54.58,134.18,879.6,445.42,Credit Card
+ORD00996,2023-07-06,Delivered,CUST1422,Ananya Sharma,Regular,West,Ahmedabad,Laptop Stand,Accessories,Ergonomics,1,2500,1500,2500,111.89,429.86,2817.97,888.11,Credit Card
+ORD00493,2023-07-07,Delivered,CUST3780,Sai Nair,Regular,West,Ahmedabad,USB Hub,Networking,Connectivity,1,1500,800,1500,27.26,265.09,1737.83,672.74,UPI
+ORD00888,2023-07-07,Delivered,CUST2647,Priya Nair,Regular,North,Delhi,USB Hub,Networking,Connectivity,3,1500,800,4500,117.33,788.88,5171.55,1982.67,Credit Card
+ORD00034,2023-07-08,Processing,CUST1258,Pihu Reddy,Regular,West,Mumbai,Monitor,Electronics,Displays,1,25000,18000,25000,683.18,4377.03,28693.85,6316.82,Debit Card
+ORD00438,2023-07-08,Delivered,CUST4139,Priya Johnson,Regular,South,Hyderabad,Memory Card 128GB,Storage,Flash Storage,2,1200,700,2400,86.33,416.46,2730.13,913.67,Net Banking
+ORD00440,2023-07-09,Delivered,CUST1042,Vikram Taylor,Regular,West,Surat,Smart Watch,Electronics,Wearables,3,15000,10000,45000,240.24,8056.76,52816.52,14759.76,Cash on Delivery
+ORD00077,2023-07-11,Delivered,CUST6804,Olivia Pillai,Regular,West,Mumbai,WiFi Router,Networking,Routers,1,3500,2200,3500,152.6,602.53,3949.93,1147.4,Credit Card
+ORD00388,2023-07-11,Delivered,CUST8269,Aadhya Anderson,Regular,North,Lucknow,Memory Card 128GB,Storage,Flash Storage,2,1200,700,2400,22.77,427.9,2805.13,977.23,Debit Card
+ORD00153,2023-07-12,Delivered,CUST1258,Pihu Reddy,Regular,West,Mumbai,WiFi Router,Networking,Routers,2,3500,2200,7000,197.09,1224.52,8027.43,2402.91,Net Banking
+ORD00111,2023-07-13,Delivered,CUST4483,Ava Rao,Premium,West,Pune,Headphones,Accessories,Audio,1,5000,3000,5000,401.73,827.69,5425.96,1598.27,Credit Card
+ORD00589,2023-07-13,Delivered,CUST6295,Neha Kumar,Regular,South,Hyderabad,External HDD 1TB,Storage,Hard Drives,2,5000,3500,10000,10.74,1798.07,11787.33,2989.26,Net Banking
+ORD00206,2023-07-14,Delivered,CUST1188,Ayaan Davis,Premium,West,Ahmedabad,WiFi Router,Networking,Routers,2,3500,2200,7000,550.21,1160.96,7610.75,2049.79,UPI
+ORD00830,2023-07-14,Delivered,CUST1993,Emma Taylor,Regular,East,Bhubaneswar,Tablet,Electronics,Mobile,1,35000,27000,35000,1617.27,6008.89,39391.62,6382.73,Debit Card
+ORD00025,2023-07-15,Delivered,CUST8170,Aditya Pillai,Regular,West,Surat,Webcam,Accessories,Video,1,4000,2500,4000,144.92,693.91,4548.99,1355.08,Debit Card
+ORD00725,2023-07-15,Delivered,CUST8972,Rohit Verma,Regular,East,Kolkata,Headphones,Accessories,Audio,1,5000,3000,5000,33.78,893.92,5860.14,1966.22,Credit Card
+ORD00443,2023-07-17,Delivered,CUST1508,Isha Shah,Premium,West,Pune,Mouse Pad,Accessories,Input Devices,1,800,300,800,45.5,135.81,890.31,454.5,Debit Card
+ORD00774,2023-07-17,Cancelled,CUST5067,Aadhya Menon,VIP,West,Pune,Ethernet Cable,Networking,Cables,1,500,200,500,77.97,75.97,498.0,222.03,Debit Card
+ORD00267,2023-07-18,Delivered,CUST7532,James Taylor,Regular,South,Hyderabad,WiFi Router,Networking,Routers,2,3500,2200,7000,211.19,1221.99,8010.8,2388.81,Credit Card
+ORD00600,2023-07-19,Delivered,CUST8405,Myra Wilson,Regular,West,Ahmedabad,Phone,Electronics,Mobile,1,30000,22000,30000,912.23,5235.8,34323.57,7087.77,Credit Card
+ORD00867,2023-07-19,Delivered,CUST9410,Diya Pillai,Regular,East,Guwahati,Mouse Pad,Accessories,Input Devices,1,800,300,800,15.97,141.13,925.16,484.03,Credit Card
+ORD00936,2023-07-19,Delivered,CUST1828,Aarav Gupta,VIP,West,Pune,Pen Drive 64GB,Storage,Flash Storage,2,800,400,1600,205.18,251.07,1645.89,594.82,Debit Card
+ORD00490,2023-07-22,Delivered,CUST5846,Reyansh Smith,Premium,West,Mumbai,USB Hub,Networking,Connectivity,1,1500,800,1500,99.92,252.01,1652.09,600.08,UPI
+ORD00684,2023-07-23,Delivered,CUST7371,Pooja Davis,Premium,South,Chennai,WiFi Router,Networking,Routers,3,3500,2200,10500,944.75,1719.94,11275.19,2955.25,Debit Card
+ORD00062,2023-07-24,Delivered,CUST4826,James Verma,Regular,South,Kochi,Mouse Pad,Accessories,Input Devices,1,800,300,800,37.28,137.29,900.01,462.72,Debit Card
+ORD00146,2023-07-24,Delivered,CUST4981,Michael Pillai,Regular,North,Chandigarh,Phone,Electronics,Mobile,1,30000,22000,30000,205.85,5362.95,35157.1,7794.15,UPI
+ORD00193,2023-07-25,Delivered,CUST5681,Aarav Singh,Regular,East,Patna,Laptop,Electronics,Computers,1,55000,45000,55000,2406.75,9466.78,62060.03,7593.25,Credit Card
+ORD00426,2023-07-25,Delivered,CUST2063,Vikram Nair,Premium,West,Pune,Desktop PC,Electronics,Computers,1,45000,35000,45000,2385.25,7670.65,50285.4,7614.75,UPI
+ORD00637,2023-07-25,Delivered,CUST7232,Michael Sharma,VIP,South,Kochi,Phone,Electronics,Mobile,1,30000,22000,30000,3597.26,4752.49,31155.23,4402.74,Cash on Delivery
+ORD00452,2023-07-26,Shipped,CUST5386,Arjun Shah,VIP,West,Ahmedabad,Monitor,Electronics,Displays,1,25000,18000,25000,4741.54,3646.52,23904.98,2258.46,Credit Card
+ORD00135,2023-07-27,Delivered,CUST4626,Arjun Miller,Premium,East,Patna,Earbuds,Accessories,Audio,1,3500,2000,3500,215.88,591.14,3875.26,1284.12,UPI
+ORD00314,2023-07-27,Delivered,CUST3485,Diya Brown,VIP,North,Jaipur,Mouse Pad,Accessories,Input Devices,1,800,300,800,88.69,128.04,839.35,411.31,Cash on Delivery
+ORD00030,2023-07-28,Delivered,CUST3200,Rahul Singh,Premium,West,Pune,External SSD 500GB,Storage,Solid State,3,6000,4000,18000,1188.21,3026.12,19837.91,4811.79,Debit Card
+ORD00170,2023-07-30,Cancelled,CUST6654,Diya Nair,Regular,East,Kolkata,Laptop Stand,Accessories,Ergonomics,1,2500,1500,2500,12.66,447.72,2935.06,987.34,Debit Card
+ORD00626,2023-07-30,Delivered,CUST2674,Sai Rao,Regular,West,Ahmedabad,Tablet,Electronics,Mobile,3,35000,27000,105000,4830.51,18030.51,118200.0,19169.49,Credit Card
+ORD00173,2023-07-31,Delivered,CUST5662,Sophia Miller,Regular,South,Chennai,USB Hub,Networking,Connectivity,1,1500,800,1500,7.27,268.69,1761.42,692.73,Credit Card
+ORD00876,2023-08-01,Cancelled,CUST4626,Arjun Miller,Premium,East,Patna,Earbuds,Accessories,Audio,2,3500,2000,7000,416.34,1185.06,7768.72,2583.66,Debit Card
+ORD00484,2023-08-03,Delivered,CUST9138,Vikram Joshi,Premium,South,Chennai,Laptop,Electronics,Computers,2,55000,45000,110000,7216.79,18500.98,121284.19,12783.21,Credit Card
+ORD00623,2023-08-03,Delivered,CUST1626,Reyansh Wilson,Regular,West,Ahmedabad,Smart Watch,Electronics,Wearables,2,15000,10000,30000,461.14,5316.99,34855.85,9538.86,Credit Card
+ORD00833,2023-08-03,Delivered,CUST1452,Ayaan Reddy,Regular,East,Patna,Pen Drive 64GB,Storage,Flash Storage,4,800,400,3200,141.73,550.49,3608.76,1458.27,UPI
+ORD00933,2023-08-04,Delivered,CUST1842,Vikram Wilson,Regular,North,Jaipur,Desktop PC,Electronics,Computers,5,45000,35000,225000,3747.88,39825.38,261077.5,46252.12,Cash on Delivery
+ORD00181,2023-08-05,Delivered,CUST8711,Myra Shah,Premium,South,Hyderabad,External HDD 1TB,Storage,Hard Drives,1,5000,3500,5000,496.09,810.7,5314.61,1003.91,Credit Card
+ORD00424,2023-08-05,Delivered,CUST5193,Sara Kumar,Regular,West,Surat,Laptop,Electronics,Computers,1,55000,45000,55000,2035.04,9533.69,62498.65,7964.96,Debit Card
+ORD00553,2023-08-07,Delivered,CUST3526,Aadhya Davis,Premium,East,Patna,Smart Watch,Electronics,Wearables,1,15000,10000,15000,1473.52,2434.77,15961.25,3526.48,UPI
+ORD00977,2023-08-07,Delivered,CUST5065,Amit Patel,Premium,North,Delhi,Headphones,Accessories,Audio,1,5000,3000,5000,323.39,841.79,5518.4,1676.61,UPI
+ORD00955,2023-08-09,Cancelled,CUST1188,Ayaan Davis,Premium,West,Ahmedabad,TV,Electronics,Displays,1,40000,30000,40000,3712.17,6531.81,42819.64,6287.83,UPI
+ORD00571,2023-08-10,Delivered,CUST7868,Neha Reddy,Regular,West,Pune,Laptop Stand,Accessories,Ergonomics,3,2500,1500,7500,183.46,1316.98,8633.52,2816.54,Net Banking
+ORD00409,2023-08-11,Delivered,CUST9153,Diya Joshi,Regular,South,Hyderabad,Phone,Electronics,Mobile,2,30000,22000,60000,1707.19,10492.71,68785.52,14292.81,UPI
+ORD00036,2023-08-12,Delivered,CUST8518,Rahul Anderson,Regular,West,Ahmedabad,Mouse,Accessories,Input Devices,1,1500,800,1500,11.33,267.96,1756.63,688.67,Debit Card
+ORD00575,2023-08-12,Delivered,CUST6228,Isha Das,Regular,South,Chennai,Laptop,Electronics,Computers,2,55000,45000,110000,2236.4,19397.45,127161.05,17763.6,Credit Card
+ORD00930,2023-08-13,Delivered,CUST9452,Ayaan Nair,Regular,North,Chandigarh,Earbuds,Accessories,Audio,1,3500,2000,3500,165.01,600.3,3935.29,1334.99,Debit Card
+ORD00337,2023-08-14,Delivered,CUST2108,Vivaan Rao,Premium,North,Chandigarh,Tablet,Electronics,Mobile,1,35000,27000,35000,2419.68,5864.46,38444.78,5580.32,Credit Card
+ORD00293,2023-08-15,Delivered,CUST6061,William Verma,Regular,West,Mumbai,Laptop Stand,Accessories,Ergonomics,1,2500,1500,2500,39.15,442.95,2903.8,960.85,UPI
+ORD00414,2023-08-15,Delivered,CUST9488,Diya Nair,Regular,South,Chennai,WiFi Router,Networking,Routers,1,3500,2200,3500,87.92,614.17,4026.25,1212.08,UPI
+ORD00929,2023-08-16,Delivered,CUST7240,Vikram Das,Regular,South,Bangalore,Smart Watch,Electronics,Wearables,2,15000,10000,30000,902.43,5237.56,34335.13,9097.57,Credit Card
+ORD00209,2023-08-17,Delivered,CUST6733,Myra Miller,Regular,East,Kolkata,Earbuds,Accessories,Audio,2,3500,2000,7000,77.79,1246.0,8168.21,2922.21,Debit Card
+ORD00685,2023-08-18,Delivered,CUST5475,Sara Smith,Regular,South,Hyderabad,Mouse Pad,Accessories,Input Devices,4,800,300,3200,141.49,550.53,3609.04,1858.51,Credit Card
+ORD00924,2023-08-18,Cancelled,CUST1605,Vikram Shah,Regular,North,Delhi,Phone,Electronics,Mobile,3,30000,22000,90000,1497.61,15930.43,104432.82,22502.39,UPI
+ORD00583,2023-08-19,Delivered,CUST9443,Isha Anderson,Regular,South,Hyderabad,WiFi Router,Networking,Routers,3,3500,2200,10500,368.99,1823.58,11954.59,3531.01,Net Banking
+ORD00366,2023-08-21,Delivered,CUST9612,James Pillai,Premium,North,Lucknow,Headphones,Accessories,Audio,4,5000,3000,20000,1481.65,3333.3,21851.65,6518.35,Debit Card
+ORD00565,2023-08-22,Delivered,CUST1207,James Bose,Regular,East,Guwahati,Earbuds,Accessories,Audio,1,3500,2000,3500,19.27,626.53,4107.26,1480.73,UPI
+ORD00969,2023-08-23,Delivered,CUST8368,Priya Menon,Premium,South,Bangalore,Pen Drive 64GB,Storage,Flash Storage,4,800,400,3200,301.02,521.82,3420.8,1298.98,Net Banking
+ORD00324,2023-08-24,Delivered,CUST1125,Sara Nair,VIP,West,Ahmedabad,Smart Watch,Electronics,Wearables,3,15000,10000,45000,7466.77,6755.98,44289.21,7533.23,UPI
+ORD00994,2023-08-25,Delivered,CUST2882,Amit Brown,Regular,South,Bangalore,Laptop Stand,Accessories,Ergonomics,2,2500,1500,5000,175.04,868.49,5693.45,1824.96,Debit Card
+ORD00468,2023-08-27,Delivered,CUST6438,Amit Singh,Premium,South,Kochi,External SSD 500GB,Storage,Solid State,3,6000,4000,18000,1695.3,2934.85,19239.55,4304.7,Cash on Delivery
+ORD00677,2023-08-30,Delivered,CUST1601,Sophia Gupta,Regular,South,Kochi,Headphones,Accessories,Audio,1,5000,3000,5000,205.68,862.98,5657.3,1794.32,Net Banking
+ORD00131,2023-09-01,Delivered,CUST1842,Vikram Wilson,Regular,North,Jaipur,Headphones,Accessories,Audio,1,5000,3000,5000,132.45,876.16,5743.71,1867.55,Cash on Delivery
+ORD00171,2023-09-01,Delivered,CUST8609,Sara Menon,Premium,South,Hyderabad,Memory Card 128GB,Storage,Flash Storage,1,1200,700,1200,76.89,202.16,1325.27,423.11,Debit Card
+ORD00340,2023-09-05,Shipped,CUST6733,Myra Miller,Regular,East,Kolkata,TV,Electronics,Displays,1,40000,30000,40000,399.33,7128.12,46728.79,9600.67,Credit Card
+ORD00921,2023-09-07,Delivered,CUST5846,Reyansh Smith,Premium,West,Mumbai,Tablet,Electronics,Mobile,1,35000,27000,35000,2696.17,5814.69,38118.52,5303.83,UPI
+ORD00017,2023-09-08,Delivered,CUST5846,Reyansh Smith,Premium,West,Mumbai,USB Hub,Networking,Connectivity,2,1500,800,3000,280.83,489.45,3208.62,1119.17,Debit Card
+ORD00611,2023-09-08,Delivered,CUST4871,Reyansh Kumar,Regular,North,Jaipur,Monitor,Electronics,Displays,1,25000,18000,25000,859.8,4345.24,28485.44,6140.2,UPI
+ORD00831,2023-09-08,Processing,CUST1982,Pooja Davis,Regular,South,Kochi,Earbuds,Accessories,Audio,2,3500,2000,7000,341.94,1198.45,7856.51,2658.06,UPI
+ORD00129,2023-09-09,Delivered,CUST6170,Rohit Smith,Regular,West,Surat,TV,Electronics,Displays,2,40000,30000,80000,2186.24,14006.48,91820.24,17813.76,Cash on Delivery
+ORD00572,2023-09-10,Delivered,CUST8460,Neha Shah,VIP,North,Chandigarh,Laptop,Electronics,Computers,2,55000,45000,110000,19097.97,16362.37,107264.4,902.03,Debit Card
+ORD00859,2023-09-10,Delivered,CUST3780,Sai Nair,Regular,West,Ahmedabad,External HDD 1TB,Storage,Hard Drives,1,5000,3500,5000,99.81,882.03,5782.22,1400.19,Cash on Delivery
+ORD00088,2023-09-11,Delivered,CUST4777,Ayaan Taylor,Regular,North,Jaipur,Laptop Stand,Accessories,Ergonomics,1,2500,1500,2500,103.76,431.32,2827.56,896.24,Cash on Delivery
+ORD00094,2023-09-11,Delivered,CUST1452,Ayaan Reddy,Regular,East,Patna,Smart Watch,Electronics,Wearables,1,15000,10000,15000,533.55,2603.96,17070.41,4466.45,UPI
+ORD00430,2023-09-11,Processing,CUST3267,Rahul Verma,Premium,East,Kolkata,Memory Card 128GB,Storage,Flash Storage,4,1200,700,4800,245.16,819.87,5374.71,1754.84,Debit Card
+ORD00960,2023-09-11,Delivered,CUST6061,William Verma,Regular,West,Mumbai,Laptop Stand,Accessories,Ergonomics,1,2500,1500,2500,120.5,428.31,2807.81,879.5,Credit Card
+ORD00989,2023-09-11,Delivered,CUST6188,Ava Johnson,Regular,North,Lucknow,Headphones,Accessories,Audio,1,5000,3000,5000,190.22,865.76,5675.54,1809.78,UPI
+ORD00217,2023-09-12,Delivered,CUST9094,Vivaan Iyer,Regular,South,Chennai,TV,Electronics,Displays,1,40000,30000,40000,8.25,7198.51,47190.26,9991.75,Net Banking
+ORD00255,2023-09-12,Delivered,CUST6751,Aarav Patel,Premium,West,Surat,Laptop Stand,Accessories,Ergonomics,5,2500,1500,12500,1197.44,2034.46,13337.02,3802.56,Cash on Delivery
+ORD00378,2023-09-12,Delivered,CUST6700,James Menon,Regular,North,Jaipur,Mouse Pad,Accessories,Input Devices,3,800,300,2400,14.64,429.36,2814.72,1485.36,Cash on Delivery
+ORD00288,2023-09-16,Delivered,CUST8043,Neha Das,Regular,West,Surat,Monitor,Electronics,Displays,1,25000,18000,25000,771.11,4361.2,28590.09,6228.89,Credit Card
+ORD00321,2023-09-17,Delivered,CUST6277,Diya Gupta,Regular,West,Ahmedabad,Tablet,Electronics,Mobile,1,35000,27000,35000,1140.26,6094.75,39954.49,6859.74,Debit Card
+ORD00533,2023-09-17,Delivered,CUST1379,Sai Rao,Regular,East,Bhubaneswar,Monitor,Electronics,Displays,3,25000,18000,75000,2608.7,13030.43,85421.73,18391.3,UPI
+ORD00625,2023-09-17,Delivered,CUST2101,Isha Miller,Regular,South,Bangalore,WiFi Router,Networking,Routers,1,3500,2200,3500,20.81,626.25,4105.44,1279.19,Debit Card
+ORD00352,2023-09-18,Delivered,CUST1125,Sara Nair,VIP,West,Ahmedabad,Tablet,Electronics,Mobile,2,35000,27000,70000,7420.25,11264.35,73844.1,8579.75,UPI
+ORD00024,2023-09-19,Delivered,CUST4871,Reyansh Kumar,Regular,North,Jaipur,Memory Card 128GB,Storage,Flash Storage,2,1200,700,2400,46.61,423.61,2777.0,953.39,UPI
+ORD00528,2023-09-19,Delivered,CUST2143,Amit Pillai,Regular,West,Ahmedabad,Earbuds,Accessories,Audio,1,3500,2000,3500,140.41,604.73,3964.32,1359.59,Debit Card
+ORD00693,2023-09-20,Delivered,CUST8800,Ava Das,Premium,North,Jaipur,Mouse Pad,Accessories,Input Devices,2,800,300,1600,138.89,263.0,1724.11,861.11,UPI
+ORD00778,2023-09-21,Delivered,CUST6724,Sneha Taylor,VIP,West,Pune,Laptop,Electronics,Computers,3,55000,45000,165000,21736.81,25787.37,169050.56,8263.19,Cash on Delivery
+ORD00196,2023-09-22,Delivered,CUST6040,Vivaan Wilson,Regular,East,Bhubaneswar,Memory Card 128GB,Storage,Flash Storage,1,1200,700,1200,9.81,214.23,1404.42,490.19,UPI
+ORD00208,2023-09-22,Delivered,CUST6228,Isha Das,Regular,South,Chennai,Monitor,Electronics,Displays,1,25000,18000,25000,588.48,4394.07,28805.59,6411.52,UPI
+ORD00666,2023-09-22,Delivered,CUST1188,Ayaan Davis,Premium,West,Ahmedabad,TV,Electronics,Displays,1,40000,30000,40000,2272.86,6790.89,44518.03,7727.14,Credit Card
+ORD00205,2023-09-23,Processing,CUST5930,Emma Johnson,Premium,South,Chennai,Laptop,Electronics,Computers,2,55000,45000,110000,10986.08,17822.51,116836.43,9013.92,Debit Card
+ORD00538,2023-09-23,Delivered,CUST4777,Ayaan Taylor,Regular,North,Jaipur,USB Hub,Networking,Connectivity,2,1500,800,3000,136.89,515.36,3378.47,1263.11,Credit Card
+ORD00687,2023-09-24,Delivered,CUST7232,Michael Sharma,VIP,South,Kochi,Desktop PC,Electronics,Computers,1,45000,35000,45000,6430.07,6942.59,45512.52,3569.93,Cash on Delivery
+ORD00697,2023-09-24,Delivered,CUST5351,Emma Kumar,Premium,South,Hyderabad,Earbuds,Accessories,Audio,2,3500,2000,7000,501.53,1169.72,7668.19,2498.47,Credit Card
+ORD00826,2023-09-26,Delivered,CUST7543,Divya Joshi,VIP,North,Chandigarh,TV,Electronics,Displays,1,40000,30000,40000,4696.59,6354.61,41658.02,5303.41,Debit Card
+ORD00827,2023-09-26,Processing,CUST8609,Sara Menon,Premium,South,Hyderabad,Mouse,Accessories,Input Devices,1,1500,800,1500,76.61,256.21,1679.6,623.39,Credit Card
+ORD00990,2023-09-27,Returned,CUST3068,Ava Singh,Premium,West,Surat,Mouse,Accessories,Input Devices,1,1500,800,1500,83.63,254.95,1671.32,616.37,Credit Card
+ORD00186,2023-09-28,Delivered,CUST7717,Diya Gupta,Regular,East,Patna,Memory Card 128GB,Storage,Flash Storage,3,1200,700,3600,158.02,619.56,4061.54,1341.98,Debit Card
+ORD00689,2023-09-30,Delivered,CUST5150,Aditya Miller,Regular,South,Bangalore,Tablet,Electronics,Mobile,1,35000,27000,35000,355.5,6236.01,40880.51,7644.5,Debit Card
+ORD00745,2023-09-30,Delivered,CUST2821,Vikram Joshi,Regular,North,Chandigarh,Earbuds,Accessories,Audio,1,3500,2000,3500,29.97,624.61,4094.64,1470.03,UPI
+ORD00120,2023-10-03,Delivered,CUST9674,Divya Rao,Regular,South,Bangalore,Keyboard,Accessories,Input Devices,1,3000,1800,3000,19.04,536.57,3517.53,1180.96,Net Banking
+ORD00176,2023-10-03,Delivered,CUST2989,Vivaan Miller,Premium,North,Jaipur,External HDD 1TB,Storage,Hard Drives,1,5000,3500,5000,306.56,844.82,5538.26,1193.44,UPI
+ORD00347,2023-10-03,Delivered,CUST4972,Vihaan Davis,VIP,North,Jaipur,Keyboard,Accessories,Input Devices,1,3000,1800,3000,378.85,471.81,3092.96,821.15,Debit Card
+ORD00958,2023-10-03,Delivered,CUST1616,Vihaan Iyer,Premium,North,Delhi,Smart Watch,Electronics,Wearables,2,15000,10000,30000,1605.84,5110.95,33505.11,8394.16,Credit Card
+ORD00053,2023-10-04,Delivered,CUST2188,Aarav Das,Premium,West,Mumbai,Laptop,Electronics,Computers,4,55000,45000,220000,15892.09,36739.42,240847.33,24107.91,Debit Card
+ORD00364,2023-10-06,Delivered,CUST7086,Reyansh Davis,Regular,North,Lucknow,External SSD 500GB,Storage,Solid State,1,6000,4000,6000,261.27,1032.97,6771.7,1738.73,Cash on Delivery
+ORD00607,2023-10-07,Delivered,CUST3421,Isha Verma,Regular,West,Pune,Mouse Pad,Accessories,Input Devices,1,800,300,800,16.38,141.05,924.67,483.62,UPI
+ORD00194,2023-10-08,Delivered,CUST5616,John Smith,Regular,East,Bhubaneswar,Desktop PC,Electronics,Computers,4,45000,35000,180000,6341.71,31258.49,204916.78,33658.29,Debit Card
+ORD00214,2023-10-08,Delivered,CUST2375,Olivia Kumar,Premium,North,Lucknow,Earbuds,Accessories,Audio,2,3500,2000,7000,351.65,1196.7,7845.05,2648.35,UPI
+ORD00803,2023-10-08,Delivered,CUST9835,Priya Anderson,Regular,East,Patna,Earbuds,Accessories,Audio,1,3500,2000,3500,174.14,598.65,3924.51,1325.86,Debit Card
+ORD00200,2023-10-09,Delivered,CUST6674,William Miller,Regular,South,Chennai,Headphones,Accessories,Audio,2,5000,3000,10000,354.68,1736.16,11381.48,3645.32,Debit Card
+ORD00672,2023-10-09,Delivered,CUST5500,Vihaan Iyer,Regular,South,Kochi,TV,Electronics,Displays,1,40000,30000,40000,350.31,7136.94,46786.63,9649.69,UPI
+ORD00015,2023-10-10,Shipped,CUST2882,Amit Brown,Regular,South,Bangalore,Mouse,Accessories,Input Devices,1,1500,800,1500,25.96,265.33,1739.37,674.04,UPI
+ORD00910,2023-10-11,Delivered,CUST7812,Vihaan Shah,Premium,South,Bangalore,Phone,Electronics,Mobile,1,30000,22000,30000,2066.59,5028.01,32961.42,5933.41,Credit Card
+ORD00242,2023-10-12,Delivered,CUST3697,John Sharma,VIP,South,Kochi,External SSD 500GB,Storage,Solid State,1,6000,4000,6000,798.54,936.26,6137.72,1201.46,UPI
+ORD00627,2023-10-12,Delivered,CUST1422,Ananya Sharma,Regular,West,Ahmedabad,Laptop,Electronics,Computers,1,55000,45000,55000,2326.12,9481.3,62155.18,7673.88,Credit Card
+ORD00804,2023-10-12,Delivered,CUST9674,Divya Rao,Regular,South,Bangalore,Desktop PC,Electronics,Computers,3,45000,35000,135000,1515.7,24027.17,157511.47,28484.3,Debit Card
+ORD00638,2023-10-13,Delivered,CUST4728,Myra Sharma,Premium,South,Hyderabad,Mouse,Accessories,Input Devices,3,1500,800,4500,388.17,740.13,4851.96,1711.83,UPI
+ORD00878,2023-10-13,Delivered,CUST2391,Vihaan Kumar,Regular,West,Mumbai,TV,Electronics,Displays,1,40000,30000,40000,132.03,7176.23,47044.2,9867.97,Credit Card
+ORD00295,2023-10-15,Delivered,CUST8430,Arjun Anderson,Regular,South,Kochi,Tablet,Electronics,Mobile,1,35000,27000,35000,1061.6,6108.91,40047.31,6938.4,Debit Card
+ORD00127,2023-10-17,Delivered,CUST4923,Vihaan Joshi,Premium,East,Kolkata,Mouse Pad,Accessories,Input Devices,1,800,300,800,58.6,133.45,874.85,441.4,Credit Card
+ORD00202,2023-10-17,Delivered,CUST1510,Diya Wilson,Premium,South,Chennai,Webcam,Accessories,Video,2,4000,2500,8000,637.51,1325.25,8687.74,2362.49,Credit Card
+ORD00690,2023-10-17,Delivered,CUST8149,Ayaan Rao,Premium,North,Delhi,Laptop Stand,Accessories,Ergonomics,3,2500,1500,7500,600.03,1241.99,8141.96,2399.97,Credit Card
+ORD00098,2023-10-18,Delivered,CUST8368,Priya Menon,Premium,South,Bangalore,TV,Electronics,Displays,1,40000,30000,40000,2645.73,6723.77,44078.04,7354.27,UPI
+ORD00633,2023-10-18,Delivered,CUST9201,Pihu Smith,VIP,East,Patna,Phone,Electronics,Mobile,1,30000,22000,30000,3347.17,4797.51,31450.34,4652.83,UPI
+ORD00703,2023-10-18,Delivered,CUST1400,Aditya Joshi,VIP,West,Mumbai,Tablet,Electronics,Mobile,1,35000,27000,35000,4213.07,5541.65,36328.58,3786.93,Debit Card
+ORD00768,2023-10-18,Delivered,CUST1841,Michael Patel,Regular,West,Surat,Laptop Stand,Accessories,Ergonomics,1,2500,1500,2500,111.78,429.88,2818.1,888.22,Debit Card
+ORD00593,2023-10-20,Delivered,CUST7812,Vihaan Shah,Premium,South,Bangalore,USB Hub,Networking,Connectivity,4,1500,800,6000,513.54,987.56,6474.02,2286.46,UPI
+ORD00891,2023-10-20,Cancelled,CUST9199,Ava Das,Regular,North,Chandigarh,Laptop Stand,Accessories,Ergonomics,1,2500,1500,2500,31.12,444.4,2913.28,968.88,Credit Card
+ORD00526,2023-10-23,Delivered,CUST2989,Vivaan Miller,Premium,North,Jaipur,Smart Watch,Electronics,Wearables,2,15000,10000,30000,2152.1,5012.62,32860.52,7847.9,UPI
+ORD00886,2023-10-23,Delivered,CUST9201,Pihu Smith,VIP,East,Patna,Pen Drive 64GB,Storage,Flash Storage,3,800,400,2400,339.57,370.88,2431.31,860.43,UPI
+ORD00716,2023-10-25,Delivered,CUST5150,Aditya Miller,Regular,South,Bangalore,Pen Drive 64GB,Storage,Flash Storage,2,800,400,1600,41.97,280.45,1838.48,758.03,Net Banking
+ORD00730,2023-10-25,Delivered,CUST5150,Aditya Miller,Regular,South,Bangalore,WiFi Router,Networking,Routers,2,3500,2200,7000,194.01,1225.08,8031.07,2405.99,Debit Card
+ORD00502,2023-10-26,Delivered,CUST2824,Vivaan Taylor,Regular,North,Delhi,Smart Watch,Electronics,Wearables,2,15000,10000,30000,679.46,5277.7,34598.24,9320.54,Credit Card
+ORD00085,2023-10-27,Delivered,CUST1931,Sai Patel,Regular,North,Jaipur,WiFi Router,Networking,Routers,1,3500,2200,3500,133.18,606.03,3972.85,1166.82,Credit Card
+ORD00092,2023-10-27,Delivered,CUST6325,Michael Smith,Regular,East,Guwahati,Memory Card 128GB,Storage,Flash Storage,1,1200,700,1200,58.74,205.43,1346.69,441.26,Net Banking
+ORD00585,2023-10-27,Delivered,CUST3273,Michael Das,Premium,East,Kolkata,Memory Card 128GB,Storage,Flash Storage,2,1200,700,2400,183.94,398.89,2614.95,816.06,UPI
+ORD00160,2023-10-29,Delivered,CUST1841,Michael Patel,Regular,West,Surat,Monitor,Electronics,Displays,1,25000,18000,25000,917.49,4334.85,28417.36,6082.51,Cash on Delivery
+ORD00167,2023-10-29,Delivered,CUST6502,Neha Johnson,Regular,North,Chandigarh,External HDD 1TB,Storage,Hard Drives,1,5000,3500,5000,211.44,861.94,5650.5,1288.56,Credit Card
+ORD00334,2023-10-29,Delivered,CUST2887,Emma Sharma,VIP,North,Chandigarh,Pen Drive 64GB,Storage,Flash Storage,1,800,400,800,85.79,128.56,842.77,314.21,Debit Card
+ORD00767,2023-10-29,Delivered,CUST5065,Amit Patel,Premium,North,Delhi,Webcam,Accessories,Video,1,4000,2500,4000,274.89,670.52,4395.63,1225.11,Credit Card
+ORD00230,2023-10-31,Delivered,CUST9431,Aarav Davis,Premium,South,Bangalore,Ethernet Cable,Networking,Cables,1,500,200,500,49.72,81.05,531.33,250.28,Net Banking
+ORD00884,2023-10-31,Delivered,CUST4804,Aditya Patel,Regular,West,Mumbai,Phone,Electronics,Mobile,1,30000,22000,30000,561.79,5298.88,34737.09,7438.21,UPI
+ORD00861,2023-11-01,Delivered,CUST5616,John Smith,Regular,East,Bhubaneswar,Webcam,Accessories,Video,2,4000,2500,8000,284.66,1388.76,9104.1,2715.34,Net Banking
+ORD00014,2023-11-02,Delivered,CUST1626,Reyansh Wilson,Regular,West,Ahmedabad,Mouse,Accessories,Input Devices,3,1500,800,4500,170.14,779.37,5109.23,1929.86,Debit Card
+ORD00285,2023-11-02,Processing,CUST5458,William Davis,Regular,West,Surat,Memory Card 128GB,Storage,Flash Storage,1,1200,700,1200,38.04,209.15,1371.11,461.96,UPI
+ORD00381,2023-11-02,Shipped,CUST4453,James Wilson,Premium,South,Hyderabad,Pen Drive 64GB,Storage,Flash Storage,1,800,400,800,59.25,133.34,874.09,340.75,Net Banking
+ORD00057,2023-11-03,Delivered,CUST2530,Isha Davis,Regular,West,Pune,Phone,Electronics,Mobile,1,30000,22000,30000,413.94,5325.49,34911.55,7586.06,Credit Card
+ORD00463,2023-11-03,Shipped,CUST5616,John Smith,Regular,East,Bhubaneswar,WiFi Router,Networking,Routers,1,3500,2200,3500,6.27,628.87,4122.6,1293.73,Net Banking
+ORD00844,2023-11-03,Delivered,CUST5844,Ananya Shah,Regular,East,Bhubaneswar,Memory Card 128GB,Storage,Flash Storage,4,1200,700,4800,2.05,863.63,5661.58,1997.95,Cash on Delivery
+ORD00406,2023-11-04,Delivered,CUST1424,Pihu Bose,Regular,East,Kolkata,Smart Watch,Electronics,Wearables,5,15000,10000,75000,1131.91,13296.26,87164.35,23868.09,Debit Card
+ORD00717,2023-11-04,Delivered,CUST9153,Diya Joshi,Regular,South,Hyderabad,Smart Watch,Electronics,Wearables,5,15000,10000,75000,2566.18,13038.09,85471.91,22433.82,Credit Card
+ORD00559,2023-11-05,Delivered,CUST8204,John Menon,VIP,South,Kochi,USB Hub,Networking,Connectivity,4,1500,800,6000,976.31,904.26,5927.95,1823.69,Credit Card
+ORD00496,2023-11-06,Delivered,CUST3647,William Johnson,Premium,West,Mumbai,Earbuds,Accessories,Audio,2,3500,2000,7000,374.82,1192.53,7817.71,2625.18,Debit Card
+ORD00658,2023-11-06,Delivered,CUST9307,John Das,Regular,East,Kolkata,TV,Electronics,Displays,1,40000,30000,40000,153.32,7172.4,47019.08,9846.68,UPI
+ORD00064,2023-11-07,Delivered,CUST8579,Isha Gupta,Regular,East,Kolkata,Laptop Stand,Accessories,Ergonomics,2,2500,1500,5000,34.79,893.74,5858.95,1965.21,UPI
+ORD00128,2023-11-08,Delivered,CUST5616,John Smith,Regular,East,Bhubaneswar,Laptop,Electronics,Computers,1,55000,45000,55000,801.89,9755.66,63953.77,9198.11,Debit Card
+ORD00449,2023-11-08,Delivered,CUST8518,Rahul Anderson,Regular,West,Ahmedabad,Desktop PC,Electronics,Computers,1,45000,35000,45000,989.0,7921.98,51932.98,9011.0,Credit Card
+ORD00503,2023-11-08,Cancelled,CUST5835,Pooja Singh,Regular,North,Jaipur,Headphones,Accessories,Audio,2,5000,3000,10000,456.6,1717.81,11261.21,3543.4,UPI
+ORD00218,2023-11-10,Delivered,CUST9138,Vikram Joshi,Premium,South,Chennai,Smart Watch,Electronics,Wearables,1,15000,10000,15000,1127.5,2497.05,16369.55,3872.5,Credit Card
+ORD00963,2023-11-10,Delivered,CUST7939,Amit Verma,Regular,West,Ahmedabad,Tablet,Electronics,Mobile,1,35000,27000,35000,1274.57,6070.58,39796.01,6725.43,Credit Card
+ORD00550,2023-11-11,Delivered,CUST8149,Ayaan Rao,Premium,North,Delhi,Laptop,Electronics,Computers,1,55000,45000,55000,2887.38,9380.27,61492.89,7112.62,UPI
+ORD00009,2023-11-12,Delivered,CUST5616,John Smith,Regular,East,Bhubaneswar,WiFi Router,Networking,Routers,1,3500,2200,3500,80.92,615.43,4034.51,1219.08,Net Banking
+ORD00029,2023-11-12,Delivered,CUST7325,Diya Bose,VIP,North,Lucknow,Mouse Pad,Accessories,Input Devices,1,800,300,800,131.9,120.26,788.36,368.1,Debit Card
+ORD00477,2023-11-12,Delivered,CUST2391,Vihaan Kumar,Regular,West,Mumbai,Monitor,Electronics,Displays,2,25000,18000,50000,2161.48,8610.93,56449.45,11838.52,Credit Card
+ORD00599,2023-11-12,Delivered,CUST4941,James Patel,Premium,North,Lucknow,Desktop PC,Electronics,Computers,1,45000,35000,45000,3489.66,7471.86,48982.2,6510.34,Credit Card
+ORD00674,2023-11-12,Cancelled,CUST8460,Neha Shah,VIP,North,Chandigarh,Smart Watch,Electronics,Wearables,1,15000,10000,15000,2573.51,2236.77,14663.26,2426.49,UPI
+ORD00116,2023-11-14,Processing,CUST2215,William Das,Premium,South,Chennai,Memory Card 128GB,Storage,Flash Storage,2,1200,700,2400,153.3,404.41,2651.11,846.7,Cash on Delivery
+ORD00665,2023-11-14,Delivered,CUST8461,James Miller,Regular,West,Surat,TV,Electronics,Displays,1,40000,30000,40000,1594.09,6913.06,45318.97,8405.91,Debit Card
+ORD00712,2023-11-14,Delivered,CUST7965,Ayaan Johnson,Regular,North,Lucknow,Tablet,Electronics,Mobile,1,35000,27000,35000,1401.93,6047.65,39645.72,6598.07,Debit Card
+ORD00621,2023-11-16,Delivered,CUST1406,Pihu Taylor,VIP,West,Surat,Smart Watch,Electronics,Wearables,4,15000,10000,60000,8877.11,9202.12,60325.01,11122.89,Debit Card
+ORD00265,2023-11-17,Delivered,CUST7163,James Das,Regular,South,Hyderabad,Laptop Stand,Accessories,Ergonomics,4,2500,1500,10000,487.91,1712.18,11224.27,3512.09,UPI
+ORD00446,2023-11-17,Cancelled,CUST9317,Priya Kumar,Regular,North,Delhi,USB Hub,Networking,Connectivity,2,1500,800,3000,57.06,529.73,3472.67,1342.94,UPI
+ORD00136,2023-11-18,Delivered,CUST2232,Diya Johnson,Regular,South,Chennai,Smart Watch,Electronics,Wearables,1,15000,10000,15000,337.18,2639.31,17302.13,4662.82,Cash on Delivery
+ORD00682,2023-11-18,Delivered,CUST3041,Rohit Smith,Regular,South,Kochi,Laptop,Electronics,Computers,1,55000,45000,55000,1727.81,9588.99,62861.18,8272.19,Credit Card
+ORD00134,2023-11-19,Delivered,CUST6482,Arjun Menon,Regular,West,Ahmedabad,Smart Watch,Electronics,Wearables,1,15000,10000,15000,195.74,2664.77,17469.03,4804.26,Net Banking
+ORD00594,2023-11-21,Delivered,CUST7965,Ayaan Johnson,Regular,North,Lucknow,Monitor,Electronics,Displays,1,25000,18000,25000,51.44,4490.74,29439.3,6948.56,Debit Card
+ORD00653,2023-11-21,Delivered,CUST8560,Ayaan Miller,Premium,South,Hyderabad,Laptop,Electronics,Computers,2,55000,45000,110000,8733.94,18227.89,119493.95,11266.06,UPI
+ORD00673,2023-11-21,Delivered,CUST1605,Vikram Shah,Regular,North,Delhi,Memory Card 128GB,Storage,Flash Storage,1,1200,700,1200,56.92,205.75,1348.83,443.08,Credit Card
+ORD00271,2023-11-22,Cancelled,CUST6939,Vikram Gupta,Regular,South,Hyderabad,Memory Card 128GB,Storage,Flash Storage,1,1200,700,1200,47.04,207.53,1360.49,452.96,Debit Card
+ORD00683,2023-11-24,Shipped,CUST8149,Ayaan Rao,Premium,North,Delhi,USB Hub,Networking,Connectivity,2,1500,800,3000,268.9,491.6,3222.7,1131.1,Credit Card
+ORD00148,2023-11-26,Delivered,CUST3050,Rohit Wilson,Regular,South,Chennai,External SSD 500GB,Storage,Solid State,1,6000,4000,6000,169.7,1049.45,6879.75,1830.3,Debit Card
+ORD00380,2023-11-27,Delivered,CUST2821,Vikram Joshi,Regular,North,Chandigarh,Mouse Pad,Accessories,Input Devices,2,800,300,1600,24.97,283.51,1858.54,975.03,UPI
+ORD00616,2023-11-27,Delivered,CUST6733,Myra Miller,Regular,East,Kolkata,Tablet,Electronics,Mobile,2,35000,27000,70000,584.98,12494.7,81909.72,15415.02,UPI
+ORD00471,2023-11-28,Delivered,CUST1601,Sophia Gupta,Regular,South,Kochi,Phone,Electronics,Mobile,1,30000,22000,30000,760.03,5263.19,34503.16,7239.97,Debit Card
+ORD00877,2023-11-28,Delivered,CUST8368,Priya Menon,Premium,South,Bangalore,Tablet,Electronics,Mobile,1,35000,27000,35000,1935.3,5951.65,39016.35,6064.7,Debit Card
+ORD00355,2023-11-29,Delivered,CUST3114,Olivia Smith,VIP,North,Delhi,Monitor,Electronics,Displays,5,25000,18000,125000,16057.61,19609.63,128552.02,18942.39,UPI
+ORD00880,2023-11-29,Delivered,CUST5681,Aarav Singh,Regular,East,Patna,Monitor,Electronics,Displays,1,25000,18000,25000,118.43,4478.68,29360.25,6881.57,UPI
+ORD00183,2023-11-30,Delivered,CUST4139,Priya Johnson,Regular,South,Hyderabad,Phone,Electronics,Mobile,1,30000,22000,30000,596.03,5292.71,34696.68,7403.97,Cash on Delivery
+ORD00499,2023-11-30,Delivered,CUST6939,Vikram Gupta,Regular,South,Hyderabad,External SSD 500GB,Storage,Solid State,1,6000,4000,6000,178.82,1047.81,6868.99,1821.18,Credit Card
+ORD00771,2023-11-30,Delivered,CUST9452,Ayaan Nair,Regular,North,Chandigarh,External HDD 1TB,Storage,Hard Drives,2,5000,3500,10000,74.49,1786.59,11712.1,2925.51,UPI
+ORD00917,2023-11-30,Delivered,CUST7511,Divya Gupta,Premium,North,Delhi,Laptop,Electronics,Computers,2,55000,45000,110000,10303.89,17945.3,117641.41,9696.11,Debit Card
+ORD00007,2023-12-02,Delivered,CUST6021,William Wilson,Premium,North,Chandigarh,TV,Electronics,Displays,2,40000,30000,80000,4599.41,13572.11,88972.7,15400.59,UPI
+ORD00885,2023-12-03,Delivered,CUST3573,Isha Patel,Regular,North,Chandigarh,USB Hub,Networking,Connectivity,5,1500,800,7500,166.4,1320.05,8653.65,3333.6,UPI
+ORD00059,2023-12-04,Delivered,CUST8972,Rohit Verma,Regular,East,Kolkata,Earbuds,Accessories,Audio,3,3500,2000,10500,199.44,1854.1,12154.66,4300.56,Net Banking
+ORD00269,2023-12-05,Cancelled,CUST8149,Ayaan Rao,Premium,North,Delhi,Monitor,Electronics,Displays,2,25000,18000,50000,3137.54,8435.24,55297.7,10862.46,Credit Card
+ORD00679,2023-12-07,Shipped,CUST1605,Vikram Shah,Regular,North,Delhi,External SSD 500GB,Storage,Solid State,2,6000,4000,12000,555.9,2059.94,13504.04,3444.1,Net Banking
+ORD00808,2023-12-08,Delivered,CUST2821,Vikram Joshi,Regular,North,Chandigarh,Mouse,Accessories,Input Devices,4,1500,800,6000,249.76,1035.04,6785.28,2550.24,Credit Card
+ORD00568,2023-12-10,Delivered,CUST2669,Rohit Davis,Premium,North,Delhi,Ethernet Cable,Networking,Cables,1,500,200,500,31.74,84.29,552.55,268.26,Credit Card
+ORD00219,2023-12-12,Delivered,CUST6188,Ava Johnson,Regular,North,Lucknow,External HDD 1TB,Storage,Hard Drives,2,5000,3500,10000,298.18,1746.33,11448.15,2701.82,Credit Card
+ORD00325,2023-12-13,Delivered,CUST4919,Amit Das,Regular,South,Hyderabad,Tablet,Electronics,Mobile,1,35000,27000,35000,700.98,6173.82,40472.84,7299.02,UPI
+ORD00828,2023-12-13,Delivered,CUST5844,Ananya Shah,Regular,East,Bhubaneswar,Mouse Pad,Accessories,Input Devices,2,800,300,1600,70.8,275.26,1804.46,929.2,Credit Card
+ORD00941,2023-12-13,Cancelled,CUST7211,Neha Shah,Regular,South,Kochi,Desktop PC,Electronics,Computers,1,45000,35000,45000,1159.73,7891.25,51731.52,8840.27,UPI
+ORD00849,2023-12-14,Delivered,CUST7924,Pooja Reddy,Regular,East,Patna,External SSD 500GB,Storage,Solid State,3,6000,4000,18000,750.87,3104.84,20353.97,5249.13,UPI
+ORD00246,2023-12-16,Delivered,CUST5067,Aadhya Menon,VIP,West,Pune,TV,Electronics,Displays,2,40000,30000,80000,11649.66,12303.06,80653.4,8350.34,Credit Card
+ORD00433,2023-12-16,Delivered,CUST7543,Divya Joshi,VIP,North,Chandigarh,Memory Card 128GB,Storage,Flash Storage,4,1200,700,4800,588.28,758.11,4969.83,1411.72,Credit Card
+ORD00590,2023-12-18,Delivered,CUST2940,James Wilson,Regular,West,Surat,Pen Drive 64GB,Storage,Flash Storage,2,800,400,1600,32.94,282.07,1849.13,767.06,Debit Card
+ORD00287,2023-12-19,Processing,CUST1674,Vivaan Gupta,Regular,West,Ahmedabad,Phone,Electronics,Mobile,1,30000,22000,30000,1122.44,5197.96,34075.52,6877.56,Net Banking
+ORD00595,2023-12-19,Delivered,CUST7209,Pooja Sharma,Regular,South,Kochi,Memory Card 128GB,Storage,Flash Storage,2,1200,700,2400,79.87,417.62,2737.75,920.13,Cash on Delivery
+ORD00584,2023-12-20,Delivered,CUST9937,Vikram Menon,Regular,South,Hyderabad,Laptop Stand,Accessories,Ergonomics,1,2500,1500,2500,7.92,448.57,2940.65,992.08,Net Banking
+ORD00071,2023-12-23,Delivered,CUST7615,Ayaan Brown,Regular,West,Mumbai,Tablet,Electronics,Mobile,3,35000,27000,105000,3833.29,18210.01,119376.72,20166.71,Credit Card
+ORD00460,2023-12-24,Shipped,CUST4475,Sneha Reddy,Regular,East,Patna,Desktop PC,Electronics,Computers,1,45000,35000,45000,123.89,8077.7,52953.81,9876.11,UPI
+ORD00649,2023-12-24,Delivered,CUST5339,Ananya Joshi,Premium,South,Kochi,WiFi Router,Networking,Routers,1,3500,2200,3500,321.46,572.14,3750.68,978.54,UPI
+ORD00164,2023-12-25,Delivered,CUST2674,Sai Rao,Regular,West,Ahmedabad,Keyboard,Accessories,Input Devices,1,3000,1800,3000,103.98,521.28,3417.3,1096.02,Credit Card
+ORD00486,2023-12-25,Delivered,CUST7504,Ava Patel,VIP,East,Patna,Memory Card 128GB,Storage,Flash Storage,2,1200,700,2400,289.58,379.88,2490.3,710.42,Cash on Delivery
+ORD00090,2023-12-26,Delivered,CUST3573,Isha Patel,Regular,North,Chandigarh,TV,Electronics,Displays,3,40000,30000,120000,3527.54,20965.04,137437.5,26472.46,Debit Card
+ORD00107,2023-12-26,Delivered,CUST3610,Ava Smith,Regular,East,Guwahati,Laptop,Electronics,Computers,2,55000,45000,110000,902.64,19637.52,128734.88,19097.36,Credit Card
+ORD00788,2023-12-26,Delivered,CUST9734,Pooja Johnson,Regular,West,Ahmedabad,Keyboard,Accessories,Input Devices,3,3000,1800,9000,171.07,1589.21,10418.14,3428.93,Net Banking
+ORD00331,2023-12-28,Delivered,CUST8251,Olivia Johnson,Regular,North,Chandigarh,Phone,Electronics,Mobile,5,30000,22000,150000,5847.55,25947.44,170099.89,34152.45,Credit Card
+ORD00144,2023-12-29,Delivered,CUST6438,Amit Singh,Premium,South,Kochi,Laptop,Electronics,Computers,1,55000,45000,55000,3923.33,9193.8,60270.47,6076.67,Credit Card
+ORD00527,2023-12-29,Delivered,CUST9094,Vivaan Iyer,Regular,South,Chennai,Desktop PC,Electronics,Computers,1,45000,35000,45000,1195.41,7884.83,51689.42,8804.59,Cash on Delivery
+ORD00694,2023-12-29,Cancelled,CUST9835,Priya Anderson,Regular,East,Patna,Earbuds,Accessories,Audio,4,3500,2000,14000,329.65,2460.66,16131.01,5670.35,Cash on Delivery
+ORD00968,2023-12-29,Delivered,CUST6674,William Miller,Regular,South,Chennai,Laptop Stand,Accessories,Ergonomics,2,2500,1500,5000,45.78,891.76,5845.98,1954.22,Credit Card
+ORD00067,2023-12-30,Delivered,CUST7615,Ayaan Brown,Regular,West,Mumbai,Tablet,Electronics,Mobile,3,35000,27000,105000,3452.41,18278.57,119826.16,20547.59,UPI
+ORD00739,2023-12-30,Delivered,CUST5067,Aadhya Menon,VIP,West,Pune,Mouse,Accessories,Input Devices,1,1500,800,1500,299.05,216.17,1417.12,400.95,UPI
+ORD00980,2023-12-30,Delivered,CUST4811,Vivaan Johnson,Regular,West,Surat,Webcam,Accessories,Video,3,4000,2500,12000,111.69,2139.9,14028.21,4388.31,Credit Card
+ORD00914,2023-12-31,Delivered,CUST2768,Ava Anderson,VIP,North,Delhi,Mouse Pad,Accessories,Input Devices,1,800,300,800,84.58,128.78,844.2,415.42,Credit Card
+ORD00650,2024-01-01,Delivered,CUST5662,Sophia Miller,Regular,South,Chennai,Earbuds,Accessories,Audio,1,3500,2000,3500,74.93,616.51,4041.58,1425.07,Credit Card
+ORD00236,2024-01-03,Shipped,CUST5681,Aarav Singh,Regular,East,Patna,External HDD 1TB,Storage,Hard Drives,1,5000,3500,5000,94.94,882.91,5787.97,1405.06,Net Banking
+ORD00542,2024-01-03,Delivered,CUST2108,Vivaan Rao,Premium,North,Chandigarh,Tablet,Electronics,Mobile,2,35000,27000,70000,6772.65,11380.92,74608.27,9227.35,Credit Card
+ORD00698,2024-01-05,Delivered,CUST1626,Reyansh Wilson,Regular,West,Ahmedabad,External SSD 500GB,Storage,Solid State,3,6000,4000,18000,751.32,3104.76,20353.44,5248.68,Net Banking
+ORD00900,2024-01-06,Delivered,CUST5415,Aditya Patel,Regular,West,Ahmedabad,Mouse,Accessories,Input Devices,1,1500,800,1500,69.11,257.56,1688.45,630.89,UPI
+ORD00391,2024-01-08,Delivered,CUST2882,Amit Brown,Regular,South,Bangalore,Monitor,Electronics,Displays,3,25000,18000,75000,2324.0,13081.68,85757.68,18676.0,UPI
+ORD00927,2024-01-12,Delivered,CUST1310,William Menon,Regular,South,Chennai,TV,Electronics,Displays,2,40000,30000,80000,464.42,14316.4,93851.98,19535.58,Debit Card
+ORD00096,2024-01-13,Delivered,CUST2200,Sara Smith,Regular,East,Kolkata,Mouse Pad,Accessories,Input Devices,2,800,300,1600,22.26,283.99,1861.73,977.74,UPI
+ORD00899,2024-01-13,Delivered,CUST5542,Diya Kumar,Regular,West,Mumbai,Pen Drive 64GB,Storage,Flash Storage,2,800,400,1600,50.8,278.86,1828.06,749.2,Cash on Delivery
+ORD00603,2024-01-14,Delivered,CUST2768,Ava Anderson,VIP,North,Delhi,Mouse Pad,Accessories,Input Devices,1,800,300,800,148.3,117.31,769.01,351.7,Debit Card
+ORD00175,2024-01-15,Delivered,CUST6091,Aarav Johnson,Regular,North,Delhi,Phone,Electronics,Mobile,2,30000,22000,60000,1162.58,10590.74,69428.16,14837.42,Debit Card
+ORD00327,2024-01-15,Delivered,CUST8932,Priya Joshi,Regular,South,Hyderabad,Laptop Stand,Accessories,Ergonomics,1,2500,1500,2500,32.89,444.08,2911.19,967.11,Debit Card
+ORD00376,2024-01-16,Delivered,CUST2501,Sara Miller,Premium,East,Kolkata,Laptop Stand,Accessories,Ergonomics,1,2500,1500,2500,224.93,409.51,2684.58,775.07,Debit Card
+ORD00403,2024-01-16,Delivered,CUST6061,William Verma,Regular,West,Mumbai,Memory Card 128GB,Storage,Flash Storage,5,1200,700,6000,97.4,1062.47,6965.07,2402.6,Net Banking
+ORD00348,2024-01-17,Delivered,CUST8204,John Menon,VIP,South,Kochi,Laptop Stand,Accessories,Ergonomics,1,2500,1500,2500,425.18,373.47,2448.29,574.82,Debit Card
+ORD00004,2024-01-18,Delivered,CUST9443,Isha Anderson,Regular,South,Hyderabad,Smart Watch,Electronics,Wearables,1,15000,10000,15000,741.63,2566.51,16824.88,4258.37,Debit Card
+ORD00216,2024-01-18,Shipped,CUST9443,Isha Anderson,Regular,South,Hyderabad,Mouse Pad,Accessories,Input Devices,1,800,300,800,21.35,140.16,918.81,478.65,UPI
+ORD00069,2024-01-19,Delivered,CUST6228,Isha Das,Regular,South,Chennai,WiFi Router,Networking,Routers,2,3500,2200,7000,77.36,1246.08,8168.72,2522.64,UPI
+ORD00896,2024-01-19,Processing,CUST4811,Vivaan Johnson,Regular,West,Surat,Laptop,Electronics,Computers,3,55000,45000,165000,6025.54,28615.4,187589.86,23974.46,Cash on Delivery
+ORD00320,2024-01-20,Delivered,CUST4611,William Brown,Regular,East,Bhubaneswar,WiFi Router,Networking,Routers,2,3500,2200,7000,181.92,1227.25,8045.33,2418.08,Debit Card
+ORD00404,2024-01-20,Processing,CUST8451,Divya Davis,Premium,South,Kochi,USB Hub,Networking,Connectivity,1,1500,800,1500,115.92,249.13,1633.21,584.08,Credit Card
+ORD00476,2024-01-20,Delivered,CUST1993,Emma Taylor,Regular,East,Bhubaneswar,Smart Watch,Electronics,Wearables,1,15000,10000,15000,23.38,2695.79,17672.41,4976.62,UPI
+ORD00012,2024-01-22,Delivered,CUST6295,Neha Kumar,Regular,South,Hyderabad,Webcam,Accessories,Video,5,4000,2500,20000,382.48,3531.15,23148.67,7117.52,UPI
+ORD00837,2024-01-22,Cancelled,CUST5668,William Joshi,Regular,South,Kochi,Mouse,Accessories,Input Devices,1,1500,800,1500,22.95,265.87,1742.92,677.05,Debit Card
+ORD00873,2024-01-22,Processing,CUST6881,Vikram Anderson,Regular,East,Guwahati,External HDD 1TB,Storage,Hard Drives,1,5000,3500,5000,1.17,899.79,5898.62,1498.83,Debit Card
+ORD00892,2024-01-22,Delivered,CUST2108,Vivaan Rao,Premium,North,Chandigarh,Phone,Electronics,Mobile,4,30000,22000,120000,8157.49,20131.65,131974.16,23842.51,Debit Card
+ORD00304,2024-01-23,Delivered,CUST1742,Aditya Kumar,Premium,West,Surat,Memory Card 128GB,Storage,Flash Storage,2,1200,700,2400,165.2,402.26,2637.06,834.8,Net Banking
+ORD00032,2024-01-24,Delivered,CUST4871,Reyansh Kumar,Regular,North,Jaipur,Headphones,Accessories,Audio,1,5000,3000,5000,82.47,885.16,5802.69,1917.53,UPI
+ORD00056,2024-01-25,Delivered,CUST2586,Vihaan Nair,VIP,East,Guwahati,Mouse,Accessories,Input Devices,2,1500,800,3000,350.87,476.84,3125.97,1049.13,Credit Card
+ORD00695,2024-01-26,Delivered,CUST9734,Pooja Johnson,Regular,West,Ahmedabad,Desktop PC,Electronics,Computers,1,45000,35000,45000,1135.22,7895.66,51760.44,8864.78,Debit Card
+ORD00925,2024-01-26,Delivered,CUST8932,Priya Joshi,Regular,South,Hyderabad,Phone,Electronics,Mobile,2,30000,22000,60000,1131.03,10596.41,69465.38,14868.97,Cash on Delivery
+ORD00882,2024-01-27,Delivered,CUST2622,Ava Wilson,Regular,East,Kolkata,Laptop,Electronics,Computers,2,55000,45000,110000,3217.7,19220.81,126003.11,16782.3,Debit Card
+ORD00497,2024-01-29,Delivered,CUST4804,Aditya Patel,Regular,West,Mumbai,Mouse,Accessories,Input Devices,2,1500,800,3000,146.08,513.71,3367.63,1253.92,UPI
+ORD00544,2024-01-29,Delivered,CUST6188,Ava Johnson,Regular,North,Lucknow,Ethernet Cable,Networking,Cables,1,500,200,500,13.86,87.51,573.65,286.14,Debit Card
+ORD00275,2024-01-31,Delivered,CUST7511,Divya Gupta,Premium,North,Delhi,Mouse Pad,Accessories,Input Devices,4,800,300,3200,311.2,519.98,3408.78,1688.8,Credit Card
+ORD00852,2024-01-31,Delivered,CUST5381,Vivaan Patel,Regular,West,Ahmedabad,TV,Electronics,Displays,4,40000,30000,160000,509.67,28708.26,188198.59,39490.33,UPI
+ORD00854,2024-01-31,Delivered,CUST5735,Sara Anderson,Premium,South,Hyderabad,External SSD 500GB,Storage,Solid State,1,6000,4000,6000,359.7,1015.25,6655.55,1640.3,UPI
+ORD00432,2024-02-01,Shipped,CUST7018,Amit Gupta,Premium,North,Jaipur,Keyboard,Accessories,Input Devices,3,3000,1800,9000,731.61,1488.31,9756.7,2868.39,Net Banking
+ORD00567,2024-02-01,Delivered,CUST2530,Isha Davis,Regular,West,Pune,TV,Electronics,Displays,4,40000,30000,160000,3639.93,28144.81,184504.88,36360.07,Debit Card
+ORD00427,2024-02-02,Delivered,CUST8177,William Singh,Regular,North,Delhi,External HDD 1TB,Storage,Hard Drives,2,5000,3500,10000,4.17,1799.25,11795.08,2995.83,UPI
+ORD00676,2024-02-02,Delivered,CUST4728,Myra Sharma,Premium,South,Hyderabad,Memory Card 128GB,Storage,Flash Storage,3,1200,700,3600,334.38,587.81,3853.43,1165.62,Cash on Delivery
+ORD00711,2024-02-02,Delivered,CUST5742,Neha Singh,Regular,West,Pune,Phone,Electronics,Mobile,1,30000,22000,30000,312.33,5343.78,35031.45,7687.67,Credit Card
+ORD00713,2024-02-02,Delivered,CUST9666,Aarav Davis,Premium,South,Bangalore,Webcam,Accessories,Video,2,4000,2500,8000,595.85,1332.75,8736.9,2404.15,UPI
+ORD00928,2024-02-02,Cancelled,CUST2824,Vivaan Taylor,Regular,North,Delhi,Headphones,Accessories,Audio,1,5000,3000,5000,133.9,875.9,5742.0,1866.1,Debit Card
+ORD00646,2024-02-03,Delivered,CUST6661,Rohit Miller,VIP,West,Surat,Monitor,Electronics,Displays,1,25000,18000,25000,2836.22,3989.48,26153.26,4163.78,Credit Card
+ORD00671,2024-02-04,Delivered,CUST4728,Myra Sharma,Premium,South,Hyderabad,Earbuds,Accessories,Audio,1,3500,2000,3500,277.26,580.09,3802.83,1222.74,UPI
+ORD00540,2024-02-05,Delivered,CUST2391,Vihaan Kumar,Regular,West,Mumbai,Keyboard,Accessories,Input Devices,1,3000,1800,3000,49.47,531.1,3481.63,1150.53,Debit Card
+ORD00298,2024-02-06,Delivered,CUST9488,Diya Nair,Regular,South,Chennai,External SSD 500GB,Storage,Solid State,2,6000,4000,12000,89.18,2143.95,14054.77,3910.82,UPI
+ORD00720,2024-02-07,Delivered,CUST3532,Isha Patel,VIP,West,Surat,External HDD 1TB,Storage,Hard Drives,1,5000,3500,5000,591.1,793.6,5202.5,908.9,Debit Card
+ORD00133,2024-02-08,Delivered,CUST7615,Ayaan Brown,Regular,West,Mumbai,WiFi Router,Networking,Routers,1,3500,2200,3500,23.36,625.8,4102.44,1276.64,UPI
+ORD00506,2024-02-08,Delivered,CUST7325,Diya Bose,VIP,North,Lucknow,Laptop,Electronics,Computers,1,55000,45000,55000,9362.22,8214.8,53852.58,637.78,UPI
+ORD00947,2024-02-08,Delivered,CUST3114,Olivia Smith,VIP,North,Delhi,Monitor,Electronics,Displays,1,25000,18000,25000,4251.85,3734.67,24482.82,2748.15,Debit Card
+ORD00984,2024-02-09,Delivered,CUST1207,James Bose,Regular,East,Guwahati,Tablet,Electronics,Mobile,1,35000,27000,35000,70.45,6287.32,41216.87,7929.55,Debit Card
+ORD00157,2024-02-10,Delivered,CUST7240,Vikram Das,Regular,South,Bangalore,Phone,Electronics,Mobile,1,30000,22000,30000,1412.88,5145.68,33732.8,6587.12,Debit Card
+ORD00028,2024-02-11,Processing,CUST4941,James Patel,Premium,North,Lucknow,Mouse,Accessories,Input Devices,2,1500,800,3000,255.57,494.0,3238.43,1144.43,UPI
+ORD00299,2024-02-11,Delivered,CUST6188,Ava Johnson,Regular,North,Lucknow,Smart Watch,Electronics,Wearables,1,15000,10000,15000,382.81,2631.09,17248.28,4617.19,Credit Card
+ORD00322,2024-02-11,Delivered,CUST1379,Sai Rao,Regular,East,Bhubaneswar,Webcam,Accessories,Video,2,4000,2500,8000,396.72,1368.59,8971.87,2603.28,Debit Card
+ORD00174,2024-02-12,Delivered,CUST6138,Vihaan Verma,Regular,South,Chennai,External SSD 500GB,Storage,Solid State,3,6000,4000,18000,277.52,3190.05,20912.53,5722.48,Net Banking
+ORD00905,2024-02-12,Delivered,CUST6464,Isha Kumar,Premium,North,Jaipur,Smart Watch,Electronics,Wearables,1,15000,10000,15000,907.14,2536.71,16629.57,4092.86,Credit Card
+ORD00986,2024-02-14,Delivered,CUST5150,Aditya Miller,Regular,South,Bangalore,Smart Watch,Electronics,Wearables,1,15000,10000,15000,573.29,2596.81,17023.52,4426.71,Cash on Delivery
+ORD00192,2024-02-18,Delivered,CUST3513,William Iyer,Regular,West,Pune,Monitor,Electronics,Displays,1,25000,18000,25000,886.96,4340.35,28453.39,6113.04,Net Banking
+ORD00220,2024-02-18,Delivered,CUST8840,Pihu Kumar,Regular,West,Surat,Webcam,Accessories,Video,3,4000,2500,12000,98.93,2142.19,14043.26,4401.07,Credit Card
+ORD00333,2024-02-18,Delivered,CUST3434,William Johnson,Regular,South,Kochi,Mouse,Accessories,Input Devices,2,1500,800,3000,29.18,534.75,3505.57,1370.82,Credit Card
+ORD00639,2024-02-19,Returned,CUST5742,Neha Singh,Regular,West,Pune,Webcam,Accessories,Video,1,4000,2500,4000,120.63,698.29,4577.66,1379.37,Debit Card
+ORD00040,2024-02-20,Delivered,CUST2041,Michael Das,Premium,South,Bangalore,Keyboard,Accessories,Input Devices,3,3000,1800,9000,485.56,1532.6,10047.04,3114.44,Credit Card
+ORD00577,2024-02-20,Delivered,CUST4178,Divya Davis,VIP,East,Guwahati,External HDD 1TB,Storage,Hard Drives,3,5000,3500,15000,2811.3,2193.97,14382.67,1688.7,Net Banking
+ORD00668,2024-02-21,Shipped,CUST5106,Ananya Miller,Regular,West,Mumbai,USB Hub,Networking,Connectivity,1,1500,800,1500,4.77,269.14,1764.37,695.23,UPI
+ORD00319,2024-02-23,Delivered,CUST8381,Reyansh Menon,VIP,North,Jaipur,Phone,Electronics,Mobile,1,30000,22000,30000,5630.3,4386.55,28756.25,2369.7,Credit Card
+ORD00212,2024-02-24,Returned,CUST8177,William Singh,Regular,North,Delhi,Smart Watch,Electronics,Wearables,1,15000,10000,15000,150.22,2672.96,17522.74,4849.78,Net Banking
+ORD00312,2024-02-25,Delivered,CUST6654,Diya Nair,Regular,East,Kolkata,External SSD 500GB,Storage,Solid State,3,6000,4000,18000,153.51,3212.37,21058.86,5846.49,UPI
+ORD00237,2024-02-26,Delivered,CUST8149,Ayaan Rao,Premium,North,Delhi,External SSD 500GB,Storage,Solid State,4,6000,4000,24000,1335.52,4079.61,26744.09,6664.48,Credit Card
+ORD00439,2024-02-26,Delivered,CUST7543,Divya Joshi,VIP,North,Chandigarh,Earbuds,Accessories,Audio,3,3500,2000,10500,1484.74,1622.75,10638.01,3015.26,UPI
+ORD00372,2024-02-27,Delivered,CUST2644,William Singh,Regular,South,Chennai,Ethernet Cable,Networking,Cables,2,500,200,1000,40.44,172.72,1132.28,559.56,Credit Card
+ORD00055,2024-02-28,Delivered,CUST9734,Pooja Johnson,Regular,West,Ahmedabad,Earbuds,Accessories,Audio,3,3500,2000,10500,6.48,1888.83,12382.35,4493.52,Credit Card
+ORD00165,2024-02-28,Delivered,CUST2140,Diya Taylor,Premium,North,Jaipur,External HDD 1TB,Storage,Hard Drives,2,5000,3500,10000,984.55,1622.78,10638.23,2015.45,Debit Card
+ORD00177,2024-02-28,Cancelled,CUST9666,Aarav Davis,Premium,South,Bangalore,Phone,Electronics,Mobile,2,30000,22000,60000,5424.54,9823.58,64399.04,10575.46,UPI
+ORD00095,2024-02-29,Delivered,CUST8840,Pihu Kumar,Regular,West,Surat,Smart Watch,Electronics,Wearables,2,15000,10000,30000,403.08,5327.45,34924.37,9596.92,Credit Card
+ORD00397,2024-03-01,Delivered,CUST4981,Michael Pillai,Regular,North,Chandigarh,Webcam,Accessories,Video,2,4000,2500,8000,375.3,1372.45,8997.15,2624.7,UPI
+ORD00554,2024-03-01,Delivered,CUST2622,Ava Wilson,Regular,East,Kolkata,Phone,Electronics,Mobile,1,30000,22000,30000,211.86,5361.87,35150.01,7788.14,Debit Card
+ORD00744,2024-03-01,Delivered,CUST5844,Ananya Shah,Regular,East,Bhubaneswar,Tablet,Electronics,Mobile,3,35000,27000,105000,2305.32,18485.04,121179.72,21694.68,Credit Card
+ORD00125,2024-03-02,Processing,CUST8609,Sara Menon,Premium,South,Hyderabad,Ethernet Cable,Networking,Cables,1,500,200,500,33.05,84.05,551.0,266.95,Debit Card
+ORD00190,2024-03-02,Delivered,CUST9153,Diya Joshi,Regular,South,Hyderabad,External HDD 1TB,Storage,Hard Drives,3,5000,3500,15000,240.65,2656.68,17416.03,4259.35,Credit Card
+ORD00769,2024-03-03,Delivered,CUST4728,Myra Sharma,Premium,South,Hyderabad,Memory Card 128GB,Storage,Flash Storage,1,1200,700,1200,112.23,195.8,1283.57,387.77,Debit Card
+ORD00178,2024-03-04,Cancelled,CUST8609,Sara Menon,Premium,South,Hyderabad,Desktop PC,Electronics,Computers,3,45000,35000,135000,12274.24,22090.64,144816.4,17725.76,UPI
+ORD00234,2024-03-07,Delivered,CUST2143,Amit Pillai,Regular,West,Ahmedabad,Mouse Pad,Accessories,Input Devices,2,800,300,1600,38.26,281.11,1842.85,961.74,UPI
+ORD00816,2024-03-07,Delivered,CUST6939,Vikram Gupta,Regular,South,Hyderabad,Smart Watch,Electronics,Wearables,2,15000,10000,30000,384.43,5330.8,34946.37,9615.57,UPI
+ORD00652,2024-03-08,Delivered,CUST3803,Isha Patel,Regular,South,Chennai,Memory Card 128GB,Storage,Flash Storage,1,1200,700,1200,27.65,211.02,1383.37,472.35,Cash on Delivery
+ORD00278,2024-03-10,Delivered,CUST1166,Priya Gupta,Regular,South,Chennai,Ethernet Cable,Networking,Cables,3,500,200,1500,64.87,258.32,1693.45,835.13,Credit Card
+ORD00605,2024-03-10,Delivered,CUST7937,Divya Sharma,Regular,North,Jaipur,Headphones,Accessories,Audio,1,5000,3000,5000,182.0,867.24,5685.24,1818.0,Debit Card
+ORD00631,2024-03-10,Delivered,CUST3647,William Johnson,Premium,West,Mumbai,Monitor,Electronics,Displays,3,25000,18000,75000,7429.88,12162.62,79732.74,13570.12,Credit Card
+ORD00074,2024-03-12,Cancelled,CUST9674,Divya Rao,Regular,South,Bangalore,Monitor,Electronics,Displays,2,25000,18000,50000,827.47,8851.06,58023.59,13172.53,Credit Card
+ORD00231,2024-03-12,Delivered,CUST9201,Pihu Smith,VIP,East,Patna,Headphones,Accessories,Audio,1,5000,3000,5000,838.38,749.09,4910.71,1161.62,Credit Card
+ORD00172,2024-03-13,Delivered,CUST4453,James Wilson,Premium,South,Hyderabad,External SSD 500GB,Storage,Solid State,1,6000,4000,6000,408.25,1006.51,6598.26,1591.75,Net Banking
+ORD00401,2024-03-13,Shipped,CUST6990,Diya Shah,Premium,South,Bangalore,Webcam,Accessories,Video,2,4000,2500,8000,681.02,1317.42,8636.4,2318.98,Credit Card
+ORD00534,2024-03-13,Delivered,CUST3697,John Sharma,VIP,South,Kochi,Ethernet Cable,Networking,Cables,1,500,200,500,99.76,72.04,472.28,200.24,UPI
+ORD00634,2024-03-14,Delivered,CUST6598,Ava Shah,Regular,North,Delhi,Mouse,Accessories,Input Devices,2,1500,800,3000,43.59,532.15,3488.56,1356.41,Credit Card
+ORD00813,2024-03-14,Shipped,CUST9734,Pooja Johnson,Regular,West,Ahmedabad,USB Hub,Networking,Connectivity,1,1500,800,1500,28.79,264.82,1736.03,671.21,UPI
+ORD00109,2024-03-15,Delivered,CUST2137,Amit Iyer,Premium,South,Hyderabad,WiFi Router,Networking,Routers,2,3500,2200,7000,473.04,1174.85,7701.81,2126.96,Credit Card
+ORD00644,2024-03-16,Shipped,CUST9488,Diya Nair,Regular,South,Chennai,Memory Card 128GB,Storage,Flash Storage,1,1200,700,1200,45.84,207.75,1361.91,454.16,Credit Card
+ORD00738,2024-03-16,Delivered,CUST8657,Ananya Wilson,Regular,East,Kolkata,Pen Drive 64GB,Storage,Flash Storage,1,800,400,800,2.55,143.54,940.99,397.45,Credit Card
+ORD00624,2024-03-17,Delivered,CUST6862,Sara Davis,Regular,North,Chandigarh,Phone,Electronics,Mobile,1,30000,22000,30000,726.38,5269.25,34542.87,7273.62,Credit Card
+ORD00075,2024-03-18,Delivered,CUST6129,Olivia Brown,Regular,West,Ahmedabad,Ethernet Cable,Networking,Cables,1,500,200,500,16.01,87.12,571.11,283.99,UPI
+ORD00790,2024-03-18,Delivered,CUST4728,Myra Sharma,Premium,South,Hyderabad,Smart Watch,Electronics,Wearables,2,15000,10000,30000,2998.23,4860.32,31862.09,7001.77,Debit Card
+ORD00862,2024-03-18,Delivered,CUST6724,Sneha Taylor,VIP,West,Pune,Mouse,Accessories,Input Devices,1,1500,800,1500,242.66,226.32,1483.66,457.34,Cash on Delivery
+ORD00281,2024-03-19,Delivered,CUST4073,Divya Wilson,Premium,West,Mumbai,Laptop Stand,Accessories,Ergonomics,1,2500,1500,2500,203.78,413.32,2709.54,796.22,Debit Card
+ORD00983,2024-03-20,Delivered,CUST6082,Emma Kumar,Regular,East,Patna,External HDD 1TB,Storage,Hard Drives,1,5000,3500,5000,88.43,884.08,5795.65,1411.57,Net Banking
+ORD00688,2024-03-21,Delivered,CUST7865,Myra Bose,Regular,South,Bangalore,WiFi Router,Networking,Routers,1,3500,2200,3500,125.75,607.37,3981.62,1174.25,Cash on Delivery
+ORD00898,2024-03-22,Cancelled,CUST2137,Amit Iyer,Premium,South,Hyderabad,Mouse Pad,Accessories,Input Devices,4,800,300,3200,185.98,542.52,3556.54,1814.02,UPI
+ORD00158,2024-03-23,Delivered,CUST8451,Divya Davis,Premium,South,Kochi,Smart Watch,Electronics,Wearables,5,15000,10000,75000,6496.32,12330.66,80834.34,18503.68,Cash on Delivery
+ORD00089,2024-03-25,Shipped,CUST8170,Aditya Pillai,Regular,West,Surat,Keyboard,Accessories,Input Devices,1,3000,1800,3000,122.51,517.95,3395.44,1077.49,Credit Card
+ORD00386,2024-03-25,Delivered,CUST5835,Pooja Singh,Regular,North,Jaipur,Memory Card 128GB,Storage,Flash Storage,3,1200,700,3600,136.21,623.48,4087.27,1363.79,Credit Card
+ORD00306,2024-03-26,Delivered,CUST2108,Vivaan Rao,Premium,North,Chandigarh,USB Hub,Networking,Connectivity,1,1500,800,1500,141.15,244.59,1603.44,558.85,Credit Card
+ORD00523,2024-03-26,Delivered,CUST5150,Aditya Miller,Regular,South,Bangalore,Laptop Stand,Accessories,Ergonomics,3,2500,1500,7500,89.23,1333.94,8744.71,2910.77,Credit Card
+ORD00700,2024-03-26,Delivered,CUST9099,Emma Joshi,Regular,West,Mumbai,Memory Card 128GB,Storage,Flash Storage,3,1200,700,3600,118.34,626.7,4108.36,1381.66,Credit Card
+ORD00763,2024-03-26,Delivered,CUST8972,Rohit Verma,Regular,East,Kolkata,Keyboard,Accessories,Input Devices,2,3000,1800,6000,190.94,1045.63,6854.69,2209.06,Cash on Delivery
+ORD00100,2024-03-27,Delivered,CUST9452,Ayaan Nair,Regular,North,Chandigarh,Laptop,Electronics,Computers,1,55000,45000,55000,2358.54,9475.46,62116.92,7641.46,Cash on Delivery
+ORD00536,2024-03-27,Delivered,CUST4510,Ananya Taylor,VIP,West,Surat,Keyboard,Accessories,Input Devices,4,3000,1800,12000,1517.6,1886.83,12369.23,3282.4,Cash on Delivery
+ORD00909,2024-03-27,Delivered,CUST7498,Priya Gupta,Regular,West,Pune,Keyboard,Accessories,Input Devices,5,3000,1800,15000,653.71,2582.33,16928.62,5346.29,UPI
+ORD00421,2024-03-28,Delivered,CUST7232,Michael Sharma,VIP,South,Kochi,Webcam,Accessories,Video,2,4000,2500,8000,1592.13,1153.42,7561.29,1407.87,Debit Card
+ORD00598,2024-03-28,Delivered,CUST6188,Ava Johnson,Regular,North,Lucknow,WiFi Router,Networking,Routers,2,3500,2200,7000,279.85,1209.63,7929.78,2320.15,Credit Card
+ORD00752,2024-03-28,Delivered,CUST7209,Pooja Sharma,Regular,South,Kochi,Memory Card 128GB,Storage,Flash Storage,2,1200,700,2400,74.18,418.65,2744.47,925.82,Net Banking
+ORD00840,2024-03-28,Delivered,CUST6438,Amit Singh,Premium,South,Kochi,Earbuds,Accessories,Audio,1,3500,2000,3500,179.33,597.72,3918.39,1320.67,UPI
+ORD00266,2024-03-29,Delivered,CUST9817,Michael Das,Regular,West,Ahmedabad,USB Hub,Networking,Connectivity,3,1500,800,4500,193.6,775.15,5081.55,1906.4,Cash on Delivery
+ORD00604,2024-03-30,Delivered,CUST6881,Vikram Anderson,Regular,East,Guwahati,External HDD 1TB,Storage,Hard Drives,3,5000,3500,15000,65.7,2688.17,17622.47,4434.3,Debit Card
+ORD00564,2024-03-31,Delivered,CUST4950,Reyansh Brown,Premium,South,Bangalore,Pen Drive 64GB,Storage,Flash Storage,1,800,400,800,75.8,130.36,854.56,324.2,Debit Card
+ORD00796,2024-03-31,Delivered,CUST7924,Pooja Reddy,Regular,East,Patna,Tablet,Electronics,Mobile,1,35000,27000,35000,1638.43,6005.08,39366.65,6361.57,UPI
+ORD00838,2024-03-31,Delivered,CUST4453,James Wilson,Premium,South,Hyderabad,Phone,Electronics,Mobile,1,30000,22000,30000,1626.04,5107.31,33481.27,6373.96,Credit Card
+ORD00195,2024-04-01,Delivered,CUST2137,Amit Iyer,Premium,South,Hyderabad,Laptop,Electronics,Computers,1,55000,45000,55000,4094.16,9163.05,60068.89,5905.84,Net Banking
+ORD00456,2024-04-01,Delivered,CUST9835,Priya Anderson,Regular,East,Patna,Laptop Stand,Accessories,Ergonomics,1,2500,1500,2500,91.27,433.57,2842.3,908.73,Credit Card
+ORD00601,2024-04-01,Delivered,CUST8460,Neha Shah,VIP,North,Chandigarh,TV,Electronics,Displays,1,40000,30000,40000,6153.65,6092.34,39938.69,3846.35,Cash on Delivery
+ORD00809,2024-04-02,Delivered,CUST8932,Priya Joshi,Regular,South,Hyderabad,USB Hub,Networking,Connectivity,1,1500,800,1500,7.18,268.71,1761.53,692.82,Credit Card
+ORD00974,2024-04-04,Cancelled,CUST9199,Ava Das,Regular,North,Chandigarh,Pen Drive 64GB,Storage,Flash Storage,2,800,400,1600,3.39,287.39,1884.0,796.61,UPI
+ORD00728,2024-04-05,Delivered,CUST7965,Ayaan Johnson,Regular,North,Lucknow,External HDD 1TB,Storage,Hard Drives,4,5000,3500,20000,471.49,3515.13,23043.64,5528.51,Credit Card
+ORD00359,2024-04-06,Delivered,CUST6598,Ava Shah,Regular,North,Delhi,Webcam,Accessories,Video,2,4000,2500,8000,208.37,1402.49,9194.12,2791.63,Credit Card
+ORD00839,2024-04-06,Delivered,CUST9317,Priya Kumar,Regular,North,Delhi,External HDD 1TB,Storage,Hard Drives,2,5000,3500,10000,168.19,1769.73,11601.54,2831.81,Debit Card
+ORD00478,2024-04-07,Delivered,CUST6456,Aadhya Gupta,Regular,North,Jaipur,Phone,Electronics,Mobile,1,30000,22000,30000,356.46,5335.84,34979.38,7643.54,Debit Card
+ORD00373,2024-04-08,Delivered,CUST3041,Rohit Smith,Regular,South,Kochi,Headphones,Accessories,Audio,1,5000,3000,5000,113.84,879.51,5765.67,1886.16,UPI
+ORD00708,2024-04-08,Delivered,CUST4811,Vivaan Johnson,Regular,West,Surat,Earbuds,Accessories,Audio,4,3500,2000,14000,459.32,2437.32,15978.0,5540.68,UPI
+ORD00390,2024-04-09,Delivered,CUST8170,Aditya Pillai,Regular,West,Surat,Headphones,Accessories,Audio,3,5000,3000,15000,406.2,2626.88,17220.68,5593.8,UPI
+ORD00707,2024-04-09,Delivered,CUST6138,Vihaan Verma,Regular,South,Chennai,External HDD 1TB,Storage,Hard Drives,3,5000,3500,15000,494.65,2610.96,17116.31,4005.35,Credit Card
+ORD00814,2024-04-09,Delivered,CUST2627,Divya Johnson,VIP,West,Mumbai,Ethernet Cable,Networking,Cables,4,500,200,2000,356.59,295.81,1939.22,843.41,UPI
+ORD00510,2024-04-10,Delivered,CUST5616,John Smith,Regular,East,Bhubaneswar,USB Hub,Networking,Connectivity,4,1500,800,6000,186.97,1046.35,6859.38,2613.03,UPI
+ORD00957,2024-04-12,Delivered,CUST4335,Amit Johnson,Regular,South,Kochi,Mouse Pad,Accessories,Input Devices,2,800,300,1600,13.07,285.65,1872.58,986.93,Credit Card
+ORD00058,2024-04-13,Delivered,CUST5415,Aditya Patel,Regular,West,Ahmedabad,Ethernet Cable,Networking,Cables,1,500,200,500,15.42,87.22,571.8,284.58,Debit Card
+ORD00445,2024-04-13,Shipped,CUST6082,Emma Kumar,Regular,East,Patna,USB Hub,Networking,Connectivity,1,1500,800,1500,24.37,265.61,1741.24,675.63,Debit Card
+ORD00858,2024-04-14,Delivered,CUST5497,Aarav Brown,Premium,West,Mumbai,WiFi Router,Networking,Routers,1,3500,2200,3500,300.44,575.92,3775.48,999.56,Credit Card
+ORD00336,2024-04-16,Shipped,CUST8195,Ayaan Das,Premium,West,Ahmedabad,Earbuds,Accessories,Audio,4,3500,2000,14000,1021.19,2336.19,15315.0,4978.81,Net Banking
+ORD00979,2024-04-16,Delivered,CUST8822,Neha Joshi,Regular,South,Kochi,External SSD 500GB,Storage,Solid State,1,6000,4000,6000,1.77,1079.68,7077.91,1998.23,Debit Card
+ORD00662,2024-04-18,Delivered,CUST1379,Sai Rao,Regular,East,Bhubaneswar,Ethernet Cable,Networking,Cables,1,500,200,500,5.02,89.1,584.08,294.98,Credit Card
+ORD00023,2024-04-19,Processing,CUST3330,Arjun Verma,Regular,South,Hyderabad,Mouse,Accessories,Input Devices,1,1500,800,1500,53.07,260.45,1707.38,646.93,UPI
+ORD00609,2024-04-19,Delivered,CUST1153,Sophia Nair,Premium,North,Chandigarh,WiFi Router,Networking,Routers,1,3500,2200,3500,272.87,580.88,3808.01,1027.13,UPI
+ORD00491,2024-04-21,Delivered,CUST9612,James Pillai,Premium,North,Lucknow,Phone,Electronics,Mobile,5,30000,22000,150000,13168.07,24629.75,161461.68,26831.93,Credit Card
+ORD00890,2024-04-23,Delivered,CUST4453,James Wilson,Premium,South,Hyderabad,TV,Electronics,Displays,1,40000,30000,40000,2156.33,6811.86,44655.53,7843.67,UPI
+ORD00241,2024-04-25,Shipped,CUST8177,William Singh,Regular,North,Delhi,Laptop,Electronics,Computers,2,55000,45000,110000,863.1,19644.64,128781.54,19136.9,Net Banking
+ORD00302,2024-04-25,Processing,CUST7209,Pooja Sharma,Regular,South,Kochi,Pen Drive 64GB,Storage,Flash Storage,4,800,400,3200,57.8,565.6,3707.8,1542.2,Net Banking
+ORD00247,2024-04-29,Delivered,CUST4178,Divya Davis,VIP,East,Guwahati,Earbuds,Accessories,Audio,2,3500,2000,7000,1133.83,1055.91,6922.08,1866.17,Debit Card
+ORD00284,2024-04-30,Delivered,CUST6082,Emma Kumar,Regular,East,Patna,Mouse Pad,Accessories,Input Devices,1,800,300,800,26.43,139.24,912.81,473.57,Credit Card
+ORD00846,2024-04-30,Delivered,CUST1125,Sara Nair,VIP,West,Ahmedabad,Mouse,Accessories,Input Devices,1,1500,800,1500,262.37,222.77,1460.4,437.63,UPI
+ORD00188,2024-05-01,Shipped,CUST8972,Rohit Verma,Regular,East,Kolkata,Earbuds,Accessories,Audio,2,3500,2000,7000,17.25,1256.89,8239.64,2982.75,Credit Card
+ORD00606,2024-05-01,Delivered,CUST6040,Vivaan Wilson,Regular,East,Bhubaneswar,USB Hub,Networking,Connectivity,1,1500,800,1500,15.58,267.2,1751.62,684.42,Debit Card
+ORD00630,2024-05-01,Delivered,CUST3200,Rahul Singh,Premium,West,Pune,TV,Electronics,Displays,4,40000,30000,160000,14810.37,26134.13,171323.76,25189.63,Debit Card
+ORD00916,2024-05-01,Delivered,CUST7532,James Taylor,Regular,South,Hyderabad,External HDD 1TB,Storage,Hard Drives,2,5000,3500,10000,329.44,1740.7,11411.26,2670.56,Credit Card
+ORD00339,2024-05-02,Delivered,CUST5742,Neha Singh,Regular,West,Pune,Earbuds,Accessories,Audio,1,3500,2000,3500,162.99,600.66,3937.67,1337.01,UPI
+ORD00557,2024-05-02,Delivered,CUST2644,William Singh,Regular,South,Chennai,Laptop Stand,Accessories,Ergonomics,2,2500,1500,5000,198.06,864.35,5666.29,1801.94,UPI
+ORD00647,2024-05-02,Delivered,CUST1605,Vikram Shah,Regular,North,Delhi,Memory Card 128GB,Storage,Flash Storage,2,1200,700,2400,68.67,419.64,2750.97,931.33,Credit Card
+ORD00918,2024-05-02,Shipped,CUST4972,Vihaan Davis,VIP,North,Jaipur,Phone,Electronics,Mobile,1,30000,22000,30000,5817.25,4352.89,28535.64,2182.75,Cash on Delivery
+ORD00932,2024-05-04,Delivered,CUST2137,Amit Iyer,Premium,South,Hyderabad,Keyboard,Accessories,Input Devices,5,3000,1800,15000,1279.89,2469.62,16189.73,4720.11,Credit Card
+ORD00294,2024-05-06,Delivered,CUST3434,William Johnson,Regular,South,Kochi,Webcam,Accessories,Video,1,4000,2500,4000,146.59,693.61,4547.02,1353.41,Debit Card
+ORD00612,2024-05-07,Shipped,CUST6170,Rohit Smith,Regular,West,Surat,Phone,Electronics,Mobile,2,30000,22000,60000,1085.28,10604.65,69519.37,14914.72,UPI
+ORD00823,2024-05-07,Cancelled,CUST9751,Ananya Reddy,Regular,North,Lucknow,Mouse,Accessories,Input Devices,1,1500,800,1500,15.99,267.12,1751.13,684.01,Debit Card
+ORD00308,2024-05-08,Delivered,CUST3485,Diya Brown,VIP,North,Jaipur,Laptop Stand,Accessories,Ergonomics,3,2500,1500,7500,1290.19,1117.77,7327.58,1709.81,UPI
+ORD00473,2024-05-08,Delivered,CUST4941,James Patel,Premium,North,Lucknow,External SSD 500GB,Storage,Solid State,3,6000,4000,18000,1481.09,2973.4,19492.31,4518.91,Net Banking
+ORD00513,2024-05-08,Delivered,CUST6781,Vihaan Verma,Regular,West,Surat,External SSD 500GB,Storage,Solid State,2,6000,4000,12000,67.9,2147.78,14079.88,3932.1,UPI
+ORD00037,2024-05-09,Delivered,CUST8822,Neha Joshi,Regular,South,Kochi,Ethernet Cable,Networking,Cables,2,500,200,1000,30.83,174.45,1143.62,569.17,Debit Card
+ORD00169,2024-05-09,Delivered,CUST2200,Sara Smith,Regular,East,Kolkata,Earbuds,Accessories,Audio,2,3500,2000,7000,214.78,1221.34,8006.56,2785.22,UPI
+ORD00835,2024-05-09,Delivered,CUST7211,Neha Shah,Regular,South,Kochi,Earbuds,Accessories,Audio,2,3500,2000,7000,183.92,1226.89,8042.97,2816.08,Credit Card
+ORD00323,2024-05-10,Delivered,CUST6228,Isha Das,Regular,South,Chennai,External SSD 500GB,Storage,Solid State,1,6000,4000,6000,167.73,1049.81,6882.08,1832.27,Debit Card
+ORD00191,2024-05-11,Shipped,CUST7937,Divya Sharma,Regular,North,Jaipur,TV,Electronics,Displays,4,40000,30000,160000,3257.36,28213.68,184956.32,36742.64,Net Banking
+ORD00618,2024-05-11,Processing,CUST3780,Sai Nair,Regular,West,Ahmedabad,Laptop,Electronics,Computers,1,55000,45000,55000,773.9,9760.7,63986.8,9226.1,Credit Card
+ORD00868,2024-05-11,Delivered,CUST3532,Isha Patel,VIP,West,Surat,Smart Watch,Electronics,Wearables,1,15000,10000,15000,2623.01,2227.86,14604.85,2376.99,UPI
+ORD00667,2024-05-12,Delivered,CUST4453,James Wilson,Premium,South,Hyderabad,Monitor,Electronics,Displays,2,25000,18000,50000,2605.58,8531.0,55925.42,11394.42,Net Banking
+ORD00276,2024-05-13,Shipped,CUST9674,Divya Rao,Regular,South,Bangalore,Webcam,Accessories,Video,2,4000,2500,8000,203.49,1403.37,9199.88,2796.51,Credit Card
+ORD00351,2024-05-13,Delivered,CUST6967,Olivia Gupta,VIP,East,Patna,Ethernet Cable,Networking,Cables,2,500,200,1000,172.06,149.03,976.97,427.94,UPI
+ORD00301,2024-05-14,Delivered,CUST2530,Isha Davis,Regular,West,Pune,External SSD 500GB,Storage,Solid State,4,6000,4000,24000,48.5,4311.27,28262.77,7951.5,Credit Card
+ORD00934,2024-05-14,Delivered,CUST8843,William Menon,Regular,North,Chandigarh,Desktop PC,Electronics,Computers,4,45000,35000,180000,6984.35,31142.82,204158.47,33015.65,Net Banking
+ORD00981,2024-05-14,Delivered,CUST6922,Myra Singh,VIP,West,Pune,Pen Drive 64GB,Storage,Flash Storage,3,800,400,2400,338.57,371.06,2432.49,861.43,Credit Card
+ORD00942,2024-05-15,Delivered,CUST2180,Emma Taylor,Regular,North,Delhi,Mouse,Accessories,Input Devices,1,1500,800,1500,18.06,266.75,1748.69,681.94,Credit Card
+ORD00050,2024-05-17,Delivered,CUST7543,Divya Joshi,VIP,North,Chandigarh,Ethernet Cable,Networking,Cables,1,500,200,500,99.63,72.07,472.44,200.37,Debit Card
+ORD00643,2024-05-17,Delivered,CUST6170,Rohit Smith,Regular,West,Surat,External HDD 1TB,Storage,Hard Drives,1,5000,3500,5000,165.52,870.21,5704.69,1334.48,Net Banking
+ORD00084,2024-05-18,Delivered,CUST5067,Aadhya Menon,VIP,West,Pune,Pen Drive 64GB,Storage,Flash Storage,2,800,400,1600,225.46,247.42,1621.96,574.54,Debit Card
+ORD00368,2024-05-18,Delivered,CUST7717,Diya Gupta,Regular,East,Patna,External SSD 500GB,Storage,Solid State,2,6000,4000,12000,412.66,2085.72,13673.06,3587.34,Credit Card
+ORD00396,2024-05-18,Delivered,CUST1828,Aarav Gupta,VIP,West,Pune,Laptop,Electronics,Computers,4,55000,45000,220000,26592.24,34813.4,228221.16,13407.76,Debit Card
+ORD00635,2024-05-18,Delivered,CUST8489,Arjun Singh,Premium,South,Bangalore,Webcam,Accessories,Video,1,4000,2500,4000,399.74,648.05,4248.31,1100.26,Debit Card
+ORD00777,2024-05-18,Delivered,CUST9612,James Pillai,Premium,North,Lucknow,USB Hub,Networking,Connectivity,1,1500,800,1500,119.17,248.55,1629.38,580.83,Debit Card
+ORD00799,2024-05-20,Delivered,CUST8972,Rohit Verma,Regular,East,Kolkata,Tablet,Electronics,Mobile,3,35000,27000,105000,2987.79,18362.2,120374.41,21012.21,UPI
+ORD00162,2024-05-23,Delivered,CUST4972,Vihaan Davis,VIP,North,Jaipur,Mouse,Accessories,Input Devices,2,1500,800,3000,331.23,480.38,3149.15,1068.77,Credit Card
+ORD00654,2024-05-23,Delivered,CUST8840,Pihu Kumar,Regular,West,Surat,Tablet,Electronics,Mobile,2,35000,27000,70000,720.68,12470.28,81749.6,15279.32,Debit Card
+ORD00655,2024-05-23,Cancelled,CUST1860,Reyansh Pillai,Regular,South,Chennai,Headphones,Accessories,Audio,1,5000,3000,5000,109.0,880.38,5771.38,1891.0,Credit Card
+ORD00226,2024-05-24,Delivered,CUST8822,Neha Joshi,Regular,South,Kochi,Tablet,Electronics,Mobile,1,35000,27000,35000,1373.33,6052.8,39679.47,6626.67,Credit Card
+ORD00539,2024-05-24,Delivered,CUST7606,Divya Verma,Regular,West,Pune,Keyboard,Accessories,Input Devices,3,3000,1800,9000,8.44,1618.48,10610.04,3591.56,Cash on Delivery
+ORD00551,2024-05-24,Delivered,CUST3421,Isha Verma,Regular,West,Pune,Phone,Electronics,Mobile,3,30000,22000,90000,478.49,16113.87,105635.38,23521.51,Credit Card
+ORD00640,2024-05-24,Cancelled,CUST1400,Aditya Joshi,VIP,West,Mumbai,External HDD 1TB,Storage,Hard Drives,1,5000,3500,5000,625.34,787.44,5162.1,874.66,Credit Card
+ORD00705,2024-05-25,Shipped,CUST7606,Divya Verma,Regular,West,Pune,Monitor,Electronics,Displays,1,25000,18000,25000,96.04,4482.71,29386.67,6903.96,Credit Card
+ORD00112,2024-05-26,Delivered,CUST8177,William Singh,Regular,North,Delhi,Mouse,Accessories,Input Devices,1,1500,800,1500,8.46,268.48,1760.02,691.54,Net Banking
+ORD00596,2024-05-26,Cancelled,CUST9612,James Pillai,Premium,North,Lucknow,Headphones,Accessories,Audio,1,5000,3000,5000,256.23,853.88,5597.65,1743.77,Cash on Delivery
+ORD00480,2024-05-27,Delivered,CUST6598,Ava Shah,Regular,North,Delhi,Pen Drive 64GB,Storage,Flash Storage,1,800,400,800,19.31,140.52,921.21,380.69,Debit Card
+ORD00115,2024-05-28,Delivered,CUST4510,Ananya Taylor,VIP,West,Surat,Mouse Pad,Accessories,Input Devices,2,800,300,1600,260.57,241.1,1580.53,739.43,Debit Card
+ORD00002,2024-05-29,Shipped,CUST5065,Amit Patel,Premium,North,Delhi,External HDD 1TB,Storage,Hard Drives,1,5000,3500,5000,351.35,836.76,5485.41,1148.65,UPI
+ORD00442,2024-05-29,Delivered,CUST8504,Vivaan Verma,VIP,West,Surat,Phone,Electronics,Mobile,2,30000,22000,60000,8859.61,9205.27,60345.66,7140.39,UPI
+ORD00775,2024-05-29,Delivered,CUST8177,William Singh,Regular,North,Delhi,WiFi Router,Networking,Routers,2,3500,2200,7000,262.7,1212.71,7950.01,2337.3,Cash on Delivery
+ORD00696,2024-05-30,Delivered,CUST2586,Vihaan Nair,VIP,East,Guwahati,Desktop PC,Electronics,Computers,2,45000,35000,90000,11342.62,14158.33,92815.71,8657.38,Debit Card
+ORD00519,2024-06-01,Delivered,CUST1613,Aarav Nair,Regular,North,Lucknow,Laptop,Electronics,Computers,1,55000,45000,55000,226.9,9859.16,64632.26,9773.1,Credit Card
+ORD00866,2024-06-02,Delivered,CUST7086,Reyansh Davis,Regular,North,Lucknow,Laptop Stand,Accessories,Ergonomics,1,2500,1500,2500,31.6,444.31,2912.71,968.4,UPI
+ORD00597,2024-06-03,Delivered,CUST1822,Isha Singh,Regular,West,Ahmedabad,Laptop,Electronics,Computers,5,55000,45000,275000,7509.5,48148.29,315638.79,42490.5,Debit Card
+ORD00733,2024-06-03,Processing,CUST7512,Sai Menon,Premium,East,Guwahati,TV,Electronics,Displays,1,40000,30000,40000,2876.22,6682.28,43806.06,7123.78,Debit Card
+ORD00253,2024-06-04,Processing,CUST8609,Sara Menon,Premium,South,Hyderabad,Laptop Stand,Accessories,Ergonomics,3,2500,1500,7500,556.1,1249.9,8193.8,2443.9,UPI
+ORD00504,2024-06-06,Delivered,CUST6464,Isha Kumar,Premium,North,Jaipur,Phone,Electronics,Mobile,2,30000,22000,60000,4834.47,9929.8,65095.33,11165.53,Credit Card
+ORD00454,2024-06-07,Delivered,CUST7615,Ayaan Brown,Regular,West,Mumbai,Pen Drive 64GB,Storage,Flash Storage,2,800,400,1600,58.15,277.53,1819.38,741.85,UPI
+ORD00659,2024-06-11,Delivered,CUST5106,Ananya Miller,Regular,West,Mumbai,TV,Electronics,Displays,1,40000,30000,40000,502.53,7109.54,46607.01,9497.47,Credit Card
+ORD00305,2024-06-12,Delivered,CUST9674,Divya Rao,Regular,South,Bangalore,Keyboard,Accessories,Input Devices,1,3000,1800,3000,136.09,515.5,3379.41,1063.91,Debit Card
+ORD00747,2024-06-12,Delivered,CUST6456,Aadhya Gupta,Regular,North,Jaipur,Laptop Stand,Accessories,Ergonomics,3,2500,1500,7500,356.94,1285.75,8428.81,2643.06,Credit Card
+ORD00760,2024-06-12,Delivered,CUST3535,Michael Joshi,Premium,South,Hyderabad,Pen Drive 64GB,Storage,Flash Storage,2,800,400,1600,88.42,272.08,1783.66,711.58,Debit Card
+ORD00132,2024-06-16,Shipped,CUST8043,Neha Das,Regular,West,Surat,Keyboard,Accessories,Input Devices,1,3000,1800,3000,138.19,515.13,3376.94,1061.81,Debit Card
+ORD00912,2024-06-16,Delivered,CUST8800,Ava Das,Premium,North,Jaipur,Pen Drive 64GB,Storage,Flash Storage,3,800,400,2400,165.08,402.29,2637.21,1034.92,Cash on Delivery
+ORD00919,2024-06-16,Delivered,CUST2140,Diya Taylor,Premium,North,Jaipur,Headphones,Accessories,Audio,2,5000,3000,10000,855.97,1645.93,10789.96,3144.03,UPI
+ORD00303,2024-06-17,Delivered,CUST9201,Pihu Smith,VIP,East,Patna,Ethernet Cable,Networking,Cables,1,500,200,500,85.19,74.67,489.48,214.81,UPI
+ORD00670,2024-06-21,Shipped,CUST8711,Myra Shah,Premium,South,Hyderabad,Pen Drive 64GB,Storage,Flash Storage,2,800,400,1600,126.43,265.24,1738.81,673.57,Credit Card
+ORD00751,2024-06-24,Delivered,CUST5106,Ananya Miller,Regular,West,Mumbai,Webcam,Accessories,Video,1,4000,2500,4000,55.96,709.93,4653.97,1444.04,Debit Card
+ORD00746,2024-06-26,Delivered,CUST2768,Ava Anderson,VIP,North,Delhi,Ethernet Cable,Networking,Cables,2,500,200,1000,115.16,159.27,1044.11,484.84,Net Banking
+ORD00915,2024-06-27,Delivered,CUST3116,John Johnson,Premium,South,Hyderabad,Smart Watch,Electronics,Wearables,1,15000,10000,15000,842.17,2548.41,16706.24,4157.83,Net Banking
+ORD00399,2024-06-28,Delivered,CUST7971,Pooja Iyer,Premium,South,Hyderabad,Pen Drive 64GB,Storage,Flash Storage,1,800,400,800,69.01,131.58,862.57,330.99,UPI
+ORD00525,2024-06-29,Delivered,CUST8489,Arjun Singh,Premium,South,Bangalore,Headphones,Accessories,Audio,1,5000,3000,5000,487.06,812.33,5325.27,1512.94,Debit Card
+ORD00374,2024-07-01,Delivered,CUST5198,Divya Patel,Premium,East,Kolkata,Earbuds,Accessories,Audio,1,3500,2000,3500,183.69,596.94,3913.25,1316.31,Cash on Delivery
+ORD00038,2024-07-02,Cancelled,CUST9584,Sai Rao,Premium,West,Pune,Laptop,Electronics,Computers,1,55000,45000,55000,4736.03,9047.51,59311.48,5263.97,Credit Card
+ORD00548,2024-07-03,Delivered,CUST9047,Priya Singh,Regular,North,Jaipur,External HDD 1TB,Storage,Hard Drives,4,5000,3500,20000,870.2,3443.36,22573.16,5129.8,UPI
+ORD00277,2024-07-04,Delivered,CUST3513,William Iyer,Regular,West,Pune,Phone,Electronics,Mobile,4,30000,22000,120000,1004.37,21419.21,140414.84,30995.63,UPI
+ORD00563,2024-07-04,Delivered,CUST1084,Aadhya Pillai,Premium,East,Guwahati,External HDD 1TB,Storage,Hard Drives,1,5000,3500,5000,435.1,821.68,5386.58,1064.9,UPI
+ORD00753,2024-07-04,Delivered,CUST6129,Olivia Brown,Regular,West,Ahmedabad,TV,Electronics,Displays,3,40000,30000,120000,505.69,21508.98,141003.29,29494.31,UPI
+ORD00948,2024-07-05,Delivered,CUST9094,Vivaan Iyer,Regular,South,Chennai,External SSD 500GB,Storage,Solid State,1,6000,4000,6000,251.14,1034.79,6783.65,1748.86,UPI
+ORD00560,2024-07-06,Delivered,CUST5065,Amit Patel,Premium,North,Delhi,Pen Drive 64GB,Storage,Flash Storage,5,800,400,4000,323.78,661.72,4337.94,1676.22,Debit Card
+ORD00755,2024-07-06,Delivered,CUST7523,Amit Shah,VIP,East,Guwahati,Ethernet Cable,Networking,Cables,1,500,200,500,51.39,80.75,529.36,248.61,Credit Card
+ORD00546,2024-07-07,Delivered,CUST5386,Arjun Shah,VIP,West,Ahmedabad,WiFi Router,Networking,Routers,1,3500,2200,3500,486.07,542.51,3556.44,813.93,Debit Card
+ORD00785,2024-07-07,Returned,CUST7018,Amit Gupta,Premium,North,Jaipur,TV,Electronics,Displays,3,40000,30000,120000,6854.2,20366.24,133512.04,23145.8,UPI
+ORD00588,2024-07-08,Cancelled,CUST9261,Sophia Reddy,Regular,North,Jaipur,Laptop,Electronics,Computers,1,55000,45000,55000,2666.33,9420.06,61753.73,7333.67,Debit Card
+ORD00435,2024-07-09,Delivered,CUST9307,John Das,Regular,East,Kolkata,Headphones,Accessories,Audio,4,5000,3000,20000,329.28,3540.73,23211.45,7670.72,UPI
+ORD00377,2024-07-10,Delivered,CUST2530,Isha Davis,Regular,West,Pune,Desktop PC,Electronics,Computers,1,45000,35000,45000,882.95,7941.07,52058.12,9117.05,Credit Card
+ORD00841,2024-07-13,Delivered,CUST8504,Vivaan Verma,VIP,West,Surat,Phone,Electronics,Mobile,1,30000,22000,30000,4505.29,4589.05,30083.76,3494.71,UPI
+ORD00842,2024-07-13,Delivered,CUST2869,Arjun Rao,Regular,West,Mumbai,Tablet,Electronics,Mobile,1,35000,27000,35000,630.41,6186.53,40556.12,7369.59,Credit Card
+ORD00459,2024-07-14,Delivered,CUST7937,Divya Sharma,Regular,North,Jaipur,Phone,Electronics,Mobile,2,30000,22000,60000,19.72,10796.45,70776.73,15980.28,UPI
+ORD00369,2024-07-15,Delivered,CUST1641,Isha Anderson,Regular,South,Chennai,Headphones,Accessories,Audio,2,5000,3000,10000,398.38,1728.29,11329.91,3601.62,Debit Card
+ORD00086,2024-07-16,Delivered,CUST3267,Rahul Verma,Premium,East,Kolkata,WiFi Router,Networking,Routers,2,3500,2200,7000,618.07,1148.75,7530.68,1981.93,UPI
+ORD00289,2024-07-16,Delivered,CUST6781,Vihaan Verma,Regular,West,Surat,Desktop PC,Electronics,Computers,3,45000,35000,135000,6293.5,23167.17,151873.67,23706.5,Debit Card
+ORD00392,2024-07-18,Delivered,CUST3114,Olivia Smith,VIP,North,Delhi,Mouse Pad,Accessories,Input Devices,1,800,300,800,134.66,119.76,785.1,365.34,Credit Card
+ORD00031,2024-07-20,Cancelled,CUST3610,Ava Smith,Regular,East,Guwahati,Mouse,Accessories,Input Devices,2,1500,800,3000,2.43,539.56,3537.13,1397.57,UPI
+ORD00257,2024-07-20,Delivered,CUST9153,Diya Joshi,Regular,South,Hyderabad,Memory Card 128GB,Storage,Flash Storage,3,1200,700,3600,128.14,624.93,4096.79,1371.86,Credit Card
+ORD00389,2024-07-21,Delivered,CUST6493,Diya Kumar,Regular,East,Guwahati,Keyboard,Accessories,Input Devices,3,3000,1800,9000,269.41,1571.51,10302.1,3330.59,Debit Card
+ORD00608,2024-07-21,Delivered,CUST5844,Ananya Shah,Regular,East,Bhubaneswar,TV,Electronics,Displays,1,40000,30000,40000,763.54,7062.56,46299.02,9236.46,Net Banking
+ORD00971,2024-07-21,Processing,CUST3503,Sara Gupta,Regular,South,Kochi,WiFi Router,Networking,Routers,1,3500,2200,3500,130.1,606.58,3976.48,1169.9,Net Banking
+ORD00020,2024-07-24,Cancelled,CUST5288,Rahul Anderson,Regular,East,Patna,Mouse,Accessories,Input Devices,1,1500,800,1500,20.64,266.28,1745.64,679.36,Net Banking
+ORD00353,2024-07-24,Cancelled,CUST8170,Aditya Pillai,Regular,West,Surat,Earbuds,Accessories,Audio,1,3500,2000,3500,63.05,618.65,4055.6,1436.95,Credit Card
+ORD00280,2024-07-25,Delivered,CUST7868,Neha Reddy,Regular,West,Pune,Phone,Electronics,Mobile,1,30000,22000,30000,1191.32,5185.56,33994.24,6808.68,Net Banking
+ORD00400,2024-07-25,Delivered,CUST5681,Aarav Singh,Regular,East,Patna,Ethernet Cable,Networking,Cables,4,500,200,2000,55.84,349.95,2294.11,1144.16,Credit Card
+ORD00332,2024-07-26,Processing,CUST5803,Divya Brown,Regular,North,Jaipur,Phone,Electronics,Mobile,4,30000,22000,120000,3297.56,21006.44,137708.88,28702.44,Debit Card
+ORD00619,2024-07-26,Delivered,CUST4777,Ayaan Taylor,Regular,North,Jaipur,Smart Watch,Electronics,Wearables,2,15000,10000,30000,1247.36,5175.48,33928.12,8752.64,Net Banking
+ORD00505,2024-07-27,Delivered,CUST7132,Diya Davis,VIP,North,Delhi,Memory Card 128GB,Storage,Flash Storage,4,1200,700,4800,480.4,777.53,5097.13,1519.6,Debit Card
+ORD00702,2024-07-28,Delivered,CUST5150,Aditya Miller,Regular,South,Bangalore,Desktop PC,Electronics,Computers,1,45000,35000,45000,2224.84,7699.53,50474.69,7775.16,Debit Card
+ORD00006,2024-07-31,Delivered,CUST5846,Reyansh Smith,Premium,West,Mumbai,Pen Drive 64GB,Storage,Flash Storage,2,800,400,1600,86.25,272.47,1786.22,713.75,Net Banking
+ORD00758,2024-08-02,Delivered,CUST2627,Divya Johnson,VIP,West,Mumbai,Mouse,Accessories,Input Devices,3,1500,800,4500,895.05,648.89,4253.84,1204.95,Cash on Delivery
+ORD00044,2024-08-03,Delivered,CUST3485,Diya Brown,VIP,North,Jaipur,TV,Electronics,Displays,4,40000,30000,160000,27076.6,23926.21,156849.61,12923.4,Credit Card
+ORD00161,2024-08-04,Delivered,CUST6939,Vikram Gupta,Regular,South,Hyderabad,Mouse Pad,Accessories,Input Devices,3,800,300,2400,92.5,415.35,2722.85,1407.5,UPI
+ORD00113,2024-08-05,Delivered,CUST1711,Sophia Johnson,Regular,East,Kolkata,Webcam,Accessories,Video,4,4000,2500,16000,105.59,2860.99,18755.4,5894.41,Debit Card
+ORD00180,2024-08-08,Delivered,CUST2040,John Rao,Regular,South,Hyderabad,Pen Drive 64GB,Storage,Flash Storage,2,800,400,1600,41.35,280.56,1839.21,758.65,UPI
+ORD00197,2024-08-08,Delivered,CUST2644,William Singh,Regular,South,Chennai,Laptop,Electronics,Computers,1,55000,45000,55000,448.0,9819.36,64371.36,9552.0,Credit Card
+ORD00407,2024-08-08,Delivered,CUST3434,William Johnson,Regular,South,Kochi,Memory Card 128GB,Storage,Flash Storage,2,1200,700,2400,68.48,419.67,2751.19,931.52,Credit Card
+ORD00416,2024-08-08,Delivered,CUST5475,Sara Smith,Regular,South,Hyderabad,Smart Watch,Electronics,Wearables,1,15000,10000,15000,61.91,2688.86,17626.95,4938.09,Debit Card
+ORD00243,2024-08-09,Delivered,CUST2180,Emma Taylor,Regular,North,Delhi,Mouse,Accessories,Input Devices,1,1500,800,1500,33.31,264.0,1730.69,666.69,Net Banking
+ORD00462,2024-08-09,Delivered,CUST2644,William Singh,Regular,South,Chennai,USB Hub,Networking,Connectivity,2,1500,800,3000,104.98,521.1,3416.12,1295.02,Credit Card
+ORD00516,2024-08-10,Delivered,CUST2674,Sai Rao,Regular,West,Ahmedabad,External SSD 500GB,Storage,Solid State,1,6000,4000,6000,271.82,1031.07,6759.25,1728.18,Debit Card
+ORD00656,2024-08-10,Delivered,CUST2215,William Das,Premium,South,Chennai,TV,Electronics,Displays,1,40000,30000,40000,2095.06,6822.89,44727.83,7904.94,Credit Card
+ORD00081,2024-08-11,Delivered,CUST8043,Neha Das,Regular,West,Surat,Pen Drive 64GB,Storage,Flash Storage,1,800,400,800,23.86,139.71,915.85,376.14,Credit Card
+ORD00343,2024-08-11,Shipped,CUST6061,William Verma,Regular,West,Mumbai,External SSD 500GB,Storage,Solid State,3,6000,4000,18000,792.89,3097.28,20304.39,5207.11,Debit Card
+ORD00061,2024-08-12,Delivered,CUST9697,Amit Patel,Regular,West,Surat,Headphones,Accessories,Audio,2,5000,3000,10000,316.45,1743.04,11426.59,3683.55,Debit Card
+ORD00151,2024-08-12,Delivered,CUST9612,James Pillai,Premium,North,Lucknow,Desktop PC,Electronics,Computers,3,45000,35000,135000,13147.67,21933.42,143785.75,16852.33,UPI
+ORD00939,2024-08-12,Delivered,CUST6688,Olivia Davis,Regular,South,Hyderabad,Ethernet Cable,Networking,Cables,1,500,200,500,18.15,86.73,568.58,281.85,UPI
+ORD00238,2024-08-13,Delivered,CUST5106,Ananya Miller,Regular,West,Mumbai,Laptop,Electronics,Computers,2,55000,45000,110000,3728.61,19128.85,125400.24,16271.39,Credit Card
+ORD00512,2024-08-13,Delivered,CUST3573,Isha Patel,Regular,North,Chandigarh,Pen Drive 64GB,Storage,Flash Storage,1,800,400,800,37.06,137.33,900.27,362.94,Cash on Delivery
+ORD00660,2024-08-13,Delivered,CUST6977,Aadhya Iyer,Regular,West,Mumbai,Ethernet Cable,Networking,Cables,2,500,200,1000,43.14,172.23,1129.09,556.86,UPI
+ORD00953,2024-08-13,Delivered,CUST1424,Pihu Bose,Regular,East,Kolkata,Headphones,Accessories,Audio,2,5000,3000,10000,222.46,1759.96,11537.5,3777.54,Debit Card
+ORD00166,2024-08-14,Delivered,CUST3526,Aadhya Davis,Premium,East,Patna,Mouse Pad,Accessories,Input Devices,1,800,300,800,59.18,133.35,874.17,440.82,UPI
+ORD00570,2024-08-14,Cancelled,CUST8251,Olivia Johnson,Regular,North,Chandigarh,Ethernet Cable,Networking,Cables,4,500,200,2000,90.56,343.7,2253.14,1109.44,Net Banking
+ORD00821,2024-08-15,Delivered,CUST8489,Arjun Singh,Premium,South,Bangalore,External HDD 1TB,Storage,Hard Drives,2,5000,3500,10000,665.57,1680.2,11014.63,2334.43,Debit Card
+ORD00290,2024-08-17,Delivered,CUST6188,Ava Johnson,Regular,North,Lucknow,Phone,Electronics,Mobile,1,30000,22000,30000,296.13,5346.7,35050.57,7703.87,Debit Card
+ORD00065,2024-08-19,Delivered,CUST3535,Michael Joshi,Premium,South,Hyderabad,Phone,Electronics,Mobile,1,30000,22000,30000,2396.9,4968.56,32571.66,5603.1,Debit Card
+ORD00408,2024-08-19,Delivered,CUST8405,Myra Wilson,Regular,West,Ahmedabad,Smart Watch,Electronics,Wearables,1,15000,10000,15000,275.31,2650.44,17375.13,4724.69,Credit Card
+ORD00704,2024-08-20,Returned,CUST2143,Amit Pillai,Regular,West,Ahmedabad,WiFi Router,Networking,Routers,3,3500,2200,10500,307.48,1834.65,12027.17,3592.52,Credit Card
+ORD00292,2024-08-21,Delivered,CUST8170,Aditya Pillai,Regular,West,Surat,Earbuds,Accessories,Audio,2,3500,2000,7000,106.99,1240.74,8133.75,2893.01,UPI
+ORD00566,2024-08-22,Delivered,CUST3506,Olivia Patel,Premium,East,Patna,Mouse Pad,Accessories,Input Devices,3,800,300,2400,128.82,408.81,2679.99,1371.18,Net Banking
+ORD00719,2024-08-22,Delivered,CUST6727,Vivaan Pillai,Regular,South,Chennai,WiFi Router,Networking,Routers,3,3500,2200,10500,186.62,1856.41,12169.79,3713.38,Debit Card
+ORD00825,2024-08-22,Processing,CUST3532,Isha Patel,VIP,West,Surat,Smart Watch,Electronics,Wearables,1,15000,10000,15000,1791.61,2377.51,15585.9,3208.39,Debit Card
+ORD00026,2024-08-24,Delivered,CUST5480,Vikram Singh,Regular,South,Kochi,USB Hub,Networking,Connectivity,1,1500,800,1500,5.46,269.02,1763.56,694.54,UPI
+ORD00458,2024-08-25,Delivered,CUST4811,Vivaan Johnson,Regular,West,Surat,USB Hub,Networking,Connectivity,3,1500,800,4500,53.52,800.37,5246.85,2046.48,Debit Card
+ORD00897,2024-08-25,Delivered,CUST1982,Pooja Davis,Regular,South,Kochi,Mouse Pad,Accessories,Input Devices,1,800,300,800,25.64,139.38,913.74,474.36,Net Banking
+ORD00999,2024-08-26,Delivered,CUST2902,Reyansh Joshi,Premium,North,Chandigarh,Webcam,Accessories,Video,2,4000,2500,8000,544.55,1341.98,8797.43,2455.45,Debit Card
+ORD00636,2024-08-27,Cancelled,CUST7615,Ayaan Brown,Regular,West,Mumbai,Tablet,Electronics,Mobile,1,35000,27000,35000,701.09,6173.8,40472.71,7298.91,UPI
+ORD00309,2024-08-29,Delivered,CUST9584,Sai Rao,Premium,West,Pune,Laptop,Electronics,Computers,1,55000,45000,55000,3101.68,9341.7,61240.02,6898.32,UPI
+ORD00489,2024-08-29,Delivered,CUST9307,John Das,Regular,East,Kolkata,Mouse Pad,Accessories,Input Devices,1,800,300,800,23.84,139.71,915.87,476.16,UPI
+ORD00815,2024-08-30,Delivered,CUST2232,Diya Johnson,Regular,South,Chennai,Tablet,Electronics,Mobile,1,35000,27000,35000,1248.27,6075.31,39827.04,6751.73,Credit Card
+ORD00420,2024-08-31,Delivered,CUST5500,Vihaan Iyer,Regular,South,Kochi,Webcam,Accessories,Video,1,4000,2500,4000,64.15,708.45,4644.3,1435.85,UPI
+ORD00049,2024-09-01,Delivered,CUST3697,John Sharma,VIP,South,Kochi,Earbuds,Accessories,Audio,2,3500,2000,7000,1129.71,1056.65,6926.94,1870.29,UPI
+ORD00522,2024-09-01,Cancelled,CUST2489,Vihaan Singh,Regular,North,Chandigarh,Earbuds,Accessories,Audio,5,3500,2000,17500,846.43,2997.64,19651.21,6653.57,Credit Card
+ORD00005,2024-09-02,Shipped,CUST3114,Olivia Smith,VIP,North,Delhi,TV,Electronics,Displays,3,40000,30000,120000,20164.1,17970.46,117806.36,9835.9,Credit Card
+ORD00441,2024-09-02,Delivered,CUST1084,Aadhya Pillai,Premium,East,Guwahati,Keyboard,Accessories,Input Devices,2,3000,1800,6000,483.71,992.93,6509.22,1916.29,UPI
+ORD00500,2024-09-02,Delivered,CUST6129,Olivia Brown,Regular,West,Ahmedabad,Phone,Electronics,Mobile,2,30000,22000,60000,2056.53,10429.82,68373.29,13943.47,Debit Card
+ORD00328,2024-09-03,Delivered,CUST3116,John Johnson,Premium,South,Hyderabad,USB Hub,Networking,Connectivity,2,1500,800,3000,192.97,505.27,3312.3,1207.03,UPI
+ORD00517,2024-09-03,Delivered,CUST8269,Aadhya Anderson,Regular,North,Lucknow,Headphones,Accessories,Audio,1,5000,3000,5000,173.76,868.72,5694.96,1826.24,UPI
+ORD00988,2024-09-03,Delivered,CUST3573,Isha Patel,Regular,North,Chandigarh,Desktop PC,Electronics,Computers,2,45000,35000,90000,1539.63,15922.87,104383.24,18460.37,Debit Card
+ORD00110,2024-09-06,Delivered,CUST3434,William Johnson,Regular,South,Kochi,Ethernet Cable,Networking,Cables,1,500,200,500,13.83,87.51,573.68,286.17,Credit Card
+ORD00204,2024-09-06,Delivered,CUST8461,James Miller,Regular,West,Surat,Pen Drive 64GB,Storage,Flash Storage,3,800,400,2400,107.96,412.57,2704.61,1092.04,Debit Card
+ORD00199,2024-09-07,Delivered,CUST7924,Pooja Reddy,Regular,East,Patna,External SSD 500GB,Storage,Solid State,4,6000,4000,24000,776.85,4180.17,27403.32,7223.15,Credit Card
+ORD00664,2024-09-07,Delivered,CUST8560,Ayaan Miller,Premium,South,Hyderabad,Headphones,Accessories,Audio,2,5000,3000,10000,628.22,1686.92,11058.7,3371.78,Credit Card
+ORD00795,2024-09-07,Delivered,CUST6598,Ava Shah,Regular,North,Delhi,Tablet,Electronics,Mobile,1,35000,27000,35000,1422.37,6043.97,39621.6,6577.63,Credit Card
+ORD00256,2024-09-08,Delivered,CUST8269,Aadhya Anderson,Regular,North,Lucknow,External HDD 1TB,Storage,Hard Drives,3,5000,3500,15000,103.64,2681.34,17577.7,4396.36,UPI
+ORD00307,2024-09-08,Delivered,CUST4826,James Verma,Regular,South,Kochi,TV,Electronics,Displays,1,40000,30000,40000,314.71,7143.35,46828.64,9685.29,Credit Card
+ORD00680,2024-09-08,Delivered,CUST4919,Amit Das,Regular,South,Hyderabad,Keyboard,Accessories,Input Devices,2,3000,1800,6000,105.56,1061.0,6955.44,2294.44,Debit Card
+ORD00722,2024-09-10,Delivered,CUST3068,Ava Singh,Premium,West,Surat,TV,Electronics,Displays,1,40000,30000,40000,3494.06,6571.07,43077.01,6505.94,UPI
+ORD00358,2024-09-11,Delivered,CUST5106,Ananya Miller,Regular,West,Mumbai,Earbuds,Accessories,Audio,2,3500,2000,7000,248.65,1215.24,7966.59,2751.35,Credit Card
+ORD00511,2024-09-11,Delivered,CUST8170,Aditya Pillai,Regular,West,Surat,Mouse Pad,Accessories,Input Devices,1,800,300,800,7.43,142.66,935.23,492.57,Debit Card
+ORD00602,2024-09-11,Delivered,CUST2101,Isha Miller,Regular,South,Bangalore,Mouse Pad,Accessories,Input Devices,1,800,300,800,12.71,141.71,929.0,487.29,Credit Card
+ORD00959,2024-09-11,Delivered,CUST2527,Olivia Singh,Premium,South,Chennai,WiFi Router,Networking,Routers,2,3500,2200,7000,637.18,1145.31,7508.13,1962.82,Net Banking
+ORD00254,2024-09-12,Shipped,CUST7371,Pooja Davis,Premium,South,Chennai,Smart Watch,Electronics,Wearables,1,15000,10000,15000,1243.14,2476.23,16233.09,3756.86,Debit Card
+ORD00354,2024-09-12,Delivered,CUST3803,Isha Patel,Regular,South,Chennai,Laptop Stand,Accessories,Ergonomics,1,2500,1500,2500,108.42,430.48,2822.06,891.58,UPI
+ORD00736,2024-09-12,Delivered,CUST7868,Neha Reddy,Regular,West,Pune,External SSD 500GB,Storage,Solid State,1,6000,4000,6000,59.85,1069.23,7009.38,1940.15,UPI
+ORD00770,2024-09-12,Delivered,CUST5668,William Joshi,Regular,South,Kochi,Earbuds,Accessories,Audio,3,3500,2000,10500,249.49,1845.09,12095.6,4250.51,Credit Card
+ORD00997,2024-09-13,Delivered,CUST7511,Divya Gupta,Premium,North,Delhi,TV,Electronics,Displays,1,40000,30000,40000,2560.32,6739.14,44178.82,7439.68,Credit Card
+ORD00851,2024-09-14,Delivered,CUST2902,Reyansh Joshi,Premium,North,Chandigarh,WiFi Router,Networking,Routers,2,3500,2200,7000,561.05,1159.01,7597.96,2038.95,Debit Card
+ORD00964,2024-09-14,Delivered,CUST5542,Diya Kumar,Regular,West,Mumbai,WiFi Router,Networking,Routers,3,3500,2200,10500,289.56,1837.88,12048.32,3610.44,Credit Card
+ORD00514,2024-09-16,Delivered,CUST2063,Vikram Nair,Premium,West,Pune,Keyboard,Accessories,Input Devices,1,3000,1800,3000,161.74,510.89,3349.15,1038.26,Debit Card
+ORD00741,2024-09-16,Delivered,CUST3267,Rahul Verma,Premium,East,Kolkata,Tablet,Electronics,Mobile,5,35000,27000,175000,15589.46,28693.9,188104.44,24410.54,Cash on Delivery
+ORD00558,2024-09-17,Delivered,CUST9047,Priya Singh,Regular,North,Jaipur,External HDD 1TB,Storage,Hard Drives,1,5000,3500,5000,234.52,857.79,5623.27,1265.48,UPI
+ORD00371,2024-09-19,Delivered,CUST5500,Vihaan Iyer,Regular,South,Kochi,Ethernet Cable,Networking,Cables,1,500,200,500,19.11,86.56,567.45,280.89,UPI
+ORD00487,2024-09-19,Shipped,CUST2644,William Singh,Regular,South,Chennai,WiFi Router,Networking,Routers,1,3500,2200,3500,12.47,627.76,4115.29,1287.53,Debit Card
+ORD00515,2024-09-19,Delivered,CUST5673,Olivia Anderson,VIP,East,Guwahati,Ethernet Cable,Networking,Cables,2,500,200,1000,157.96,151.57,993.61,442.04,Debit Card
+ORD00579,2024-09-19,Delivered,CUST2489,Vihaan Singh,Regular,North,Chandigarh,Headphones,Accessories,Audio,1,5000,3000,5000,67.45,887.86,5820.41,1932.55,UPI
+ORD00155,2024-09-20,Delivered,CUST3803,Isha Patel,Regular,South,Chennai,Pen Drive 64GB,Storage,Flash Storage,1,800,400,800,13.27,141.61,928.34,386.73,Credit Card
+ORD00159,2024-09-20,Delivered,CUST5835,Pooja Singh,Regular,North,Jaipur,Monitor,Electronics,Displays,2,25000,18000,50000,1404.94,8747.11,57342.17,12595.06,Credit Card
+ORD00714,2024-09-20,Delivered,CUST5500,Vihaan Iyer,Regular,South,Kochi,Phone,Electronics,Mobile,3,30000,22000,90000,3649.47,15543.1,101893.63,20350.53,UPI
+ORD00003,2024-09-21,Delivered,CUST5065,Amit Patel,Premium,North,Delhi,Ethernet Cable,Networking,Cables,4,500,200,2000,129.5,336.69,2207.19,1070.5,Cash on Delivery
+ORD00315,2024-09-21,Delivered,CUST2234,Pihu Miller,Regular,West,Surat,Smart Watch,Electronics,Wearables,2,15000,10000,30000,266.13,5352.1,35085.97,9733.87,Net Banking
+ORD00661,2024-09-21,Shipped,CUST6493,Diya Kumar,Regular,East,Guwahati,Keyboard,Accessories,Input Devices,4,3000,1800,12000,319.63,2102.47,13782.84,4480.37,Cash on Delivery
+ORD00263,2024-09-22,Shipped,CUST6669,Vikram Gupta,Regular,West,Ahmedabad,Desktop PC,Electronics,Computers,1,45000,35000,45000,1018.34,7916.7,51898.36,8981.66,UPI
+ORD00270,2024-09-22,Delivered,CUST8451,Divya Davis,Premium,South,Kochi,USB Hub,Networking,Connectivity,1,1500,800,1500,144.93,243.91,1598.98,555.07,Debit Card
+ORD00418,2024-09-22,Returned,CUST6772,Pooja Miller,Regular,West,Surat,Mouse Pad,Accessories,Input Devices,2,800,300,1600,15.69,285.18,1869.49,984.31,Debit Card
+ORD00724,2024-09-23,Delivered,CUST5735,Sara Anderson,Premium,South,Hyderabad,External SSD 500GB,Storage,Solid State,1,6000,4000,6000,543.94,982.09,6438.15,1456.06,UPI
+ORD00993,2024-09-23,Delivered,CUST1042,Vikram Taylor,Regular,West,Surat,TV,Electronics,Displays,4,40000,30000,160000,3410.42,28186.12,184775.7,36589.58,Net Banking
+ORD00691,2024-09-24,Delivered,CUST2530,Isha Davis,Regular,West,Pune,Laptop,Electronics,Computers,1,55000,45000,55000,719.95,9770.41,64050.46,9280.05,Credit Card
+ORD00812,2024-09-24,Delivered,CUST9835,Priya Anderson,Regular,East,Patna,Headphones,Accessories,Audio,3,5000,3000,15000,301.26,2645.77,17344.51,5698.74,Credit Card
+ORD00051,2024-09-25,Delivered,CUST3068,Ava Singh,Premium,West,Surat,WiFi Router,Networking,Routers,2,3500,2200,7000,379.99,1191.6,7811.61,2220.01,Credit Card
+ORD00245,2024-09-25,Delivered,CUST4453,James Wilson,Premium,South,Hyderabad,Laptop,Electronics,Computers,3,55000,45000,165000,14782.21,27039.2,177256.99,15217.79,Net Banking
+ORD00273,2024-09-25,Delivered,CUST2902,Reyansh Joshi,Premium,North,Chandigarh,Earbuds,Accessories,Audio,1,3500,2000,3500,213.23,591.62,3878.39,1286.77,Cash on Delivery
+ORD00384,2024-09-25,Delivered,CUST5351,Emma Kumar,Premium,South,Hyderabad,Mouse,Accessories,Input Devices,1,1500,800,1500,81.86,255.27,1673.41,618.14,Cash on Delivery
+ORD00581,2024-09-25,Delivered,CUST7240,Vikram Das,Regular,South,Bangalore,Desktop PC,Electronics,Computers,1,45000,35000,45000,822.58,7951.94,52129.36,9177.42,Debit Card
+ORD00735,2024-09-28,Delivered,CUST2768,Ava Anderson,VIP,North,Delhi,External SSD 500GB,Storage,Solid State,3,6000,4000,18000,3320.16,2642.37,17322.21,2679.84,UPI
+ORD00956,2024-09-29,Delivered,CUST7971,Pooja Iyer,Premium,South,Hyderabad,WiFi Router,Networking,Routers,1,3500,2200,3500,197.49,594.45,3896.96,1102.51,Debit Card
+ORD00201,2024-09-30,Delivered,CUST6403,James Anderson,Regular,West,Surat,TV,Electronics,Displays,1,40000,30000,40000,1354.39,6956.21,45601.82,8645.61,Credit Card
+ORD00829,2024-09-30,Shipped,CUST2527,Olivia Singh,Premium,South,Chennai,Monitor,Electronics,Displays,4,25000,18000,100000,9885.51,16220.61,106335.1,18114.49,Net Banking
+ORD00434,2024-10-02,Delivered,CUST5381,Vivaan Patel,Regular,West,Ahmedabad,Pen Drive 64GB,Storage,Flash Storage,4,800,400,3200,97.99,558.36,3660.37,1502.01,UPI
+ORD00797,2024-10-02,Delivered,CUST4826,James Verma,Regular,South,Kochi,Webcam,Accessories,Video,1,4000,2500,4000,163.26,690.61,4527.35,1336.74,Credit Card
+ORD00807,2024-10-03,Delivered,CUST4941,James Patel,Premium,North,Lucknow,Laptop Stand,Accessories,Ergonomics,3,2500,1500,7500,597.2,1242.5,8145.3,2402.8,Credit Card
+ORD00182,2024-10-04,Delivered,CUST5500,Vihaan Iyer,Regular,South,Kochi,Phone,Electronics,Mobile,5,30000,22000,150000,3265.45,26412.22,173146.77,36734.55,Debit Card
+ORD00578,2024-10-04,Shipped,CUST5662,Sophia Miller,Regular,South,Chennai,External HDD 1TB,Storage,Hard Drives,2,5000,3500,10000,0.68,1799.88,11799.2,2999.32,Debit Card
+ORD00729,2024-10-07,Delivered,CUST5681,Aarav Singh,Regular,East,Patna,Mouse Pad,Accessories,Input Devices,1,800,300,800,0.31,143.94,943.63,499.69,Debit Card
+ORD00545,2024-10-09,Delivered,CUST3647,William Johnson,Premium,West,Mumbai,Ethernet Cable,Networking,Cables,2,500,200,1000,74.33,166.62,1092.29,525.67,Credit Card
+ORD00251,2024-10-10,Delivered,CUST3683,Rohit Singh,Regular,East,Guwahati,Earbuds,Accessories,Audio,1,3500,2000,3500,72.53,616.94,4044.41,1427.47,UPI
+ORD00783,2024-10-10,Shipped,CUST8609,Sara Menon,Premium,South,Hyderabad,Laptop Stand,Accessories,Ergonomics,1,2500,1500,2500,128.61,426.85,2798.24,871.39,Credit Card
+ORD00052,2024-10-11,Delivered,CUST7658,Ava Bose,Regular,South,Bangalore,Phone,Electronics,Mobile,1,30000,22000,30000,570.0,5297.4,34727.4,7430.0,Debit Card
+ORD00970,2024-10-11,Delivered,CUST5949,Michael Joshi,Premium,West,Ahmedabad,Laptop Stand,Accessories,Ergonomics,3,2500,1500,7500,691.97,1225.45,8033.48,2308.03,Cash on Delivery
+ORD00992,2024-10-11,Delivered,CUST5558,James Reddy,Premium,South,Bangalore,TV,Electronics,Displays,5,40000,30000,200000,15911.96,33135.85,217223.89,34088.04,Debit Card
+ORD00365,2024-10-13,Delivered,CUST9488,Diya Nair,Regular,South,Chennai,Monitor,Electronics,Displays,2,25000,18000,50000,1141.36,8794.56,57653.2,12858.64,UPI
+ORD00610,2024-10-13,Delivered,CUST7965,Ayaan Johnson,Regular,North,Lucknow,Keyboard,Accessories,Input Devices,1,3000,1800,3000,96.08,522.71,3426.63,1103.92,Net Banking
+ORD00042,2024-10-14,Delivered,CUST6129,Olivia Brown,Regular,West,Ahmedabad,Mouse Pad,Accessories,Input Devices,1,800,300,800,19.04,140.57,921.53,480.96,Debit Card
+ORD00470,2024-10-14,Delivered,CUST6724,Sneha Taylor,VIP,West,Pune,Laptop Stand,Accessories,Ergonomics,1,2500,1500,2500,337.41,389.27,2551.86,662.59,UPI
+ORD00078,2024-10-16,Delivered,CUST3532,Isha Patel,VIP,West,Surat,Keyboard,Accessories,Input Devices,2,3000,1800,6000,893.69,919.14,6025.45,1506.31,Debit Card
+ORD00675,2024-10-16,Delivered,CUST8177,William Singh,Regular,North,Delhi,Mouse,Accessories,Input Devices,1,1500,800,1500,28.85,264.81,1735.96,671.15,Net Banking
+ORD00967,2024-10-16,Delivered,CUST3535,Michael Joshi,Premium,South,Hyderabad,WiFi Router,Networking,Routers,2,3500,2200,7000,368.5,1193.67,7825.17,2231.5,Credit Card
+ORD00820,2024-10-17,Delivered,CUST8177,William Singh,Regular,North,Delhi,Laptop Stand,Accessories,Ergonomics,1,2500,1500,2500,122.06,428.03,2805.97,877.94,Debit Card
+ORD00681,2024-10-18,Delivered,CUST4626,Arjun Miller,Premium,East,Patna,External HDD 1TB,Storage,Hard Drives,2,5000,3500,10000,880.99,1641.42,10760.43,2119.01,UPI
+ORD00872,2024-10-18,Delivered,CUST7937,Divya Sharma,Regular,North,Jaipur,Desktop PC,Electronics,Computers,3,45000,35000,135000,5477.7,23314.01,152836.31,24522.3,Credit Card
+ORD00944,2024-10-18,Delivered,CUST2674,Sai Rao,Regular,West,Ahmedabad,Tablet,Electronics,Mobile,1,35000,27000,35000,213.59,6261.55,41047.96,7786.41,Credit Card
+ORD00033,2024-10-19,Delivered,CUST7070,Sara Das,Regular,North,Lucknow,Keyboard,Accessories,Input Devices,3,3000,1800,9000,219.88,1580.42,10360.54,3380.12,UPI
+ORD00274,2024-10-19,Delivered,CUST7924,Pooja Reddy,Regular,East,Patna,Tablet,Electronics,Mobile,2,35000,27000,70000,1559.84,12319.23,80759.39,14440.16,Cash on Delivery
+ORD00978,2024-10-20,Shipped,CUST5475,Sara Smith,Regular,South,Hyderabad,TV,Electronics,Displays,4,40000,30000,160000,7432.87,27462.08,180029.21,32567.13,Cash on Delivery
+ORD00678,2024-10-21,Delivered,CUST4919,Amit Das,Regular,South,Hyderabad,External HDD 1TB,Storage,Hard Drives,2,5000,3500,10000,439.73,1720.85,11281.12,2560.27,Net Banking
+ORD00709,2024-10-21,Delivered,CUST5681,Aarav Singh,Regular,East,Patna,Smart Watch,Electronics,Wearables,1,15000,10000,15000,36.51,2693.43,17656.92,4963.49,UPI
+ORD00562,2024-10-22,Delivered,CUST2375,Olivia Kumar,Premium,North,Lucknow,Monitor,Electronics,Displays,2,25000,18000,50000,2607.79,8530.6,55922.81,11392.21,Credit Card
+ORD00834,2024-10-22,Delivered,CUST1860,Reyansh Pillai,Regular,South,Chennai,Phone,Electronics,Mobile,1,30000,22000,30000,582.17,5295.21,34713.04,7417.83,Debit Card
+ORD00142,2024-10-23,Delivered,CUST4073,Divya Wilson,Premium,West,Mumbai,Phone,Electronics,Mobile,1,30000,22000,30000,1596.71,5112.59,33515.88,6403.29,Cash on Delivery
+ORD00370,2024-10-23,Delivered,CUST5067,Aadhya Menon,VIP,West,Pune,Laptop Stand,Accessories,Ergonomics,1,2500,1500,2500,290.82,397.65,2606.83,709.18,Credit Card
+ORD00732,2024-10-23,Delivered,CUST4871,Reyansh Kumar,Regular,North,Jaipur,External SSD 500GB,Storage,Solid State,1,6000,4000,6000,186.81,1046.37,6859.56,1813.19,Credit Card
+ORD00145,2024-10-24,Delivered,CUST8461,James Miller,Regular,West,Surat,Desktop PC,Electronics,Computers,2,45000,35000,90000,2776.4,15700.25,102923.85,17223.6,UPI
+ORD00428,2024-10-26,Cancelled,CUST2768,Ava Anderson,VIP,North,Delhi,Tablet,Electronics,Mobile,1,35000,27000,35000,6535.94,5123.53,33587.59,1464.06,Debit Card
+ORD00101,2024-10-27,Shipped,CUST8368,Priya Menon,Premium,South,Bangalore,TV,Electronics,Displays,5,40000,30000,200000,19094.07,32563.07,213469.0,30905.93,Net Banking
+ORD00117,2024-10-27,Delivered,CUST1822,Isha Singh,Regular,West,Ahmedabad,Memory Card 128GB,Storage,Flash Storage,1,1200,700,1200,35.19,209.67,1374.48,464.81,UPI
+ORD00726,2024-10-27,Delivered,CUST5198,Divya Patel,Premium,East,Kolkata,Laptop,Electronics,Computers,1,55000,45000,55000,4533.71,9083.93,59550.22,5466.29,Net Banking
+ORD00943,2024-10-27,Delivered,CUST1842,Vikram Wilson,Regular,North,Jaipur,Phone,Electronics,Mobile,3,30000,22000,90000,3892.03,15499.43,101607.4,20107.97,Debit Card
+ORD00794,2024-10-28,Delivered,CUST5475,Sara Smith,Regular,South,Hyderabad,Memory Card 128GB,Storage,Flash Storage,1,1200,700,1200,52.6,206.53,1353.93,447.4,Net Banking
+ORD00198,2024-10-29,Delivered,CUST2647,Priya Nair,Regular,North,Delhi,Ethernet Cable,Networking,Cables,1,500,200,500,5.17,89.07,583.9,294.83,UPI
+ORD00041,2024-10-31,Delivered,CUST8843,William Menon,Regular,North,Chandigarh,Headphones,Accessories,Audio,2,5000,3000,10000,423.93,1723.69,11299.76,3576.07,Credit Card
+ORD00244,2024-10-31,Delivered,CUST5846,Reyansh Smith,Premium,West,Mumbai,Earbuds,Accessories,Audio,1,3500,2000,3500,262.04,582.83,3820.79,1237.96,Credit Card
+ORD00845,2024-10-31,Delivered,CUST6129,Olivia Brown,Regular,West,Ahmedabad,WiFi Router,Networking,Routers,3,3500,2200,10500,6.24,1888.88,12382.64,3893.76,Credit Card
+ORD00362,2024-11-01,Delivered,CUST1931,Sai Patel,Regular,North,Jaipur,Tablet,Electronics,Mobile,1,35000,27000,35000,271.73,6251.09,40979.36,7728.27,Credit Card
+ORD00203,2024-11-02,Shipped,CUST3434,William Johnson,Regular,South,Kochi,Ethernet Cable,Networking,Cables,1,500,200,500,6.92,88.75,581.83,293.08,Credit Card
+ORD00329,2024-11-03,Delivered,CUST8657,Ananya Wilson,Regular,East,Kolkata,Ethernet Cable,Networking,Cables,1,500,200,500,0.27,89.95,589.68,299.73,Credit Card
+ORD00952,2024-11-04,Delivered,CUST3950,Aadhya Patel,Regular,East,Bhubaneswar,Webcam,Accessories,Video,4,4000,2500,16000,137.28,2855.29,18718.01,5862.72,Cash on Delivery
+ORD00393,2024-11-05,Delivered,CUST6928,Sai Pillai,Premium,North,Chandigarh,Ethernet Cable,Networking,Cables,1,500,200,500,27.41,85.07,557.66,272.59,Credit Card
+ORD00316,2024-11-06,Delivered,CUST2412,Arjun Nair,Regular,West,Surat,Pen Drive 64GB,Storage,Flash Storage,3,800,400,2400,11.18,429.99,2818.81,1188.82,Net Banking
+ORD00455,2024-11-06,Delivered,CUST6310,Ava Sharma,Regular,South,Hyderabad,Monitor,Electronics,Displays,4,25000,18000,100000,2827.46,17491.06,114663.6,25172.54,Credit Card
+ORD00749,2024-11-07,Delivered,CUST3503,Sara Gupta,Regular,South,Kochi,Laptop Stand,Accessories,Ergonomics,1,2500,1500,2500,94.9,432.92,2838.02,905.1,UPI
+ORD00311,2024-11-08,Cancelled,CUST3610,Ava Smith,Regular,East,Guwahati,Ethernet Cable,Networking,Cables,1,500,200,500,17.99,86.76,568.77,282.01,Credit Card
+ORD00102,2024-11-11,Delivered,CUST2200,Sara Smith,Regular,East,Kolkata,Ethernet Cable,Networking,Cables,1,500,200,500,2.06,89.63,587.57,297.94,Debit Card
+ORD00887,2024-11-11,Delivered,CUST2501,Sara Miller,Premium,East,Kolkata,Mouse,Accessories,Input Devices,1,1500,800,1500,79.06,255.77,1676.71,620.94,UPI
+ORD00985,2024-11-12,Delivered,CUST2489,Vihaan Singh,Regular,North,Chandigarh,Monitor,Electronics,Displays,2,25000,18000,50000,2370.94,8573.23,56202.29,11629.06,Debit Card
+ORD00759,2024-11-13,Delivered,CUST9612,James Pillai,Premium,North,Lucknow,USB Hub,Networking,Connectivity,1,1500,800,1500,97.44,252.46,1655.02,602.56,UPI
+ORD00035,2024-11-15,Delivered,CUST4510,Ananya Taylor,VIP,West,Surat,Pen Drive 64GB,Storage,Flash Storage,1,800,400,800,147.74,117.41,769.67,252.26,Credit Card
+ORD00998,2024-11-16,Delivered,CUST1605,Vikram Shah,Regular,North,Delhi,Webcam,Accessories,Video,1,4000,2500,4000,22.31,715.98,4693.67,1477.69,Net Banking
+ORD00508,2024-11-17,Delivered,CUST2768,Ava Anderson,VIP,North,Delhi,Laptop Stand,Accessories,Ergonomics,1,2500,1500,2500,499.36,360.12,2360.76,500.64,UPI
+ORD00721,2024-11-17,Delivered,CUST3950,Aadhya Patel,Regular,East,Bhubaneswar,Earbuds,Accessories,Audio,2,3500,2000,7000,159.25,1231.34,8072.09,2840.75,Debit Card
+ORD00923,2024-11-17,Delivered,CUST4826,James Verma,Regular,South,Kochi,Mouse,Accessories,Input Devices,2,1500,800,3000,99.89,522.02,3422.13,1300.11,Debit Card
+ORD00207,2024-11-18,Delivered,CUST9612,James Pillai,Premium,North,Lucknow,Ethernet Cable,Networking,Cables,3,500,200,1500,142.99,244.26,1601.27,757.01,Credit Card
+ORD00444,2024-11-18,Delivered,CUST5803,Divya Brown,Regular,North,Jaipur,Keyboard,Accessories,Input Devices,4,3000,1800,12000,133.53,2135.96,14002.43,4666.47,Credit Card
+ORD00019,2024-11-19,Delivered,CUST8381,Reyansh Menon,VIP,North,Jaipur,WiFi Router,Networking,Routers,1,3500,2200,3500,559.27,529.33,3470.06,740.73,Net Banking
+ORD00920,2024-11-20,Returned,CUST2489,Vihaan Singh,Regular,North,Chandigarh,Smart Watch,Electronics,Wearables,1,15000,10000,15000,65.32,2688.24,17622.92,4934.68,Debit Card
+ORD00260,2024-11-21,Delivered,CUST5902,Pooja Smith,Premium,South,Hyderabad,WiFi Router,Networking,Routers,4,3500,2200,14000,1197.09,2304.52,15107.43,4002.91,Credit Card
+ORD00346,2024-11-21,Delivered,CUST1424,Pihu Bose,Regular,East,Kolkata,External HDD 1TB,Storage,Hard Drives,1,5000,3500,5000,2.1,899.62,5897.52,1497.9,Debit Card
+ORD00648,2024-11-23,Cancelled,CUST2989,Vivaan Miller,Premium,North,Jaipur,External SSD 500GB,Storage,Solid State,2,6000,4000,12000,826.68,2011.2,13184.52,3173.32,Debit Card
+ORD00715,2024-11-23,Delivered,CUST2200,Sara Smith,Regular,East,Kolkata,Desktop PC,Electronics,Computers,2,45000,35000,90000,4379.72,15411.65,101031.93,15620.28,Credit Card
+ORD00047,2024-11-24,Delivered,CUST3610,Ava Smith,Regular,East,Guwahati,Mouse,Accessories,Input Devices,2,1500,800,3000,127.42,517.06,3389.64,1272.58,UPI
+ORD00073,2024-11-24,Processing,CUST3532,Isha Patel,VIP,West,Surat,Laptop,Electronics,Computers,3,55000,45000,165000,27191.5,24805.53,162614.03,2808.5,UPI
+ORD00529,2024-11-24,Delivered,CUST3330,Arjun Verma,Regular,South,Hyderabad,WiFi Router,Networking,Routers,3,3500,2200,10500,272.97,1840.87,12067.9,3627.03,Debit Card
+ORD00762,2024-11-24,Delivered,CUST8149,Ayaan Rao,Premium,North,Delhi,External SSD 500GB,Storage,Solid State,1,6000,4000,6000,323.42,1021.78,6698.36,1676.58,Debit Card
+ORD00552,2024-11-25,Delivered,CUST9817,Michael Das,Regular,West,Ahmedabad,Laptop Stand,Accessories,Ergonomics,1,2500,1500,2500,104.49,431.19,2826.7,895.51,UPI
+ORD00801,2024-11-25,Cancelled,CUST2869,Arjun Rao,Regular,West,Mumbai,Pen Drive 64GB,Storage,Flash Storage,2,800,400,1600,21.95,284.05,1862.1,778.05,UPI
+ORD00935,2024-11-25,Delivered,CUST8373,Rahul Joshi,Premium,South,Kochi,Laptop,Electronics,Computers,2,55000,45000,110000,7355.76,18475.96,121120.2,12644.24,Debit Card
+ORD00965,2024-11-25,Delivered,CUST5835,Pooja Singh,Regular,North,Jaipur,Mouse Pad,Accessories,Input Devices,1,800,300,800,32.24,138.2,905.96,467.76,UPI
+ORD00976,2024-11-26,Delivered,CUST2882,Amit Brown,Regular,South,Bangalore,Monitor,Electronics,Displays,1,25000,18000,25000,141.54,4474.52,29332.98,6858.46,UPI
+ORD00750,2024-11-28,Shipped,CUST4164,Pihu Wilson,Premium,East,Guwahati,Pen Drive 64GB,Storage,Flash Storage,5,800,400,4000,283.86,668.91,4385.05,1716.14,UPI
+ORD00913,2024-11-29,Returned,CUST2821,Vikram Joshi,Regular,North,Chandigarh,Earbuds,Accessories,Audio,2,3500,2000,7000,117.79,1238.8,8121.01,2882.21,Net Banking
+ORD00843,2024-11-30,Delivered,CUST7689,Ayaan Kumar,Regular,North,Chandigarh,Keyboard,Accessories,Input Devices,1,3000,1800,3000,122.33,517.98,3395.65,1077.67,UPI
+ORD00431,2024-12-01,Delivered,CUST8840,Pihu Kumar,Regular,West,Surat,Mouse Pad,Accessories,Input Devices,2,800,300,1600,1.47,287.74,1886.27,998.53,Credit Card
+ORD00419,2024-12-02,Delivered,CUST8195,Ayaan Das,Premium,West,Ahmedabad,Phone,Electronics,Mobile,1,30000,22000,30000,2145.1,5013.88,32868.78,5854.9,UPI
+ORD00475,2024-12-02,Processing,CUST6061,William Verma,Regular,West,Mumbai,Memory Card 128GB,Storage,Flash Storage,2,1200,700,2400,24.99,427.5,2802.51,975.01,UPI
+ORD00141,2024-12-03,Delivered,CUST2647,Priya Nair,Regular,North,Delhi,Smart Watch,Electronics,Wearables,1,15000,10000,15000,300.44,2645.92,17345.48,4699.56,UPI
+ORD00279,2024-12-03,Delivered,CUST6482,Arjun Menon,Regular,West,Ahmedabad,Ethernet Cable,Networking,Cables,3,500,200,1500,5.41,269.03,1763.62,894.59,Debit Card
+ORD00283,2024-12-03,Delivered,CUST7658,Ava Bose,Regular,South,Bangalore,Webcam,Accessories,Video,4,4000,2500,16000,84.91,2864.72,18779.81,5915.09,UPI
+ORD00313,2024-12-03,Delivered,CUST6733,Myra Miller,Regular,East,Kolkata,USB Hub,Networking,Connectivity,2,1500,800,3000,39.68,532.86,3493.18,1360.32,UPI
+ORD00345,2024-12-03,Delivered,CUST9488,Diya Nair,Regular,South,Chennai,Desktop PC,Electronics,Computers,2,45000,35000,90000,1771.73,15881.09,104109.36,18228.27,Credit Card
+ORD00966,2024-12-04,Delivered,CUST2180,Emma Taylor,Regular,North,Delhi,External SSD 500GB,Storage,Solid State,2,6000,4000,12000,155.44,2132.02,13976.58,3844.56,Credit Card
+ORD00651,2024-12-05,Delivered,CUST1986,Reyansh Shah,Premium,South,Bangalore,Ethernet Cable,Networking,Cables,1,500,200,500,27.12,85.12,558.0,272.88,Debit Card
+ORD00881,2024-12-05,Shipped,CUST6967,Olivia Gupta,VIP,East,Patna,Earbuds,Accessories,Audio,1,3500,2000,3500,616.6,519.01,3402.41,883.4,Debit Card
+ORD00383,2024-12-08,Delivered,CUST8195,Ayaan Das,Premium,West,Ahmedabad,Laptop,Electronics,Computers,4,55000,45000,220000,17391.85,36469.47,239077.62,22608.15,Debit Card
+ORD00130,2024-12-11,Cancelled,CUST5386,Arjun Shah,VIP,West,Ahmedabad,Mouse,Accessories,Input Devices,2,1500,800,3000,490.78,451.66,2960.88,909.22,Credit Card
+ORD00335,2024-12-11,Delivered,CUST9431,Aarav Davis,Premium,South,Bangalore,Memory Card 128GB,Storage,Flash Storage,3,1200,700,3600,283.48,596.97,3913.49,1216.52,Debit Card
+ORD00498,2024-12-11,Delivered,CUST1641,Isha Anderson,Regular,South,Chennai,Laptop Stand,Accessories,Ergonomics,2,2500,1500,5000,85.55,884.6,5799.05,1914.45,Credit Card
+ORD00810,2024-12-11,Delivered,CUST4981,Michael Pillai,Regular,North,Chandigarh,Desktop PC,Electronics,Computers,1,45000,35000,45000,2002.69,7739.52,50736.83,7997.31,Cash on Delivery
+ORD00060,2024-12-12,Delivered,CUST7723,Michael Taylor,Premium,West,Pune,Smart Watch,Electronics,Wearables,1,15000,10000,15000,1202.41,2483.57,16281.16,3797.59,Cash on Delivery
+ORD00224,2024-12-12,Delivered,CUST1674,Vivaan Gupta,Regular,West,Ahmedabad,Keyboard,Accessories,Input Devices,1,3000,1800,3000,22.97,535.87,3512.9,1177.03,Debit Card
+ORD00189,2024-12-13,Cancelled,CUST6661,Rohit Miller,VIP,West,Surat,Headphones,Accessories,Audio,1,5000,3000,5000,745.81,765.75,5019.94,1254.19,Credit Card
+ORD00264,2024-12-13,Delivered,CUST9751,Ananya Reddy,Regular,North,Lucknow,Ethernet Cable,Networking,Cables,2,500,200,1000,11.88,177.86,1165.98,588.12,Cash on Delivery
+ORD00451,2024-12-13,Delivered,CUST7018,Amit Gupta,Premium,North,Jaipur,Tablet,Electronics,Mobile,1,35000,27000,35000,2774.53,5800.58,38026.05,5225.47,Debit Card
+ORD00938,2024-12-13,Shipped,CUST3267,Rahul Verma,Premium,East,Kolkata,Ethernet Cable,Networking,Cables,1,500,200,500,28.44,84.88,556.44,271.56,Credit Card
+ORD00072,2024-12-14,Delivered,CUST7116,Rahul Taylor,Regular,West,Ahmedabad,Webcam,Accessories,Video,1,4000,2500,4000,87.63,704.23,4616.6,1412.37,Credit Card
+ORD00318,2024-12-14,Delivered,CUST5381,Vivaan Patel,Regular,West,Ahmedabad,Webcam,Accessories,Video,2,4000,2500,8000,296.56,1386.62,9090.06,2703.44,Credit Card
+ORD00574,2024-12-14,Delivered,CUST6021,William Wilson,Premium,North,Chandigarh,Desktop PC,Electronics,Computers,1,45000,35000,45000,3137.22,7535.3,49398.08,6862.78,Credit Card
+ORD00906,2024-12-14,Delivered,CUST7232,Michael Sharma,VIP,South,Kochi,External SSD 500GB,Storage,Solid State,1,6000,4000,6000,641.9,964.46,6322.56,1358.1,Credit Card
+ORD00152,2024-12-15,Delivered,CUST2041,Michael Das,Premium,South,Bangalore,Monitor,Electronics,Displays,1,25000,18000,25000,1990.65,4141.68,27151.03,5009.35,UPI
+ORD00317,2024-12-15,Delivered,CUST1641,Isha Anderson,Regular,South,Chennai,Pen Drive 64GB,Storage,Flash Storage,1,800,400,800,34.99,137.7,902.71,365.01,Net Banking
+ORD00417,2024-12-15,Delivered,CUST2989,Vivaan Miller,Premium,North,Jaipur,Phone,Electronics,Mobile,1,30000,22000,30000,2151.74,5012.69,32860.95,5848.26,UPI
+ORD00010,2024-12-18,Returned,CUST4777,Ayaan Taylor,Regular,North,Jaipur,WiFi Router,Networking,Routers,1,3500,2200,3500,74.15,616.65,4042.5,1225.85,Cash on Delivery
+ORD00360,2024-12-18,Delivered,CUST6313,Vihaan Joshi,Premium,West,Surat,Smart Watch,Electronics,Wearables,2,15000,10000,30000,2493.03,4951.25,32458.22,7506.97,Debit Card
+ORD00521,2024-12-18,Delivered,CUST9099,Emma Joshi,Regular,West,Mumbai,External HDD 1TB,Storage,Hard Drives,1,5000,3500,5000,43.85,892.11,5848.26,1456.15,Debit Card
+ORD00066,2024-12-19,Delivered,CUST2234,Pihu Miller,Regular,West,Surat,Memory Card 128GB,Storage,Flash Storage,1,1200,700,1200,58.11,205.54,1347.43,441.89,UPI
+ORD00119,2024-12-19,Delivered,CUST5497,Aarav Brown,Premium,West,Mumbai,Monitor,Electronics,Displays,1,25000,18000,25000,2134.88,4115.72,26980.84,4865.12,Debit Card
+ORD00385,2024-12-19,Delivered,CUST5662,Sophia Miller,Regular,South,Chennai,Desktop PC,Electronics,Computers,1,45000,35000,45000,1450.29,7838.95,51388.66,8549.71,Debit Card
+ORD00410,2024-12-20,Processing,CUST7116,Rahul Taylor,Regular,West,Ahmedabad,Monitor,Electronics,Displays,1,25000,18000,25000,1123.78,4297.72,28173.94,5876.22,UPI
+ORD00931,2024-12-20,Delivered,CUST8932,Priya Joshi,Regular,South,Hyderabad,Headphones,Accessories,Audio,1,5000,3000,5000,166.34,870.06,5703.72,1833.66,Debit Card
+ORD00576,2024-12-21,Delivered,CUST2188,Aarav Das,Premium,West,Mumbai,Laptop,Electronics,Computers,1,55000,45000,55000,3588.3,9254.11,60665.81,6411.7,UPI
+ORD00798,2024-12-21,Delivered,CUST6170,Rohit Smith,Regular,West,Surat,Webcam,Accessories,Video,1,4000,2500,4000,98.57,702.26,4603.69,1401.43,Credit Card
+ORD00076,2024-12-22,Delivered,CUST1207,James Bose,Regular,East,Guwahati,External HDD 1TB,Storage,Hard Drives,2,5000,3500,10000,194.42,1765.0,11570.58,2805.58,UPI
+ORD00156,2024-12-22,Delivered,CUST2375,Olivia Kumar,Premium,North,Lucknow,Earbuds,Accessories,Audio,1,3500,2000,3500,200.85,593.85,3893.0,1299.15,Net Banking
+ORD00701,2024-12-23,Delivered,CUST3485,Diya Brown,VIP,North,Jaipur,Monitor,Electronics,Displays,1,25000,18000,25000,3150.56,3932.9,25782.34,3849.44,Net Banking
+ORD00776,2024-12-23,Delivered,CUST5558,James Reddy,Premium,South,Bangalore,Laptop,Electronics,Computers,1,55000,45000,55000,3315.96,9303.13,60987.17,6684.04,Credit Card
+ORD00466,2024-12-24,Delivered,CUST6922,Myra Singh,VIP,West,Pune,Phone,Electronics,Mobile,1,30000,22000,30000,5065.96,4488.13,29422.17,2934.04,Debit Card
+ORD00791,2024-12-25,Delivered,CUST5835,Pooja Singh,Regular,North,Jaipur,Earbuds,Accessories,Audio,2,3500,2000,7000,342.87,1198.28,7855.41,2657.13,Cash on Delivery
+ORD00063,2024-12-26,Delivered,CUST4453,James Wilson,Premium,South,Hyderabad,Laptop,Electronics,Computers,4,55000,45000,220000,16077.84,36705.99,240628.15,23922.16,Net Banking
+ORD00163,2024-12-26,Delivered,CUST9697,Amit Patel,Regular,West,Surat,Monitor,Electronics,Displays,2,25000,18000,50000,2407.7,8566.61,56158.91,11592.3,Debit Card
+ORD00622,2024-12-27,Delivered,CUST6325,Michael Smith,Regular,East,Guwahati,Pen Drive 64GB,Storage,Flash Storage,3,800,400,2400,41.05,424.61,2783.56,1158.95,Credit Card
+ORD00857,2024-12-27,Delivered,CUST7209,Pooja Sharma,Regular,South,Kochi,Smart Watch,Electronics,Wearables,3,15000,10000,45000,696.95,7974.55,52277.6,14303.05,UPI
+ORD00492,2024-12-28,Delivered,CUST6493,Diya Kumar,Regular,East,Guwahati,Tablet,Electronics,Mobile,1,35000,27000,35000,1197.84,6084.39,39886.55,6802.16,Cash on Delivery
+ORD00734,2024-12-29,Delivered,CUST5735,Sara Anderson,Premium,South,Hyderabad,External HDD 1TB,Storage,Hard Drives,1,5000,3500,5000,323.35,841.8,5518.45,1176.65,Cash on Delivery
+ORD00764,2024-12-29,Cancelled,CUST4871,Reyansh Kumar,Regular,North,Jaipur,Monitor,Electronics,Displays,1,25000,18000,25000,158.9,4471.4,29312.5,6841.1,Debit Card
+ORD00902,2024-12-29,Delivered,CUST4919,Amit Das,Regular,South,Hyderabad,Laptop,Electronics,Computers,1,55000,45000,55000,253.84,9854.31,64600.47,9746.16,UPI
+ORD00046,2024-12-30,Processing,CUST5741,Sai Joshi,Premium,South,Kochi,TV,Electronics,Displays,2,40000,30000,80000,7009.02,13138.38,86129.36,12990.98,Credit Card
+ORD00121,2024-12-30,Delivered,CUST2622,Ava Wilson,Regular,East,Kolkata,Laptop Stand,Accessories,Ergonomics,1,2500,1500,2500,7.98,448.56,2940.58,992.02,Debit Card
+ORD00482,2024-12-31,Delivered,CUST8144,Aarav Smith,VIP,South,Chennai,TV,Electronics,Displays,2,40000,30000,80000,11674.95,12298.51,80623.56,8325.05,Debit Card
